@@ -15,6 +15,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validate data
+        run: python3 scripts/validate_data.py
+
       - name: Build today payload
         run: python3 scripts/build_today.py
 
@@ -29,4 +32,3 @@ jobs:
           git add data/today.json
           git commit -m "Update today payload"
           git push
-

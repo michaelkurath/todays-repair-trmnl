@@ -30,6 +30,7 @@ Before adding an entry, check:
 - Is the summary short enough for an e-ink screen?
 - Does the caveat make the entry more honest?
 - Would a skeptical user still accept the claim?
+- Is there a matching verification record?
 
 ## Categories
 
@@ -62,3 +63,19 @@ Suggested category keys:
   "source_checked": "2026-08-29"
 }
 ```
+
+## Verification Pattern
+
+Every entry in `data/sample-data.json` needs a matching record in `data/verifications.json`.
+
+```json
+{
+  "id": "short-stable-id",
+  "status": "verified",
+  "checked_on": "2026-08-29",
+  "evidence": "Short note explaining what the source supports.",
+  "note": "Any limitation, wording caution, or follow-up."
+}
+```
+
+Use `verified_with_note` when the main claim is sound but the wording depends on a technical threshold, projection, regional scope, or approximate estimate.

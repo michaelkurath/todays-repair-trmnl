@@ -27,7 +27,9 @@ Today's Repair shows one calm, sourced example of human progress, repair, or res
 | `src/quadrant.liquid` | Quadrant layout |
 | `data/sample-data.json` | Starter content payload |
 | `data/today.json` | Tiny live payload for TRMNL polling |
+| `data/verifications.json` | Verification status and evidence notes for every repair |
 | `scripts/build_today.py` | Builds `today.json` from the full dataset |
+| `scripts/validate_data.py` | Validates repair entries and verification coverage |
 | `preview/index.html` | Browser preview for all four layouts |
 | `.github/workflows/pages.yml` | Publishes the preview and data through GitHub Pages |
 | `.github/workflows/update-today.yml` | Refreshes `data/today.json` daily |
@@ -113,3 +115,21 @@ Every entry needs:
 - a caveat
 - no inspirational fluff
 - no claim that a problem is solved unless it truly is
+
+## Data Verification
+
+Today's Repair uses a separate verification file, similar to the Built & Broken workflow.
+Every repair ID in `data/sample-data.json` must have one matching record in `data/verifications.json`.
+
+Allowed verification statuses:
+
+- `verified`
+- `verified_with_note`
+- `needs_follow_up`
+- `corrected`
+
+Run this before publishing new entries:
+
+```bash
+python3 scripts/validate_data.py
+```

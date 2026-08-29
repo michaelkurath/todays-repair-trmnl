@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "statuses": {
+    "verified": "The main claim is supported by the listed source.",
+    "verified_with_note": "The main claim is supported, but wording needs context or the metric is limited.",
+    "needs_follow_up": "The entry should not be promoted until the source or wording is improved.",
+    "corrected": "The entry was changed after verification found a problem."
+  },
+  "checks": [
+    {
+      "id": "ozone-layer-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "UNEP reports that the ozone layer is on track to recover following global phase-down of ozone-depleting substances.",
+      "note": "Keep the wording about recovery as a projected path, not a completed repair."
+    },
+    {
+      "id": "smallpox-eradicated",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "WHO states that smallpox was declared eradicated in 1980 after global vaccination and surveillance work.",
+      "note": "Strong entry; source directly supports the claim."
+    },
+    {
+      "id": "child-mortality-decline",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "UNICEF Data reports a large decline in the global under-five mortality rate between 1990 and 2024.",
+      "note": "The entry uses an approximate percentage, which is appropriate for TRMNL copy."
+    },
+    {
+      "id": "drinking-water-access",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "UNICEF Data reports that 961 million people gained access to safely managed drinking water services between 2015 and 2024.",
+      "note": "Strong metric, but the caveat should remain because billions still lack safely managed service."
+    },
+    {
+      "id": "extreme-poverty-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "Our World in Data shows a major long-term decline in extreme poverty from 1990 to recent estimates.",
+      "note": "Use approximate values and keep the caveat; recent estimates can shift with new World Bank data."
+    },
+    {
+      "id": "literacy-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "Our World in Data documents the long-run rise in literacy from a small historical minority to a large modern majority.",
+      "note": "This is a broad historical trend, not a precise single-year claim."
+    },
+    {
+      "id": "aids-deaths-decline",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "UNAIDS reports that AIDS-related deaths have fallen substantially from the 2004 peak and from 2010 levels.",
+      "note": "The entry avoids overclaiming by not saying AIDS is solved."
+    },
+    {
+      "id": "maternal-mortality-decline",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "UNICEF Data reports that the global maternal mortality ratio declined by about 40 percent from 2000 to 2023.",
+      "note": "Strong entry; the caveat correctly keeps preventable deaths visible."
+    },
+    {
+      "id": "renewable-electricity-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "IEA reports that renewables supplied about 32 percent of global electricity in 2024 and projects continued growth.",
+      "note": "Do not generalize this to total energy; the entry correctly says electricity."
+    },
+    {
+      "id": "leaded-petrol-ended",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "UNEP reports that the last country using leaded petrol phased it out in 2021, ending legal road use worldwide.",
+      "note": "Strong repair story with an important legacy-pollution caveat."
+    },
+    {
+      "id": "air-pollution-death-rates",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "Our World in Data shows that global death rates from total air pollution have declined sharply since 1990.",
+      "note": "The driver is mainly reduced indoor air pollution; keep that qualifier in the summary."
+    },
+    {
+      "id": "mountain-gorilla-recovery",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "WWF reports that mountain gorilla numbers have recovered to more than 1,000 individuals in the wild.",
+      "note": "Strong conservation entry; retain endangered-status caveat."
+    },
+    {
+      "id": "polio-retreated",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "WHO reports that wild poliovirus cases have decreased by more than 99 percent since 1988.",
+      "note": "Do not call polio eradicated; the current wording is correct."
+    },
+    {
+      "id": "guinea-worm-near-eradication",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "The Carter Center reports a decline from about 3.5 million annual human cases in 1986 to 10 human cases in 2025.",
+      "note": "Very strong repair entry; the animal-reservoir caveat is important."
+    },
+    {
+      "id": "trachoma-eliminated-countries",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "WHO reports that 32 countries had been validated as having eliminated trachoma as a public health problem by July 2026.",
+      "note": "Elimination as a public health problem is a technical threshold, not total disappearance."
+    },
+    {
+      "id": "river-blindness-eliminated",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "WHO reports five countries verified as free of onchocerciasis after elimination activities.",
+      "note": "The entry is country-specific; avoid implying global elimination."
+    },
+    {
+      "id": "open-defecation-decline",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "WHO/UNICEF JMP reports that the number of people practising open defecation declined from 1.3 billion in 2000 to 419 million in 2022.",
+      "note": "Strong infrastructure entry with a clear remaining-burden caveat."
+    },
+    {
+      "id": "child-labour-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "UNICEF and ILO report that child labour has almost halved since 2000, from 246 million to 138 million children.",
+      "note": "Keep the caveat prominent because the world missed the elimination target."
+    },
+    {
+      "id": "acid-rain-emissions-fell",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "EPA reports that annual sulfur dioxide emissions from U.S. power plants fell by 95 percent from 1995 to 2023.",
+      "note": "This is a U.S. power-sector claim, not a global acid-rain claim."
+    },
+    {
+      "id": "bald-eagle-recovery",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "U.S. Fish and Wildlife Service reports recovery from hundreds of breeding pairs in the 1960s to 9,789 nesting pairs by 2007.",
+      "note": "Strong story; keep the location limited to the lower 48 states."
+    },
+    {
+      "id": "iberian-lynx-recovery",
+      "status": "verified",
+      "checked_on": "2026-08-29",
+      "evidence": "IUCN reports an increase from 62 mature Iberian lynx in 2001 to 648 in 2022, with total population estimated above 2,000.",
+      "note": "Strong conservation entry; threats remain serious."
+    },
+    {
+      "id": "giant-panda-downlisted",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "WWF reports that giant pandas were downlisted after a 17 percent population increase over a decade.",
+      "note": "Downlisted does not mean safe; habitat fragmentation remains a real risk."
+    },
+    {
+      "id": "protected-areas-expanded",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "Protected Planet reports 2024 coverage of 17.6 percent of terrestrial and inland waters and 8.4 percent of marine and coastal areas.",
+      "note": "Coverage alone does not prove effective conservation management."
+    },
+    {
+      "id": "road-deaths-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-29",
+      "evidence": "WHO reports annual road traffic deaths fell slightly to 1.19 million, about 5 percent below 2010.",
+      "note": "This is a modest repair; the title correctly says 'slightly'."
+    }
+  ]
+}
