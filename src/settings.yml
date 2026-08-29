@@ -1,5 +1,5 @@
 ---
-strategy: merge_tag
+strategy: polling
 no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
