@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Repair Preview</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #111;
+        --paper: #f7f5ef;
+        --muted: #666;
+        --line: #111;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 32px;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: #e9e5dc;
+      }
+
+      header {
+        max-width: 1180px;
+        margin: 0 auto 24px;
+      }
+
+      h1 {
+        margin: 0 0 6px;
+        font-size: 32px;
+        line-height: 1.1;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        gap: 24px;
+        max-width: 1180px;
+        margin: 0 auto;
+        align-items: start;
+      }
+
+      .preview-card {
+        display: grid;
+        gap: 10px;
+      }
+
+      .label {
+        font-size: 13px;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #555;
+      }
+
+      .screen {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: var(--paper);
+        border: 1px solid #cfc8ba;
+        box-shadow: 0 12px 28px rgb(0 0 0 / 12%);
+      }
+
+      .screen.full {
+        aspect-ratio: 800 / 480;
+      }
+
+      .screen.half-horizontal {
+        aspect-ratio: 800 / 240;
+      }
+
+      .screen.half-vertical {
+        width: min(100%, 390px);
+        aspect-ratio: 400 / 480;
+      }
+
+      .screen.quadrant {
+        width: min(100%, 260px);
+        aspect-ratio: 400 / 240;
+      }
+
+      .content {
+        flex: 1;
+        padding: 24px 28px 14px;
+      }
+
+      .full .content {
+        padding: 34px 40px 18px;
+      }
+
+      .kicker {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 800;
+        opacity: 0.7;
+      }
+
+      .badge {
+        display: inline-block;
+        margin-bottom: 14px;
+        border: 2px solid var(--ink);
+        border-radius: 4px;
+        padding: 5px 8px;
+        font-size: 12px;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        font-weight: 850;
+      }
+
+      .title {
+        margin-top: 8px;
+        font-size: 42px;
+        line-height: 1.02;
+        font-weight: 850;
+        letter-spacing: 0;
+      }
+
+      .summary {
+        margin-top: 16px;
+        font-size: 20px;
+        line-height: 1.25;
+      }
+
+      .rule {
+        border-top: 3px solid var(--line);
+        margin: 18px 0;
+      }
+
+      .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+
+      .section-label {
+        margin-bottom: 6px;
+        font-size: 12px;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-weight: 850;
+        opacity: 0.64;
+      }
+
+      .small-copy {
+        font-size: 16px;
+        line-height: 1.22;
+      }
+
+      .title-bar {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        border-top: 1px solid #bdb5a6;
+        padding: 8px 14px;
+        font-size: 13px;
+        line-height: 1;
+        font-weight: 750;
+      }
+
+      .title-bar span:last-child {
+        color: var(--muted);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .half-horizontal .content {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 18px;
+        padding: 22px 28px 12px;
+      }
+
+      .half-horizontal .title,
+      .half-vertical .title {
+        font-size: 26px;
+        line-height: 1.06;
+      }
+
+      .half-horizontal .summary,
+      .half-vertical .summary {
+        font-size: 15px;
+        line-height: 1.2;
+      }
+
+      .half-vertical .content {
+        padding: 24px 26px 12px;
+      }
+
+      .quadrant .content {
+        padding: 16px 18px 8px;
+      }
+
+      .quadrant .kicker {
+        font-size: 11px;
+      }
+
+      .quadrant .title {
+        font-size: 18px;
+        line-height: 1.08;
+      }
+
+      .quadrant .summary {
+        margin-top: 8px;
+        font-size: 11px;
+        line-height: 1.14;
+      }
+
+      .quadrant .title-bar {
+        padding: 6px 10px;
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Today's Repair</h1>
+      <p>Preview harness for the TRMNL anti-doom plugin. Uses the first entry from <code>data/sample-data.json</code>.</p>
+    </header>
+
+    <main class="grid" id="previews"></main>
+
+    <template id="screen-template">
+      <section class="preview-card">
+        <div class="label"></div>
+        <div class="screen">
+          <div class="content"></div>
+          <div class="title-bar">
+            <span>Today's Repair</span>
+            <span class="source"></span>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <script>
+      const categoryLabel = (category) => category.replaceAll("_", " ");
+
+      const views = [
+        { key: "full", label: "Full", className: "full" },
+        { key: "half-horizontal", label: "Half Horizontal", className: "half-horizontal" },
+        { key: "half-vertical", label: "Half Vertical", className: "half-vertical" },
+        { key: "quadrant", label: "Quadrant", className: "quadrant" }
+      ];
+
+      function fullMarkup(repair) {
+        return `
+          <span class="badge">${categoryLabel(repair.category)}</span>
+          <div class="kicker">Today's Repair</div>
+          <div class="title">${repair.title}</div>
+          <div class="summary">${repair.summary}</div>
+          <div class="rule"></div>
+          <div class="columns">
+            <div>
+              <div class="section-label">Why it matters</div>
+              <div class="small-copy">${repair.why_it_matters}</div>
+            </div>
+            <div>
+              <div class="section-label">Caveat</div>
+              <div class="small-copy">${repair.caveat}</div>
+            </div>
+          </div>
+        `;
+      }
+
+      function halfHorizontalMarkup(repair) {
+        return `
+          <div>
+            <div class="kicker">Today's Repair</div>
+            <div class="title">${repair.title}</div>
+            <div class="summary">${repair.summary}</div>
+          </div>
+          <div>
+            <div class="section-label">Why it matters</div>
+            <div class="small-copy">${repair.why_it_matters}</div>
+          </div>
+        `;
+      }
+
+      function halfVerticalMarkup(repair) {
+        return `
+          <span class="badge">${categoryLabel(repair.category)}</span>
+          <div class="kicker">Today's Repair</div>
+          <div class="title">${repair.title}</div>
+          <div class="summary">${repair.summary}</div>
+          <div class="rule"></div>
+          <div class="section-label">Caveat</div>
+          <div class="small-copy">${repair.caveat}</div>
+        `;
+      }
+
+      function quadrantMarkup(repair) {
+        return `
+          <div class="kicker">Repair</div>
+          <div class="title">${repair.title}</div>
+          <div class="summary">${repair.summary}</div>
+        `;
+      }
+
+      function markupFor(view, repair) {
+        if (view.key === "full") return fullMarkup(repair);
+        if (view.key === "half-horizontal") return halfHorizontalMarkup(repair);
+        if (view.key === "half-vertical") return halfVerticalMarkup(repair);
+        return quadrantMarkup(repair);
+      }
+
+      async function main() {
+        const response = await fetch("../data/sample-data.json");
+        const payload = await response.json();
+        const repair = payload.repairs[0];
+        const container = document.getElementById("previews");
+        const template = document.getElementById("screen-template");
+
+        views.forEach((view) => {
+          const node = template.content.cloneNode(true);
+          node.querySelector(".label").textContent = view.label;
+          node.querySelector(".screen").classList.add(view.className);
+          node.querySelector(".content").innerHTML = markupFor(view, repair);
+          node.querySelector(".source").textContent = repair.source_name;
+          container.appendChild(node);
+        });
+      }
+
+      main().catch((error) => {
+        document.getElementById("previews").textContent = error.message;
+      });
+    </script>
+  </body>
+</html>
+
