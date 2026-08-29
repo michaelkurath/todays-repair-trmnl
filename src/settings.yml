@@ -9,6 +9,7 @@ serverless_language: ''
 polling_url: https://raw.githubusercontent.com/michaelkurath/todays-repair-trmnl/main/data/today.json
 polling_headers: ''
 polling_body: ''
+id: 460880
 oauth_enabled: 'false'
 oauth_pkce_enabled: 'no'
 oauth_authorize_url: ''
