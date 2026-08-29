@@ -12,3 +12,74 @@
     {% endif %}
   {% endfor %}
 {% endif %}
+
+{% if selected_repair %}
+  {% assign repair_title_length = selected_repair.title | size %}
+  {% assign repair_summary_length = selected_repair.summary | size %}
+  {% assign repair_why_length = selected_repair.why_it_matters | size %}
+  {% assign repair_caveat_length = selected_repair.caveat | size %}
+
+  {% assign full_summary_size = "description--xlarge lg:description--xxlarge" %}
+  {% if repair_summary_length <= 100 %}
+    {% assign full_summary_size = "description--xxlarge" %}
+  {% endif %}
+
+  {% assign full_why_size = "description--large lg:description--xlarge" %}
+  {% if repair_why_length <= 105 %}
+    {% assign full_why_size = "description--xlarge lg:description--xxlarge" %}
+  {% endif %}
+
+  {% assign full_caveat_size = "description--large lg:description--xlarge" %}
+  {% if repair_caveat_length <= 105 %}
+    {% assign full_caveat_size = "description--xlarge lg:description--xxlarge" %}
+  {% endif %}
+
+  {% assign half_horizontal_title_size = "title--large lg:title--xlarge" %}
+  {% if repair_title_length <= 24 %}
+    {% assign half_horizontal_title_size = "title--xlarge lg:title--xxlarge" %}
+  {% endif %}
+
+  {% assign half_horizontal_summary_size = "lg:description--large" %}
+  {% if repair_summary_length <= 110 %}
+    {% assign half_horizontal_summary_size = "description--large lg:description--xlarge" %}
+  {% endif %}
+  {% if repair_summary_length <= 90 %}
+    {% assign half_horizontal_summary_size = "description--xlarge lg:description--xxlarge" %}
+  {% endif %}
+
+  {% assign half_horizontal_why_size = "lg:description--large" %}
+  {% if repair_why_length <= 110 %}
+    {% assign half_horizontal_why_size = "description--large lg:description--xlarge" %}
+  {% endif %}
+  {% if repair_why_length <= 90 %}
+    {% assign half_horizontal_why_size = "description--xlarge lg:description--xxlarge" %}
+  {% endif %}
+
+  {% assign half_vertical_title_size = "title--large lg:title--xlarge" %}
+  {% if repair_title_length <= 24 %}
+    {% assign half_vertical_title_size = "title--xlarge lg:title--xxlarge" %}
+  {% endif %}
+
+  {% assign half_vertical_summary_size = "lg:description--large" %}
+  {% if repair_summary_length <= 100 %}
+    {% assign half_vertical_summary_size = "description--large lg:description--xlarge" %}
+  {% endif %}
+  {% if repair_summary_length <= 85 %}
+    {% assign half_vertical_summary_size = "description--xlarge lg:description--xxlarge" %}
+  {% endif %}
+
+  {% assign half_vertical_caveat_size = "lg:description--large" %}
+  {% if repair_caveat_length <= 75 %}
+    {% assign half_vertical_caveat_size = "description--large lg:description--xlarge" %}
+  {% endif %}
+
+  {% assign quadrant_title_size = "title--base lg:title--xlarge" %}
+  {% if repair_title_length <= 24 %}
+    {% assign quadrant_title_size = "title--large lg:title--xxlarge" %}
+  {% endif %}
+
+  {% assign quadrant_summary_size = "lg:description--large" %}
+  {% if repair_summary_length <= 100 %}
+    {% assign quadrant_summary_size = "description--large lg:description--xlarge" %}
+  {% endif %}
+{% endif %}

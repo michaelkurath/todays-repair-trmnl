@@ -5,17 +5,17 @@
         <span class="label label--small text--gray-30">{{ selected_repair.category | replace: "_", " " | upcase }}</span>
         <span class="label label--small text--gray-30">Today's Repair</span>
         <span class="title title--xxlarge">{{ selected_repair.title }}</span>
-        <span class="description description--xlarge">{{ selected_repair.summary }}</span>
+        <span class="description {{ full_summary_size }}">{{ selected_repair.summary }}</span>
       </div>
 
       <div class="grid grid--cols-2 gap--medium w--full grow">
         <div class="flex flex--col flex--center gap--xsmall outline rounded p--4">
           <span class="label label--small text--gray-30">Why it matters</span>
-          <span class="description description--large">{{ selected_repair.why_it_matters }}</span>
+          <span class="description {{ full_why_size }}">{{ selected_repair.why_it_matters }}</span>
         </div>
         <div class="flex flex--col flex--center gap--xsmall outline rounded p--4">
           <span class="label label--small text--gray-30">Caveat</span>
-          <span class="description description--large">{{ selected_repair.caveat }}</span>
+          <span class="description {{ full_caveat_size }}">{{ selected_repair.caveat }}</span>
         </div>
       </div>
     </div>

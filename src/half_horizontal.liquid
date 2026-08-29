@@ -2,12 +2,12 @@
   {% if selected_repair %}
     <div class="flex flex--col gap--small grow basis--0 outline rounded p--3">
       <span class="label label--small text--gray-30">Today's Repair</span>
-      <span class="title title--large lg:title--xlarge">{{ selected_repair.title }}</span>
-      <span class="description lg:description--large">{{ selected_repair.summary }}</span>
+      <span class="title {{ half_horizontal_title_size }}">{{ selected_repair.title }}</span>
+      <span class="description {{ half_horizontal_summary_size }}">{{ selected_repair.summary }}</span>
     </div>
     <div class="flex flex--col gap--small grow basis--0 outline rounded p--3">
       <span class="label label--small text--gray-30">Why it matters</span>
-      <span class="description lg:description--large">{{ selected_repair.why_it_matters }}</span>
+      <span class="description {{ half_horizontal_why_size }}">{{ selected_repair.why_it_matters }}</span>
       <span class="label label--small text--gray-30">Source: {{ selected_repair.source_name }}</span>
     </div>
   {% else %}

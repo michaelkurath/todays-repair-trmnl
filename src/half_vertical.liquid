@@ -4,12 +4,12 @@
       <div class="flex flex--col gap--small w--full outline rounded p--3">
         <span class="label label--small text--gray-30">{{ selected_repair.category | replace: "_", " " | upcase }}</span>
         <span class="label label--small text--gray-30">Today's Repair</span>
-        <span class="title title--large lg:title--xlarge">{{ selected_repair.title }}</span>
-        <span class="description lg:description--large">{{ selected_repair.summary }}</span>
+        <span class="title {{ half_vertical_title_size }}">{{ selected_repair.title }}</span>
+        <span class="description {{ half_vertical_summary_size }}">{{ selected_repair.summary }}</span>
       </div>
       <div class="flex flex--col gap--xsmall w--full outline rounded p--3">
         <span class="label label--small text--gray-30">Caveat</span>
-        <span class="description">{{ selected_repair.caveat }}</span>
+        <span class="description {{ half_vertical_caveat_size }}">{{ selected_repair.caveat }}</span>
       </div>
     </div>
   {% else %}
