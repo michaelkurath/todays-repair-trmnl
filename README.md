@@ -20,16 +20,18 @@ Today's Repair shows one calm, sourced example of human progress, repair, or res
 | --- | --- |
 | `index.html` | Public website with today's repair and searchable archive |
 | `src/settings.yml` | TRMNL polling settings |
-| `src/shared.liquid` | Shared tab content: selection logic and scoped styles |
+| `src/shared.liquid` | Shared selection logic and adaptive typography classes |
 | `src/full.liquid` | Full-screen layout |
 | `src/half_horizontal.liquid` | Half-horizontal layout |
 | `src/half_vertical.liquid` | Half-vertical layout |
 | `src/quadrant.liquid` | Quadrant layout |
 | `data/sample-data.json` | Starter content payload |
 | `data/today.json` | Tiny live payload for TRMNL polling |
+| `data/schedules/YEAR.json` | Immutable annual date-to-repair-ID schedule |
 | `data/verifications.json` | Verification status and evidence notes for every repair |
-| `scripts/build_today.py` | Builds `today.json` from the full dataset |
-| `scripts/validate_data.py` | Validates repair entries and verification coverage |
+| `scripts/generate_schedule.py` | Creates a stable annual schedule without replacing an existing one |
+| `scripts/build_today.py` | Builds `today.json` from the annual schedule |
+| `scripts/validate_data.py` | Validates entries, verification coverage, and annual schedules |
 | `preview/index.html` | Browser preview for all four layouts |
 | `.github/workflows/pages.yml` | Publishes the preview and data through GitHub Pages |
 | `.github/workflows/update-today.yml` | Refreshes `data/today.json` daily |
@@ -44,6 +46,7 @@ For live TRMNL polling, the small endpoint should return:
 
 ```json
 {
+  "date": "2026-08-29",
   "repair": {
     "id": "ozone-layer-recovery",
     "category": "climate_repair",
@@ -56,6 +59,34 @@ For live TRMNL polling, the small endpoint should return:
   }
 }
 ```
+
+## Daily Schedule
+
+The daily repair is not calculated from the array position. Each calendar year has a
+committed file such as `data/schedules/2026.json` that maps every UTC date to a stable
+repair ID. The schedule is generated in balanced deterministic cycles, so each repair
+appears roughly equally often and the same repair never appears on consecutive days.
+
+Generate a schedule once:
+
+```bash
+python3 scripts/generate_schedule.py --year 2026
+```
+
+If that year's file already exists, the command leaves it unchanged. This is deliberate:
+adding, removing, or reordering repairs must not rewrite dates that have already been
+planned or shared. `--force` exists for an intentional pre-publication reset and should
+not be used after a schedule is published.
+
+Build or inspect any date deterministically:
+
+```bash
+python3 scripts/build_today.py --date 2026-08-29
+```
+
+The scheduled workflow creates the current year's schedule if it is missing, validates
+all scheduled IDs, builds the small `data/today.json` payload, and commits only if either
+file changed. All dates use UTC.
 
 The full dataset can return:
 
@@ -137,6 +168,9 @@ Every entry needs:
 
 Today's Repair uses a separate verification file, similar to the Built & Broken workflow.
 Every repair ID in `data/sample-data.json` must have one matching record in `data/verifications.json`.
+Every annual schedule must cover every date in its year and may only reference repair IDs
+that still exist in the dataset. New repairs do not need to appear in an already-published
+schedule; they can enter the next annual schedule.
 
 Allowed verification statuses:
 

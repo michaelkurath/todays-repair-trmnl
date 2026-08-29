@@ -15,20 +15,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate data
-        run: python3 scripts/validate_data.py
+      - name: Ensure current-year schedule exists
+        run: python3 scripts/generate_schedule.py
+
+      - name: Validate data and schedule
+        run: |
+          python3 scripts/validate_data.py
+          python3 -m unittest discover -s tests
 
       - name: Build today payload
         run: python3 scripts/build_today.py
 
       - name: Commit if changed
         run: |
-          if git diff --quiet data/today.json; then
-            echo "today.json already current"
+          if [ -z "$(git status --porcelain -- data/today.json data/schedules)" ]; then
+            echo "Schedule and today.json already current"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/today.json
-          git commit -m "Update today payload"
+          git add data/today.json data/schedules
+          git commit -m "Update daily repair schedule and payload"
           git push

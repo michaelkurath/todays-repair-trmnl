@@ -4,7 +4,7 @@
 
 - Four TRMNL views
 - Static JSON dataset
-- Daily deterministic rotation
+- Stable committed annual schedule
 - Source and caveat fields
 - Manual content QA
 
@@ -39,4 +39,3 @@
 - Engineering mode
 - Nature mode
 - Classroom/family mode
-

@@ -5,3 +5,5 @@ screenshots/
 _build/
 trmnlp-artifacts/
 *.zip
+__pycache__/
+*.py[cod]

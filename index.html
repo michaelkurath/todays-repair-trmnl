@@ -360,6 +360,15 @@
         line-height: 1.38;
       }
 
+      .scheduled-date {
+        margin-top: 14px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 850;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
       .repair-card a {
         margin-top: auto;
         padding-top: 16px;
@@ -552,6 +561,7 @@
         <span class="tag"></span>
         <h3></h3>
         <p></p>
+        <span class="scheduled-date"></span>
         <a target="_blank" rel="noreferrer">Source</a>
       </article>
     </template>
@@ -560,27 +570,44 @@
       const state = {
         repairs: [],
         verifications: [],
+        schedule: null,
         query: "",
         category: "all"
       };
 
       const categoryLabel = (category) => category.replaceAll("_", " ");
 
-      const formatDate = () =>
-        new Intl.DateTimeFormat("en", {
+      const utcToday = () => new Date().toISOString().slice(0, 10);
+
+      const formatDate = (isoDate) => {
+        const [year, month, day] = isoDate.split("-").map(Number);
+        return new Intl.DateTimeFormat("en", {
           month: "short",
           day: "numeric",
-          year: "numeric"
-        }).format(new Date());
-
-      const dailyRepair = (repairs) => {
-        const today = new Date();
-        const start = new Date(Date.UTC(today.getUTCFullYear(), 0, 0));
-        const dayOfYear = Math.floor(
-          (Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()) - start) / 86400000
-        );
-        return repairs[dayOfYear % repairs.length];
+          year: "numeric",
+          timeZone: "UTC"
+        }).format(new Date(Date.UTC(year, month - 1, day)));
       };
+
+      const scheduledRepair = (repairs, schedule, isoDate) => {
+        const repairId = schedule?.days?.[isoDate];
+        return repairs.find((repair) => repair.id === repairId) || null;
+      };
+
+      const nextScheduledDate = (repairId) => {
+        const today = utcToday();
+        const match = Object.entries(state.schedule?.days || {}).find(
+          ([scheduledDate, scheduledId]) => scheduledDate >= today && scheduledId === repairId
+        );
+        return match?.[0] || null;
+      };
+
+      const formatScheduledDate = (repairId) => {
+        const nextDate = nextScheduledDate(repairId);
+        return nextDate ? `Next shown ${formatDate(nextDate)}` : "Not scheduled again this year";
+      };
+
+      const fallbackRepair = (repairs) => repairs[0] || null;
 
       const repairMatches = (repair) => {
         const haystack = [
@@ -607,20 +634,25 @@
 
       const renderToday = async () => {
         let repair = null;
+        let repairDate = utcToday();
 
         try {
           const response = await fetch("data/today.json", { cache: "no-store" });
           if (response.ok) {
             const payload = await response.json();
             repair = payload.repair;
+            repairDate = payload.date || repairDate;
           }
         } catch (error) {
           repair = null;
         }
 
-        repair = repair || dailyRepair(state.repairs);
+        repair =
+          repair ||
+          scheduledRepair(state.repairs, state.schedule, repairDate) ||
+          fallbackRepair(state.repairs);
 
-        document.getElementById("today-date").textContent = formatDate();
+        document.getElementById("today-date").textContent = formatDate(repairDate);
         const card = document.getElementById("today-card");
         card.innerHTML = "";
 
@@ -704,6 +736,7 @@
           node.querySelector(".tag").textContent = categoryLabel(repair.category);
           node.querySelector("h3").textContent = repair.title;
           node.querySelector("p").textContent = repair.summary;
+          node.querySelector(".scheduled-date").textContent = formatScheduledDate(repair.id);
           node.querySelector("a").href = repair.source_url;
           node.querySelector("a").textContent = repair.source_name;
           list.appendChild(node);
@@ -723,14 +756,19 @@
       };
 
       const init = async () => {
-        const [dataResponse, verificationResponse] = await Promise.all([
+        const scheduleYear = new Date().getUTCFullYear();
+        const [dataResponse, verificationResponse, schedulePayload] = await Promise.all([
           fetch("data/sample-data.json"),
-          fetch("data/verifications.json")
+          fetch("data/verifications.json"),
+          fetch(`data/schedules/${scheduleYear}.json`).then((response) =>
+            response.ok ? response.json() : null
+          )
         ]);
         const payload = await dataResponse.json();
         const verificationPayload = await verificationResponse.json();
         state.repairs = payload.repairs;
         state.verifications = verificationPayload.checks;
+        state.schedule = schedulePayload;
 
         renderStats();
         renderFilters();
