@@ -55,6 +55,10 @@ jobs:
             --height "${{ matrix.height }}" \
             --color-depth "${{ matrix.color_depth }}"
 
+          # TRMNLP runs as root in Docker and creates owner-only PNG files.
+          # Return the generated previews to the runner before artifact upload.
+          sudo chown -R "$(id -u):$(id -g)" _build
+
       - name: Upload ${{ matrix.device }} previews
         uses: actions/upload-artifact@v4
         with:
