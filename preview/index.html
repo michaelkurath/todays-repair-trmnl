@@ -320,10 +320,17 @@
         return quadrantMarkup(repair);
       }
 
+      function dailyRepair(repairs) {
+        const start = new Date(Date.UTC(new Date().getUTCFullYear(), 0, 0));
+        const today = new Date();
+        const dayOfYear = Math.floor((Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()) - start) / 86400000);
+        return repairs[dayOfYear % repairs.length];
+      }
+
       async function main() {
         const response = await fetch("../data/sample-data.json");
         const payload = await response.json();
-        const repair = payload.repairs[0];
+        const repair = dailyRepair(payload.repairs);
         const container = document.getElementById("previews");
         const template = document.getElementById("screen-template");
 
@@ -343,4 +350,3 @@
     </script>
   </body>
 </html>
-
