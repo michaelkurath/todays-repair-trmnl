@@ -1,0 +1,13 @@
+uuid: YOUR_PLUGIN_UUID
+name: Today's Repair
+author: Michael Kurath
+homepage: https://github.com/michaelkurath/todays-repair-trmnl
+description: Daily anti-doom repair signal
+markup_version: 1
+strategy: merge_tag
+refresh_frequency: 86400
+
+merge_tag:
+  - tag_name: data
+    url: https://michaelkurath.github.io/todays-repair-trmnl/data/sample-data.json
+    timeout: 10
