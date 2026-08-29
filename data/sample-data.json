@@ -131,7 +131,138 @@
       "source_name": "World Wildlife Fund",
       "source_url": "https://www.worldwildlife.org/species/gorilla/mountain-gorilla/",
       "source_checked": "2026-08-29"
+    },
+    {
+      "id": "polio-retreated",
+      "category": "health",
+      "title": "Polio Was Pushed Back",
+      "summary": "Wild poliovirus cases have decreased by more than 99 percent since 1988.",
+      "why_it_matters": "Vaccination campaigns turned a once-common cause of paralysis into a disease now cornered in only a few places.",
+      "caveat": "Polio is not eradicated yet, and outbreaks can return where immunization is weak.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/health-topics/poliomyelitis",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "guinea-worm-near-eradication",
+      "category": "health",
+      "title": "Guinea Worm Nearly Vanished",
+      "summary": "Guinea worm disease fell from about 3.5 million human cases a year in 1986 to 10 cases in 2025.",
+      "why_it_matters": "A painful parasitic disease was beaten back mostly through clean water, education, and local surveillance.",
+      "caveat": "The last cases are hard, especially because infections in animals can keep transmission alive.",
+      "source_name": "The Carter Center",
+      "source_url": "https://www.cartercenter.org/programs/guinea-worm/",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "trachoma-eliminated-countries",
+      "category": "health",
+      "title": "Trachoma Lost Ground",
+      "summary": "By July 2026, WHO had validated 32 countries as having eliminated trachoma as a public health problem.",
+      "why_it_matters": "Millions of people are less exposed to a preventable infectious cause of blindness.",
+      "caveat": "Elimination as a public health problem does not mean the infection has disappeared everywhere.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/trachoma",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "river-blindness-eliminated",
+      "category": "health",
+      "title": "River Blindness Was Cleared",
+      "summary": "WHO has verified five countries as free of onchocerciasis after decades of elimination work.",
+      "why_it_matters": "Mass treatment and surveillance can remove a disease that causes severe skin disease and vision loss.",
+      "caveat": "Many people, especially in parts of Africa, remain at risk.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/onchocerciasis",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "open-defecation-decline",
+      "category": "infrastructure",
+      "title": "Open Defecation Fell",
+      "summary": "Between 2000 and 2022, the number of people practising open defecation fell from 1.3 billion to 419 million.",
+      "why_it_matters": "Sanitation progress cuts disease risk and gives people more safety, privacy, and dignity.",
+      "caveat": "Hundreds of millions of people still lack basic sanitation.",
+      "source_name": "WHO/UNICEF Joint Monitoring Programme",
+      "source_url": "https://washdata.org/topics/sanitation/open-defecation",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "child-labour-decline",
+      "category": "living_conditions",
+      "title": "Child Labour Declined",
+      "summary": "Since 2000, child labour has almost halved, falling from 246 million children to 138 million.",
+      "why_it_matters": "Fewer children are losing childhood, school, and health to work they should not have to do.",
+      "caveat": "The world missed its elimination target, and progress is still far too slow.",
+      "source_name": "UNICEF",
+      "source_url": "https://www.unicef.org/press-releases/despite-progress-child-labour-still-affects-138-million-children-globally-ilo-unicef",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "acid-rain-emissions-fell",
+      "category": "pollution_repair",
+      "title": "Acid Rain Was Reduced",
+      "summary": "From 1995 to 2023, annual sulfur dioxide emissions from U.S. power plants fell by 95 percent.",
+      "why_it_matters": "A major pollution problem was reduced through enforceable rules, monitoring, and cleaner technology.",
+      "caveat": "This is a U.S. example, and power-sector progress does not fix all air pollution.",
+      "source_name": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/power-sector/progress-report-emissions-reductions",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "bald-eagle-recovery",
+      "category": "nature_returns",
+      "title": "Bald Eagles Came Back",
+      "summary": "The lower-48 bald eagle population rose from about 487 breeding pairs in 1963 to 9,789 pairs by 2007.",
+      "why_it_matters": "Banning DDT, protecting habitat, and enforcing wildlife law helped reverse a visible collapse.",
+      "caveat": "Recovery still depends on habitat protection and long-term monitoring.",
+      "source_name": "U.S. Fish and Wildlife Service",
+      "source_url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "iberian-lynx-recovery",
+      "category": "nature_returns",
+      "title": "Iberian Lynx Rebounded",
+      "summary": "The Iberian lynx rose from 62 mature individuals in 2001 to 648 in 2022, with the total population now over 2,000.",
+      "why_it_matters": "Focused breeding, reintroduction, and habitat work pulled the world's rarest cat away from the edge.",
+      "caveat": "Road deaths, prey decline, and habitat fragmentation still threaten the recovery.",
+      "source_name": "IUCN",
+      "source_url": "https://iucn.org/news/202407/recovery-iberian-lynx-conservation-success-spain",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "giant-panda-downlisted",
+      "category": "nature_returns",
+      "title": "Pandas Became Less Endangered",
+      "summary": "Giant pandas were downlisted from Endangered to Vulnerable after their population increased by 17 percent in a decade.",
+      "why_it_matters": "Habitat protection and long conservation work changed the trajectory for a species people had nearly written off.",
+      "caveat": "Vulnerable still means at risk, especially where habitats are fragmented.",
+      "source_name": "WWF",
+      "source_url": "https://wwf.panda.org/discover/our_focus/wildlife_practice/profiles/mammals/giant_panda/giant_pandas_no_longer_endangered",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "protected-areas-expanded",
+      "category": "nature_returns",
+      "title": "More Nature Is Protected",
+      "summary": "In 2024, protected and conserved areas covered 17.6 percent of land and inland waters and 8.4 percent of marine areas.",
+      "why_it_matters": "More ecosystems now have at least some formal protection instead of being left entirely exposed.",
+      "caveat": "Coverage is not the same as good management, and the world is still short of the 2030 target.",
+      "source_name": "Protected Planet",
+      "source_url": "https://digitalreport.protectedplanet.net/",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "road-deaths-decline",
+      "category": "safety",
+      "title": "Road Deaths Fell Slightly",
+      "summary": "WHO estimated annual road traffic deaths fell to 1.19 million, a 5 percent drop from 2010 to 2021.",
+      "why_it_matters": "Design, rules, vehicles, and emergency care can make everyday mobility less deadly.",
+      "caveat": "The toll is still enormous, and low- and middle-income countries carry most of it.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+      "source_checked": "2026-08-29"
     }
   ]
 }
-

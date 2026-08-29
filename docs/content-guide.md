@@ -44,6 +44,7 @@ Suggested category keys:
 - `nature_returns`
 - `pollution_repair`
 - `science_works`
+- `safety`
 - `everyday_humanity`
 
 ## Good Entry Pattern
@@ -61,4 +62,3 @@ Suggested category keys:
   "source_checked": "2026-08-29"
 }
 ```
-
