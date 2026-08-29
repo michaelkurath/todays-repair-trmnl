@@ -1,0 +1,40 @@
+<div class="layout today-repair">
+  {% if selected_repair %}
+    <div class="column">
+      <div>
+        <span class="today-repair__badge">{{ selected_repair.category | replace: "_", " " }}</span>
+      </div>
+
+      <div class="today-repair__kicker">Today's Repair</div>
+      <div class="today-repair__title">{{ selected_repair.title }}</div>
+      <div class="today-repair__summary">{{ selected_repair.summary }}</div>
+
+      <div class="today-repair__rule"></div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="today-repair__section-label">Why it matters</div>
+          <div class="today-repair__why">{{ selected_repair.why_it_matters }}</div>
+        </div>
+        <div class="column">
+          <div class="today-repair__section-label">Caveat</div>
+          <div class="today-repair__caveat">{{ selected_repair.caveat }}</div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <div class="column">
+      <div class="today-repair__kicker">Today's Repair</div>
+      <div class="today-repair__title">No repair data yet</div>
+      <div class="today-repair__summary">Add a JSON payload with a repairs array to start the daily anti-doom screen.</div>
+    </div>
+  {% endif %}
+</div>
+
+<div class="title_bar">
+  <span class="title">Today's Repair</span>
+  {% if selected_repair %}
+    <span class="instance">{{ selected_repair.source_name }}</span>
+  {% endif %}
+</div>
+
