@@ -231,7 +231,7 @@
   <body>
     <header>
       <h1>Today's Repair</h1>
-      <p>Preview harness for the TRMNL anti-doom plugin. Uses the first entry from <code>data/sample-data.json</code>.</p>
+      <p>Preview harness for the TRMNL anti-doom plugin. Uses <code>data/today.json</code>, with the full dataset as fallback.</p>
     </header>
 
     <main class="grid" id="previews"></main>
@@ -328,9 +328,17 @@
       }
 
       async function main() {
-        const response = await fetch("../data/sample-data.json");
-        const payload = await response.json();
-        const repair = dailyRepair(payload.repairs);
+        let repair;
+        try {
+          const todayResponse = await fetch("../data/today.json");
+          const todayPayload = await todayResponse.json();
+          repair = todayPayload.repair;
+        } catch (error) {
+          const response = await fetch("../data/sample-data.json");
+          const payload = await response.json();
+          repair = dailyRepair(payload.repairs);
+        }
+
         const container = document.getElementById("previews");
         const template = document.getElementById("screen-template");
 
