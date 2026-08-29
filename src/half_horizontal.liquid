@@ -1,0 +1,23 @@
+<div class="layout today-repair today-repair--compact">
+  {% if selected_repair %}
+    <div class="column">
+      <div class="today-repair__kicker">Today's Repair</div>
+      <div class="today-repair__title">{{ selected_repair.title }}</div>
+      <div class="today-repair__summary">{{ selected_repair.summary }}</div>
+    </div>
+    <div class="column">
+      <div class="today-repair__section-label">Why it matters</div>
+      <div class="today-repair__why">{{ selected_repair.why_it_matters }}</div>
+      <div class="today-repair__source">Source: {{ selected_repair.source_name }}</div>
+    </div>
+  {% else %}
+    <div class="column">
+      <div class="today-repair__title">No repair data yet</div>
+    </div>
+  {% endif %}
+</div>
+
+<div class="title_bar">
+  <span class="title">Today's Repair</span>
+</div>
+
