@@ -1,13 +1,13 @@
 <div class="layout layout--col layout--top layout--left today-repair today-repair--tiny">
   {% if selected_repair %}
-    <div class="column">
+    <div class="column today-repair__card outline rounded">
       <div class="today-repair__kicker">Repair</div>
       <div class="today-repair__title">{{ selected_repair.title }}</div>
       <div class="today-repair__summary">{{ selected_repair.summary }}</div>
       <div class="today-repair__source">{{ selected_repair.source_name }}</div>
     </div>
   {% else %}
-    <div class="column">
+    <div class="column today-repair__card outline rounded">
       <div class="today-repair__title">No data</div>
     </div>
   {% endif %}

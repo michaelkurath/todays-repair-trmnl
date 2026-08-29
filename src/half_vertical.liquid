@@ -1,18 +1,21 @@
 <div class="layout layout--col layout--top layout--left today-repair today-repair--compact">
   {% if selected_repair %}
-    <div class="column">
-      <div>
-        <span class="today-repair__badge">{{ selected_repair.category | replace: "_", " " }}</span>
+    <div class="column gap--small">
+      <div class="today-repair__card outline rounded">
+        <div>
+          <span class="today-repair__badge">{{ selected_repair.category | replace: "_", " " }}</span>
+        </div>
+        <div class="today-repair__kicker">Today's Repair</div>
+        <div class="today-repair__title">{{ selected_repair.title }}</div>
+        <div class="today-repair__summary">{{ selected_repair.summary }}</div>
       </div>
-      <div class="today-repair__kicker">Today's Repair</div>
-      <div class="today-repair__title">{{ selected_repair.title }}</div>
-      <div class="today-repair__summary">{{ selected_repair.summary }}</div>
-      <div class="today-repair__rule"></div>
-      <div class="today-repair__section-label">Caveat</div>
-      <div class="today-repair__source">{{ selected_repair.caveat }}</div>
+      <div class="today-repair__card outline rounded">
+        <div class="today-repair__section-label">Caveat</div>
+        <div class="today-repair__source">{{ selected_repair.caveat }}</div>
+      </div>
     </div>
   {% else %}
-    <div class="column">
+    <div class="column today-repair__card outline rounded">
       <div class="today-repair__title">No repair data yet</div>
     </div>
   {% endif %}

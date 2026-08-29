@@ -98,7 +98,16 @@
       }
 
       .full .content {
+        display: grid;
+        gap: 14px;
         padding: 34px 40px 18px;
+      }
+
+      .card {
+        min-width: 0;
+        border: 2px dotted var(--ink);
+        border-radius: 10px;
+        padding: 18px;
       }
 
       .kicker {
@@ -144,7 +153,7 @@
       .columns {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 24px;
+        gap: 14px;
       }
 
       .section-label {
@@ -183,8 +192,13 @@
       .half-horizontal .content {
         display: grid;
         grid-template-columns: 1.1fr 0.9fr;
-        gap: 18px;
+        gap: 12px;
         padding: 22px 28px 12px;
+      }
+
+      .half-horizontal .card,
+      .half-vertical .card {
+        padding: 13px;
       }
 
       .half-horizontal .title,
@@ -200,11 +214,18 @@
       }
 
       .half-vertical .content {
+        display: grid;
+        align-content: start;
+        gap: 10px;
         padding: 24px 26px 12px;
       }
 
       .quadrant .content {
         padding: 16px 18px 8px;
+      }
+
+      .quadrant .card {
+        padding: 10px;
       }
 
       .quadrant .kicker {
@@ -261,17 +282,18 @@
 
       function fullMarkup(repair) {
         return `
+          <div class="card">
           <span class="badge">${categoryLabel(repair.category)}</span>
           <div class="kicker">Today's Repair</div>
           <div class="title">${repair.title}</div>
           <div class="summary">${repair.summary}</div>
-          <div class="rule"></div>
+          </div>
           <div class="columns">
-            <div>
+            <div class="card">
               <div class="section-label">Why it matters</div>
               <div class="small-copy">${repair.why_it_matters}</div>
             </div>
-            <div>
+            <div class="card">
               <div class="section-label">Caveat</div>
               <div class="small-copy">${repair.caveat}</div>
             </div>
@@ -281,12 +303,12 @@
 
       function halfHorizontalMarkup(repair) {
         return `
-          <div>
+          <div class="card">
             <div class="kicker">Today's Repair</div>
             <div class="title">${repair.title}</div>
             <div class="summary">${repair.summary}</div>
           </div>
-          <div>
+          <div class="card">
             <div class="section-label">Why it matters</div>
             <div class="small-copy">${repair.why_it_matters}</div>
           </div>
@@ -295,21 +317,26 @@
 
       function halfVerticalMarkup(repair) {
         return `
+          <div class="card">
           <span class="badge">${categoryLabel(repair.category)}</span>
           <div class="kicker">Today's Repair</div>
           <div class="title">${repair.title}</div>
           <div class="summary">${repair.summary}</div>
-          <div class="rule"></div>
+          </div>
+          <div class="card">
           <div class="section-label">Caveat</div>
           <div class="small-copy">${repair.caveat}</div>
+          </div>
         `;
       }
 
       function quadrantMarkup(repair) {
         return `
+          <div class="card">
           <div class="kicker">Repair</div>
           <div class="title">${repair.title}</div>
           <div class="summary">${repair.summary}</div>
+          </div>
         `;
       }
 
