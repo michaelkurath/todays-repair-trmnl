@@ -6,7 +6,7 @@ static_data: ''
 polling_verb: get
 framework_version: 3.3.0
 serverless_language: ''
-polling_url: ''
+polling_url: https://raw.githubusercontent.com/michaelkurath/todays-repair-trmnl/main/data/today.json
 polling_headers: ''
 polling_body: ''
 id: 460880
