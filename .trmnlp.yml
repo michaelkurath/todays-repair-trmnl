@@ -1,0 +1,14 @@
+# Local and CI preview configuration for TRMNLP.
+---
+watch:
+  - .trmnlp.yml
+  - src
+  - data/today.json
+
+custom_fields: {}
+
+time_zone: UTC
+transform_runtime: disabled
+
+variables:
+  trmnl: {}

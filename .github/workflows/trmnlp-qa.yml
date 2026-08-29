@@ -1,0 +1,64 @@
+name: TRMNLP QA
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Validate repair data
+        run: python3 scripts/validate_data.py
+
+      - name: Lint TRMNL plugin
+        run: |
+          docker run --rm --pull always \
+            --volume "${GITHUB_WORKSPACE}:/plugin" \
+            trmnl/trmnlp lint
+
+  render:
+    needs: lint
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - device: og
+            width: 800
+            height: 480
+            color_depth: 1
+          - device: x
+            width: 1872
+            height: 1404
+            color_depth: 4
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Render ${{ matrix.device }} views
+        run: |
+          docker run --rm --pull always \
+            --volume "${GITHUB_WORKSPACE}:/plugin" \
+            trmnl/trmnlp build --png \
+            --width "${{ matrix.width }}" \
+            --height "${{ matrix.height }}" \
+            --color-depth "${{ matrix.color_depth }}"
+
+      - name: Upload ${{ matrix.device }} previews
+        uses: actions/upload-artifact@v4
+        with:
+          name: trmnlp-${{ matrix.device }}-previews
+          path: _build/
+          if-no-files-found: error
+          retention-days: 30

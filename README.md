@@ -33,6 +33,8 @@ Today's Repair shows one calm, sourced example of human progress, repair, or res
 | `preview/index.html` | Browser preview for all four layouts |
 | `.github/workflows/pages.yml` | Publishes the preview and data through GitHub Pages |
 | `.github/workflows/update-today.yml` | Refreshes `data/today.json` daily |
+| `.github/workflows/trmnlp-qa.yml` | Lints the plugin and renders OG/X preview artifacts |
+| `.trmnlp.yml` | TRMNLP local and CI preview configuration |
 | `docs/content-guide.md` | Editorial rules for adding entries |
 | `docs/roadmap.md` | Product roadmap |
 
@@ -105,6 +107,19 @@ Then open:
 http://127.0.0.1:8080/
 http://127.0.0.1:8080/preview/
 ```
+
+For framework-accurate plugin previews, run TRMNLP through Docker:
+
+```bash
+docker run --rm --pull always \
+  --publish 4567:4567 \
+  --volume "$(pwd):/plugin" \
+  trmnl/trmnlp serve --bind 0.0.0.0
+```
+
+Every push to `main` also runs TRMNLP linting and produces downloadable PNG
+and HTML artifacts for TRMNL OG (800×480, 1-bit) and TRMNL X
+(1872×1404, 4-bit) in GitHub Actions.
 
 ## Editorial Rule
 
