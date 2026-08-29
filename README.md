@@ -119,7 +119,9 @@ docker run --rm --pull always \
 
 Every push to `main` also runs TRMNLP linting and produces downloadable PNG
 and HTML artifacts for TRMNL OG (800×480, 1-bit) and TRMNL X
-(1872×1404, 4-bit) in GitHub Actions.
+(1872×1404, 4-bit) in GitHub Actions. The render jobs use the framework's
+`screen--og` and `screen--v2` device profiles so responsive classes are tested
+against each device's real layout density, not only a larger browser viewport.
 
 ## Editorial Rule
 

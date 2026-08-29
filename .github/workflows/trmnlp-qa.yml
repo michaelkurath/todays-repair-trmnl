@@ -37,10 +37,12 @@ jobs:
             width: 800
             height: 480
             color_depth: 1
+            screen_classes: screen screen--og screen--md screen--density-1x screen--1bit
           - device: x
             width: 1872
             height: 1404
             color_depth: 4
+            screen_classes: screen screen--v2 screen--lg screen--density-2x screen--4bit
 
     steps:
       - name: Checkout
@@ -48,16 +50,33 @@ jobs:
 
       - name: Render ${{ matrix.device }} views
         run: |
-          docker run --rm --pull always \
+          docker run --rm --pull always --detach \
+            --name trmnlp-preview \
+            --publish 4567:4567 \
             --volume "${GITHUB_WORKSPACE}:/plugin" \
-            trmnl/trmnlp build --png \
-            --width "${{ matrix.width }}" \
-            --height "${{ matrix.height }}" \
-            --color-depth "${{ matrix.color_depth }}"
+            trmnl/trmnlp serve --bind 0.0.0.0
 
-          # TRMNLP runs as root in Docker and creates owner-only PNG files.
-          # Return the generated previews to the runner before artifact upload.
-          sudo chown -R "$(id -u):$(id -g)" _build
+          trap 'docker stop trmnlp-preview' EXIT
+
+          curl --fail --silent --show-error \
+            --retry 30 --retry-all-errors --retry-delay 1 \
+            http://127.0.0.1:4567/data > /dev/null
+
+          mkdir -p _build
+          for view in full half_horizontal half_vertical quadrant; do
+            curl --fail --silent --show-error --get \
+              --data-urlencode "screen_classes=${{ matrix.screen_classes }}" \
+              "http://127.0.0.1:4567/render/${view}.html" \
+              --output "_build/${view}.html"
+
+            curl --fail --silent --show-error --get \
+              --data-urlencode "screen_classes=${{ matrix.screen_classes }}" \
+              --data-urlencode "width=${{ matrix.width }}" \
+              --data-urlencode "height=${{ matrix.height }}" \
+              --data-urlencode "color_depth=${{ matrix.color_depth }}" \
+              "http://127.0.0.1:4567/render/${view}.png" \
+              --output "_build/${view}.png"
+          done
 
       - name: Upload ${{ matrix.device }} previews
         uses: actions/upload-artifact@v4
