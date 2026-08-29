@@ -1,0 +1,137 @@
+{
+  "repairs": [
+    {
+      "id": "ozone-layer-recovery",
+      "category": "climate_repair",
+      "title": "The Ozone Layer Is Recovering",
+      "summary": "Global action phased down ozone-depleting chemicals, and the ozone layer is on a path toward recovery.",
+      "why_it_matters": "It proves international environmental agreements can work when the problem is clear and enforcement is real.",
+      "caveat": "Recovery is still ongoing and depends on continued compliance.",
+      "source_name": "UN Environment Programme",
+      "source_url": "https://www.unep.org/news-and-stories/press-release/ozone-layer-recovery-track-helping-avoid-global-warming-05degc",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "smallpox-eradicated",
+      "category": "health",
+      "title": "Smallpox Was Eradicated",
+      "summary": "In 1980, the WHO declared smallpox eradicated after a global vaccination and surveillance campaign.",
+      "why_it_matters": "A disease that killed millions was removed from everyday human life by organized public health work.",
+      "caveat": "Smallpox is exceptional; most diseases cannot be eradicated this cleanly.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/health-topics/smallpox",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "child-mortality-decline",
+      "category": "health",
+      "title": "More Children Survive",
+      "summary": "The global under-five mortality rate declined by about 60 percent between 1990 and 2024.",
+      "why_it_matters": "This is quiet progress measured in millions of families spared grief.",
+      "caveat": "The remaining burden is still unacceptable and progress is uneven.",
+      "source_name": "UNICEF Data",
+      "source_url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "drinking-water-access",
+      "category": "infrastructure",
+      "title": "Clean Water Reached More Homes",
+      "summary": "Between 2015 and 2024, 961 million people gained access to safely managed drinking water services.",
+      "why_it_matters": "Better water access prevents disease and gives people time back from collecting water.",
+      "caveat": "Billions still lack safely managed drinking water.",
+      "source_name": "UNICEF Data",
+      "source_url": "https://data.unicef.org/topic/water-and-sanitation/drinking-water/",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "extreme-poverty-decline",
+      "category": "living_conditions",
+      "title": "Extreme Poverty Fell",
+      "summary": "The number of people living in extreme poverty fell from about 2.31 billion in 1990 to about 808 million in 2025.",
+      "why_it_matters": "Large-scale material progress is possible, even if it is fragile and uneven.",
+      "caveat": "Recent shocks and inequality mean this progress is not guaranteed to continue.",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/poverty",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "literacy-growth",
+      "category": "education",
+      "title": "Literacy Became Normal",
+      "summary": "Two centuries ago, only a small minority of people could read and write; today more than four out of five people can.",
+      "why_it_matters": "Education changes what ordinary people can understand, build, question, and pass on.",
+      "caveat": "School access and learning quality still vary sharply by region and income.",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/literacy",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "aids-deaths-decline",
+      "category": "health",
+      "title": "AIDS Deaths Fell",
+      "summary": "AIDS-related deaths have fallen sharply since their peak in 2004 and are much lower than in 2010.",
+      "why_it_matters": "Treatment access and sustained public health programs can turn a terrifying epidemic into a more survivable condition for many.",
+      "caveat": "Funding gaps and unequal access still put lives at risk.",
+      "source_name": "UNAIDS",
+      "source_url": "https://www.unaids.org/en/resources/fact-sheet",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "maternal-mortality-decline",
+      "category": "health",
+      "title": "Birth Became Safer",
+      "summary": "From 2000 to 2023, the global maternal mortality ratio declined by about 40 percent.",
+      "why_it_matters": "Skilled care, emergency treatment, and stronger health systems save mothers' lives.",
+      "caveat": "Too many preventable deaths still occur, especially where care is underfunded or disrupted.",
+      "source_name": "UNICEF Data",
+      "source_url": "https://data.unicef.org/topic/maternal-health/maternal-mortality/",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "renewable-electricity-growth",
+      "category": "energy",
+      "title": "Clean Power Keeps Growing",
+      "summary": "Renewables supplied about 32 percent of global electricity in 2024, with the share projected to rise through 2030.",
+      "why_it_matters": "The energy system is not fixed in place; infrastructure can shift when technology, policy, and cost line up.",
+      "caveat": "Electricity is only part of total energy use, and grid buildout remains a serious bottleneck.",
+      "source_name": "International Energy Agency",
+      "source_url": "https://www.iea.org/reports/renewables-2025/renewable-electricity",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "leaded-petrol-ended",
+      "category": "pollution_repair",
+      "title": "Leaded Petrol Ended",
+      "summary": "In 2021, the last country using leaded petrol phased it out, ending legal road use worldwide.",
+      "why_it_matters": "A toxic product that harmed children's brains was removed through a long, coordinated campaign.",
+      "caveat": "Legacy lead pollution remains in soil, dust, and older infrastructure.",
+      "source_name": "UN Environment Programme",
+      "source_url": "https://www.unep.org/news-and-stories/press-release/era-leaded-petrol-over-eliminating-major-threat-human-and-planetary",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "air-pollution-death-rates",
+      "category": "pollution_repair",
+      "title": "Air Pollution Death Rates Fell",
+      "summary": "Global death rates from total air pollution have nearly halved since 1990, mainly because indoor air pollution declined.",
+      "why_it_matters": "Cleaner fuels, better technology, and public health work can make invisible risks less deadly.",
+      "caveat": "Outdoor air pollution remains a major global health problem.",
+      "source_name": "Our World in Data",
+      "source_url": "https://ourworldindata.org/air-pollution",
+      "source_checked": "2026-08-29"
+    },
+    {
+      "id": "mountain-gorilla-recovery",
+      "category": "nature_returns",
+      "title": "Mountain Gorillas Increased",
+      "summary": "Conservation work helped mountain gorilla populations recover to more than 1,000 individuals in the wild.",
+      "why_it_matters": "Species decline is not always one-way when protection is persistent and local conservation works.",
+      "caveat": "Mountain gorillas remain endangered and depend on continued protection.",
+      "source_name": "World Wildlife Fund",
+      "source_url": "https://www.worldwildlife.org/species/gorilla/mountain-gorilla/",
+      "source_checked": "2026-08-29"
+    }
+  ]
+}
+
