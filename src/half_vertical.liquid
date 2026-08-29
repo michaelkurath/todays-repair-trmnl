@@ -1,22 +1,20 @@
-<div class="layout layout--col layout--top layout--left layout--stretch-x today-repair today-repair--compact">
+<div class="layout layout--col layout--top layout--left layout--stretch-x">
   {% if selected_repair %}
-    <div class="column gap--small">
-      <div class="today-repair__card outline rounded">
-        <div>
-          <span class="today-repair__badge">{{ selected_repair.category | replace: "_", " " }}</span>
-        </div>
-        <div class="today-repair__kicker">Today's Repair</div>
-        <div class="today-repair__title">{{ selected_repair.title }}</div>
-        <div class="today-repair__summary">{{ selected_repair.summary }}</div>
+    <div class="flex flex--col gap--small w--full">
+      <div class="flex flex--col gap--small w--full outline rounded p--3">
+        <span class="label label--small text--gray-30">{{ selected_repair.category | replace: "_", " " | upcase }}</span>
+        <span class="label label--small text--gray-30">Today's Repair</span>
+        <span class="title title--large lg:title--xlarge">{{ selected_repair.title }}</span>
+        <span class="description lg:description--large">{{ selected_repair.summary }}</span>
       </div>
-      <div class="today-repair__card outline rounded">
-        <div class="today-repair__section-label">Caveat</div>
-        <div class="today-repair__source">{{ selected_repair.caveat }}</div>
+      <div class="flex flex--col gap--xsmall w--full outline rounded p--3">
+        <span class="label label--small text--gray-30">Caveat</span>
+        <span class="description">{{ selected_repair.caveat }}</span>
       </div>
     </div>
   {% else %}
-    <div class="column today-repair__card outline rounded">
-      <div class="today-repair__title">No repair data yet</div>
+    <div class="flex flex--col gap--small w--full outline rounded p--3">
+      <span class="title title--large">No repair data yet</span>
     </div>
   {% endif %}
 </div>

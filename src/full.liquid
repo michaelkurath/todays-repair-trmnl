@@ -1,32 +1,29 @@
-<div class="layout layout--col layout--top layout--left layout--stretch-x today-repair">
+<div class="layout layout--col layout--top layout--left layout--stretch-x">
   {% if selected_repair %}
-    <div class="column gap--medium">
-      <div class="today-repair__card outline rounded">
-        <div>
-          <span class="today-repair__badge">{{ selected_repair.category | replace: "_", " " }}</span>
-        </div>
-
-        <div class="today-repair__kicker">Today's Repair</div>
-        <div class="today-repair__title">{{ selected_repair.title }}</div>
-        <div class="today-repair__summary">{{ selected_repair.summary }}</div>
+    <div class="flex flex--col gap--medium w--full">
+      <div class="flex flex--col gap--small w--full outline rounded p--4">
+        <span class="label label--small text--gray-30">{{ selected_repair.category | replace: "_", " " | upcase }}</span>
+        <span class="label label--small text--gray-30">Today's Repair</span>
+        <span class="title title--xxlarge">{{ selected_repair.title }}</span>
+        <span class="description description--xlarge">{{ selected_repair.summary }}</span>
       </div>
 
-      <div class="columns gap--medium">
-        <div class="column today-repair__card today-repair__card--supporting outline rounded">
-          <div class="today-repair__section-label">Why it matters</div>
-          <div class="today-repair__why">{{ selected_repair.why_it_matters }}</div>
+      <div class="grid grid--cols-2 gap--medium w--full">
+        <div class="flex flex--col gap--xsmall outline rounded p--4">
+          <span class="label label--small text--gray-30">Why it matters</span>
+          <span class="description description--large">{{ selected_repair.why_it_matters }}</span>
         </div>
-        <div class="column today-repair__card today-repair__card--supporting outline rounded">
-          <div class="today-repair__section-label">Caveat</div>
-          <div class="today-repair__caveat">{{ selected_repair.caveat }}</div>
+        <div class="flex flex--col gap--xsmall outline rounded p--4">
+          <span class="label label--small text--gray-30">Caveat</span>
+          <span class="description description--large">{{ selected_repair.caveat }}</span>
         </div>
       </div>
     </div>
   {% else %}
-    <div class="column today-repair__card outline rounded">
-      <div class="today-repair__kicker">Today's Repair</div>
-      <div class="today-repair__title">No repair data yet</div>
-      <div class="today-repair__summary">Add a JSON payload with a repairs array to start the daily anti-doom screen.</div>
+    <div class="flex flex--col gap--small w--full outline rounded p--4">
+      <span class="label label--small text--gray-30">Today's Repair</span>
+      <span class="title title--xxlarge">No repair data yet</span>
+      <span class="description description--xlarge">Add a JSON payload with a repairs array to start the daily anti-doom screen.</span>
     </div>
   {% endif %}
 </div>

@@ -1,14 +1,14 @@
-<div class="layout layout--col layout--top layout--left layout--stretch-x today-repair today-repair--tiny">
+<div class="layout layout--col layout--top layout--left layout--stretch-x">
   {% if selected_repair %}
-    <div class="column today-repair__card outline rounded">
-      <div class="today-repair__kicker">Repair</div>
-      <div class="today-repair__title">{{ selected_repair.title }}</div>
-      <div class="today-repair__summary">{{ selected_repair.summary }}</div>
-      <div class="today-repair__source">{{ selected_repair.source_name }}</div>
+    <div class="flex flex--col gap--xsmall w--full outline rounded p--3">
+      <span class="label label--small text--gray-30">Repair</span>
+      <span class="title title--small lg:title--large" data-clamp="2">{{ selected_repair.title }}</span>
+      <span class="description lg:description--large" data-clamp="3">{{ selected_repair.summary }}</span>
+      <span class="label label--small lg:label--base text--gray-30">{{ selected_repair.source_name }}</span>
     </div>
   {% else %}
-    <div class="column today-repair__card outline rounded">
-      <div class="today-repair__title">No data</div>
+    <div class="flex flex--col gap--small w--full outline rounded p--3">
+      <span class="title title--small">No data</span>
     </div>
   {% endif %}
 </div>
