@@ -18,6 +18,7 @@ Today's Repair shows one calm, sourced example of human progress, repair, or res
 
 | File | Purpose |
 | --- | --- |
+| `index.html` | Public website with today's repair and searchable archive |
 | `src/settings.yml` | TRMNL polling settings |
 | `src/shared.liquid` | Shared tab content: selection logic and scoped styles |
 | `src/full.liquid` | Full-screen layout |
@@ -99,6 +100,7 @@ python3 -m http.server 8080
 Then open:
 
 ```text
+http://127.0.0.1:8080/
 http://127.0.0.1:8080/preview/
 ```
 
