@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 import json
 import sys
+from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "sample-data.json"
 VERIFICATIONS = ROOT / "data" / "verifications.json"
+SCHEDULES = ROOT / "data" / "schedules"
 
 REQUIRED_REPAIR_FIELDS = {
     "id",
@@ -94,6 +96,72 @@ def validate_verifications(repairs, checks, errors):
         fail(errors, f"verification {check_id}: no matching repair")
 
 
+def expected_dates(year):
+    current = date(year, 1, 1)
+    end = date(year + 1, 1, 1)
+    dates = []
+    while current < end:
+        dates.append(current.isoformat())
+        current += timedelta(days=1)
+    return dates
+
+
+def validate_schedules(repairs, errors):
+    repair_ids = {repair["id"] for repair in repairs}
+    schedule_paths = sorted(SCHEDULES.glob("*.json"))
+
+    if not schedule_paths:
+        fail(errors, "no annual schedules found")
+        return
+
+    for path in schedule_paths:
+        payload = load_json(path)
+        schedule_name = path.name
+        year = payload.get("year")
+        days = payload.get("days")
+
+        if payload.get("schema_version") != 1:
+            fail(errors, f"schedule {schedule_name}: unsupported schema_version")
+        if payload.get("timezone") != "UTC":
+            fail(errors, f"schedule {schedule_name}: timezone must be UTC")
+        if payload.get("strategy") != "stable-cycle-v1":
+            fail(errors, f"schedule {schedule_name}: unknown strategy")
+        if not isinstance(year, int):
+            fail(errors, f"schedule {schedule_name}: year must be an integer")
+            continue
+        if path.stem != str(year):
+            fail(errors, f"schedule {schedule_name}: filename must match year {year}")
+        if not isinstance(days, dict):
+            fail(errors, f"schedule {schedule_name}: days must be an object")
+            continue
+
+        expected = expected_dates(year)
+        missing_dates = [day for day in expected if day not in days]
+        extra_dates = sorted(set(days) - set(expected))
+
+        for day in missing_dates:
+            fail(errors, f"schedule {schedule_name}: missing date {day}")
+        for day in extra_dates:
+            fail(errors, f"schedule {schedule_name}: unexpected date {day}")
+
+        previous_id = None
+        for day in expected:
+            repair_id = days.get(day)
+            if repair_id is None:
+                continue
+            if repair_id not in repair_ids:
+                fail(
+                    errors,
+                    f"schedule {schedule_name}: {day} references missing repair {repair_id}",
+                )
+            if repair_id == previous_id:
+                fail(
+                    errors,
+                    f"schedule {schedule_name}: repair {repair_id} repeats on {day}",
+                )
+            previous_id = repair_id
+
+
 def main():
     errors = []
     repairs = load_json(DATA).get("repairs", [])
@@ -102,13 +170,18 @@ def main():
 
     validate_repairs(repairs, errors)
     validate_verifications(repairs, checks, errors)
+    validate_schedules(repairs, errors)
 
     if errors:
         for error in errors:
             print(error, file=sys.stderr)
         return 1
 
-    print(f"Validated {len(repairs)} repairs and {len(checks)} verification records.")
+    schedule_count = len(list(SCHEDULES.glob("*.json")))
+    print(
+        f"Validated {len(repairs)} repairs, {len(checks)} verification records, "
+        f"and {schedule_count} annual schedule(s)."
+    )
     return 0
 
 
