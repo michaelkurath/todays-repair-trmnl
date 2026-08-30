@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Today's Repair icon candidates</title>
+  <desc id="desc">Four candidate icon directions for Today's Repair.</desc>
+  <defs>
+    <style>
+      .label { font: 700 22px Inter, Arial, sans-serif; fill: #111; }
+      .caption { font: 600 15px Inter, Arial, sans-serif; fill: #5d645b; }
+      .bg { fill: #fff; stroke: #d8ddd3; stroke-width: 2; }
+      .tile { fill: #f4f6f3; stroke: #111; stroke-width: 14; }
+      .ink { fill: none; stroke: #111; stroke-linecap: round; stroke-linejoin: round; }
+      .green { fill: none; stroke: #2f6b43; stroke-linecap: round; stroke-linejoin: round; }
+      .soft { fill: #dfeadd; stroke: #2f6b43; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="720" fill="#f4f6f3"/>
+
+  <g transform="translate(48 44)">
+    <rect class="bg" width="248" height="296" rx="18"/>
+    <svg x="44" y="28" width="160" height="160" viewBox="0 0 512 512">
+      <rect class="tile" x="18" y="18" width="476" height="476" rx="92"/>
+      <path d="M142 104h170l58 58v250H142Z" fill="#fff" stroke="#111" stroke-width="28" stroke-linejoin="round"/>
+      <path d="M312 104v62h58" class="ink" stroke-width="28"/>
+      <path d="M184 196h92M184 246h138M184 296h74" class="ink" stroke-width="24"/>
+      <path d="M286 246l-38 42 44 34-30 56" class="ink" stroke-width="22"/>
+      <path d="M244 338l42 42 88-112" class="green" stroke-width="42"/>
+    </svg>
+    <text class="label" x="24" y="226">A. Repair Note</text>
+    <text class="caption" x="24" y="256">Most literal: daily fact + fix.</text>
+  </g>
+
+  <g transform="translate(336 44)">
+    <rect class="bg" width="248" height="296" rx="18"/>
+    <svg x="44" y="28" width="160" height="160" viewBox="0 0 512 512">
+      <rect class="tile" x="18" y="18" width="476" height="476" rx="92"/>
+      <path d="M104 334h304" class="ink" stroke-width="30"/>
+      <path d="M160 300a96 96 0 0 1 192 0" class="green" stroke-width="38"/>
+      <path d="M256 142v56M182 170l30 42M330 170l-30 42" class="green" stroke-width="26"/>
+      <path d="M116 334c42 42 88 42 140 0s98-42 140 0" class="ink" stroke-width="26"/>
+      <path d="M202 382l44-44 34 34 56-72" class="green" stroke-width="30"/>
+    </svg>
+    <text class="label" x="24" y="226">B. Repair Sunrise</text>
+    <text class="caption" x="24" y="256">More hopeful, less literal.</text>
+  </g>
+
+  <g transform="translate(624 44)">
+    <rect class="bg" width="248" height="296" rx="18"/>
+    <svg x="44" y="28" width="160" height="160" viewBox="0 0 512 512">
+      <rect class="tile" x="18" y="18" width="476" height="476" rx="92"/>
+      <path d="M144 170h224v172H144Z" fill="#fff" stroke="#111" stroke-width="28" stroke-linejoin="round"/>
+      <path d="M144 224h224" class="ink" stroke-width="24"/>
+      <path d="M202 170v172M310 170v172" class="ink" stroke-width="20"/>
+      <path d="M214 250l-30 36 38 30-24 44" class="ink" stroke-width="20"/>
+      <path d="M178 316l52 52 106-136" class="green" stroke-width="42"/>
+    </svg>
+    <text class="label" x="24" y="226">C. Mended Grid</text>
+    <text class="caption" x="24" y="256">Data/archive angle, TRMNL-ish.</text>
+  </g>
+
+  <g transform="translate(912 44)">
+    <rect class="bg" width="248" height="296" rx="18"/>
+    <svg x="44" y="28" width="160" height="160" viewBox="0 0 512 512">
+      <rect class="tile" x="18" y="18" width="476" height="476" rx="92"/>
+      <path d="M130 162h252M256 162v188M170 350h172" class="ink" stroke-width="38"/>
+      <path d="M178 162v188M334 162c48 0 74 24 74 64 0 42-26 66-74 66h-78" class="ink" stroke-width="38"/>
+      <path d="M172 382l56-56 44 44 82-112" class="green" stroke-width="34"/>
+    </svg>
+    <text class="label" x="24" y="226">D. TR Monogram</text>
+    <text class="caption" x="24" y="256">Most brandable, least obvious.</text>
+  </g>
+
+  <g transform="translate(48 396)">
+    <text class="label" x="0" y="0">Quick read</text>
+    <text class="caption" x="0" y="34">A is safest for launch. B feels warm but generic. C fits data + TRMNL best. D is the cleanest brand mark, but needs recognition.</text>
+    <text class="caption" x="0" y="62">My current pick: C if this becomes a serious product, A if we want users to understand it instantly.</text>
+  </g>
+</svg>
