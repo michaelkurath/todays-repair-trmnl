@@ -373,6 +373,116 @@
       "source_name": "UNESCO",
       "source_url": "https://www.unesco.org/en/articles/progress-girls-access-education-what-new-unesco-data-reveals",
       "source_checked": "2026-08-30"
+    },
+    {
+      "id": "solar-pv-cost-decline",
+      "category": "energy",
+      "title": "Solar Power Got Cheap",
+      "summary": "IRENA reports that utility-scale solar PV electricity costs fell sharply between 2010 and 2023.",
+      "why_it_matters": "Cheaper clean power makes energy transition less dependent on sacrifice and more dependent on deployment.",
+      "caveat": "Cheap generation still needs grids, storage, permitting, and fair supply chains.",
+      "source_name": "International Renewable Energy Agency",
+      "source_url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "out-of-school-children-decline",
+      "category": "education",
+      "title": "Fewer Children Miss School",
+      "summary": "UNESCO estimates that out-of-school numbers fell by 33 percent between 2000 and 2015.",
+      "why_it_matters": "School access improved for many children during a period of focused global education investment.",
+      "caveat": "Progress has stalled and partly reversed since 2015.",
+      "source_name": "UNESCO",
+      "source_url": "https://www.unesco.org/en/education/view/outofschool",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "oil-tanker-spills-decline",
+      "category": "pollution_repair",
+      "title": "Tanker Oil Spills Fell",
+      "summary": "ITOPF reports that oil lost from tanker spills in the 2010s was 95 percent lower than in the 1970s.",
+      "why_it_matters": "Rules, ship design, navigation, and response systems made a dirty global industry less accident-prone.",
+      "caveat": "Oil spills still happen, and this metric covers tankers rather than all oil pollution.",
+      "source_name": "ITOPF",
+      "source_url": "https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2025/",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "sea-turtle-recovery",
+      "category": "nature_returns",
+      "title": "Sea Turtles Rebounded",
+      "summary": "NOAA reports that most tracked sea turtle nesting sites now show increases, including large gains for some loggerhead populations.",
+      "why_it_matters": "Protecting nests, habitat, and fisheries interactions can let long-lived species recover.",
+      "caveat": "All sea turtle species in U.S. waters remain protected, and climate change adds new pressure.",
+      "source_name": "NOAA Fisheries",
+      "source_url": "https://www.fisheries.noaa.gov/feature-story/most-sea-turtles-rebounding-worldwide-conservation-efforts-protect-nests-and-habitat",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "child-blood-lead-decline",
+      "category": "pollution_repair",
+      "title": "Children Carry Less Lead",
+      "summary": "EPA reports U.S. children's median blood lead level fell 96 percent from 1976-1980 to 2017-2020.",
+      "why_it_matters": "Removing lead from fuel, paint, and products measurably reduced a toxin that harms developing brains.",
+      "caveat": "No level of lead exposure is safe, and older housing and pipes still create unequal risks.",
+      "source_name": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/americaschildrenenvironment/biomonitoring-lead",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "mercury-products-phaseout",
+      "category": "pollution_repair",
+      "title": "Mercury Products Were Curbed",
+      "summary": "The Minamata Convention set controls to phase out or reduce mercury in many products and processes.",
+      "why_it_matters": "A known neurotoxin is being pushed out of everyday commerce through a global treaty.",
+      "caveat": "Mercury pollution persists, and treaty implementation varies by country and sector.",
+      "source_name": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/international-cooperation/minamata-convention-mercury",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "financial-account-growth",
+      "category": "living_conditions",
+      "title": "More Adults Got Accounts",
+      "summary": "World Bank data shows global account ownership rose from 51 percent of adults in 2011 to 79 percent in 2024.",
+      "why_it_matters": "Basic accounts can make saving, receiving pay, sending money, and handling shocks easier.",
+      "caveat": "An account does not guarantee financial security, and many people remain excluded.",
+      "source_name": "World Bank",
+      "source_url": "https://blogs.worldbank.org/en/developmenttalk/digital-technology-is-unlocking-financial-inclusion",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "birth-registration-growth",
+      "category": "everyday_humanity",
+      "title": "More Children Were Counted",
+      "summary": "UNICEF says birth registration for children under five rose from about 60 percent in 2000 to 77 percent today.",
+      "why_it_matters": "A birth record helps children claim identity, services, school access, and legal protection.",
+      "caveat": "About 150 million children under five still remain unregistered.",
+      "source_name": "UNICEF",
+      "source_url": "https://www.unicef.org/stories/birth-registration",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "skilled-birth-attendance-growth",
+      "category": "health",
+      "title": "More Births Had Skilled Care",
+      "summary": "WHO data shows births attended by skilled health personnel rose from 61 percent in 2000 to 87 percent in 2025.",
+      "why_it_matters": "Trained care during childbirth is one of the practical ways health systems keep mothers and newborns alive.",
+      "caveat": "Attendance does not prove care quality, and access remains uneven.",
+      "source_name": "World Health Organization",
+      "source_url": "https://data.who.int/indicators/i/F835E3B/1772666",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "landmine-stockpiles-destroyed",
+      "category": "safety",
+      "title": "Landmine Stockpiles Shrank",
+      "summary": "Landmine Monitor reports that 94 Mine Ban Treaty states have destroyed more than 55 million stockpiled antipersonnel mines.",
+      "why_it_matters": "Destroying stockpiles removes weapons designed to keep harming civilians long after fighting ends.",
+      "caveat": "Landmines are still being used, and casualties have recently risen in some conflicts.",
+      "source_name": "Landmine Monitor",
+      "source_url": "https://the-monitor.org/online-reader/landmine-monitor-2025",
+      "source_checked": "2026-08-30"
     }
   ]
 }
