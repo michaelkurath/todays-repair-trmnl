@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "repair": {
-    "id": "maternal-mortality-decline",
+    "id": "smallpox-eradicated",
     "category": "health",
-    "title": "Birth Became Safer",
-    "summary": "From 2000 to 2023, the global maternal mortality ratio declined by about 40 percent.",
-    "why_it_matters": "Skilled care, emergency treatment, and stronger health systems save mothers' lives.",
-    "caveat": "Too many preventable deaths still occur, especially where care is underfunded or disrupted.",
-    "source_name": "UNICEF Data",
-    "source_url": "https://data.unicef.org/topic/maternal-health/maternal-mortality/",
+    "title": "Smallpox Was Eradicated",
+    "summary": "In 1980, the WHO declared smallpox eradicated after a global vaccination and surveillance campaign.",
+    "why_it_matters": "A disease that killed millions was removed from everyday human life by organized public health work.",
+    "caveat": "Smallpox is exceptional; most diseases cannot be eradicated this cleanly.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/health-topics/smallpox",
     "source_checked": "2026-08-29"
   }
 }
