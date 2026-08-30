@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Today's Repair icon</title>
+  <desc id="desc">A sunrise over a repair wrench inside a rounded square.</desc>
+  <rect width="512" height="512" rx="96" fill="#f4f6f3"/>
+  <path d="M96 328h320" fill="none" stroke="#111" stroke-width="28" stroke-linecap="round"/>
+  <path d="M160 292a96 96 0 0 1 192 0" fill="none" stroke="#2f6b43" stroke-width="32" stroke-linecap="round"/>
+  <path d="M256 152v48M188 180l28 40M324 180l-28 40" fill="none" stroke="#2f6b43" stroke-width="24" stroke-linecap="round"/>
+  <path d="M171 377l80-80 42 42-80 80a30 30 0 0 1-42-42Z" fill="#fff" stroke="#111" stroke-width="24" stroke-linejoin="round"/>
+  <path d="M280 268a58 58 0 0 0 70-71l-34 34-35-35 34-34a58 58 0 0 0-70 71Z" fill="#fff" stroke="#111" stroke-width="24" stroke-linejoin="round"/>
+  <path d="M304 346l46 46 66-76" fill="none" stroke="#2f6b43" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
