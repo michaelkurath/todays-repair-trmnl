@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Today's Repair icon</title>
-  <desc id="desc">A repaired circle with a green mending mark inside a rounded square.</desc>
+  <desc id="desc">A daily repair note with a mended crack and a green signal mark.</desc>
   <rect width="512" height="512" rx="96" fill="#f4f6f3"/>
-  <circle cx="256" cy="256" r="152" fill="#fff" stroke="#111" stroke-width="28"/>
-  <path d="M196 134l34 54-42 36 52 48-26 58" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M160 294l58 58 134-150" fill="none" stroke="#2f6b43" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M361 143c34 28 55 70 55 113 0 39-15 75-40 102" fill="none" stroke="#111" stroke-width="28" stroke-linecap="round"/>
-  <path d="M151 370c-35-29-55-70-55-114 0-39 15-75 40-102" fill="none" stroke="#111" stroke-width="28" stroke-linecap="round"/>
+  <path d="M140 92h180l64 64v264H140Z" fill="#fff" stroke="#111" stroke-width="28" stroke-linejoin="round"/>
+  <path d="M320 92v68h64" fill="none" stroke="#111" stroke-width="28" stroke-linejoin="round"/>
+  <path d="M182 178h92M182 232h148M182 286h78" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round"/>
+  <path d="M276 236l-38 44 44 36-32 60" fill="none" stroke="#111" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M246 334l42 42 84-112" fill="none" stroke="#2f6b43" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M316 304h64v82h-64Z" fill="#dfeadd" stroke="#2f6b43" stroke-width="24" stroke-linejoin="round"/>
 </svg>
