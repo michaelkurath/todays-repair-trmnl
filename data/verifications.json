@@ -244,6 +244,76 @@
       "checked_on": "2026-08-30",
       "evidence": "UNESCO reports 22.5 million more girls in primary school, 14.6 million more in lower secondary, and 13 million more in upper secondary in 2023 than in 2015.",
       "note": "The entry sums UNESCO's three level-specific increases and should keep the caveat about completion and learning gaps."
+    },
+    {
+      "id": "solar-pv-cost-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "IRENA reports a steep decline in the global weighted-average cost of newly commissioned utility-scale solar PV between 2010 and 2023.",
+      "note": "The entry avoids a fragile exact percentage because IRENA updates cost figures by report year."
+    },
+    {
+      "id": "out-of-school-children-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNESCO reports that out-of-school numbers fell by 33 percent between 2000 and 2015, then rose by 3 percent by 2024.",
+      "note": "This is a repair with a stalled trend; keep the caveat prominent."
+    },
+    {
+      "id": "oil-tanker-spills-decline",
+      "status": "verified",
+      "checked_on": "2026-08-30",
+      "evidence": "ITOPF reports that approximately 164,000 tonnes of oil were lost from tanker spills in the 2010s, a 95 percent reduction since the 1970s.",
+      "note": "Strong pollution-repair entry; the caveat correctly limits the scope to tanker spills."
+    },
+    {
+      "id": "sea-turtle-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "NOAA Fisheries reports that most tracked sea turtle nesting sites show increases and gives examples of large nesting gains.",
+      "note": "The entry should stay qualitative because recovery varies by species and region."
+    },
+    {
+      "id": "child-blood-lead-decline",
+      "status": "verified",
+      "checked_on": "2026-08-30",
+      "evidence": "EPA reports that the median blood lead level for U.S. children ages 1 to 5 decreased by 96 percent from 1976-1980 to 2017-2020.",
+      "note": "Strong repair entry, but it is U.S.-specific and must not imply lead exposure is solved."
+    },
+    {
+      "id": "mercury-products-phaseout",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "EPA describes Minamata Convention measures to phase out or reduce mercury use in products and manufacturing processes.",
+      "note": "This is a policy repair rather than a measured exposure decline, so keep the implementation caveat."
+    },
+    {
+      "id": "financial-account-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "World Bank reporting on Global Findex 2025 says global account ownership rose from 51 percent of adults in 2011 to 79 percent in 2024.",
+      "note": "Account ownership is access, not financial wellbeing; the caveat is essential."
+    },
+    {
+      "id": "birth-registration-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNICEF reports that birth registration for children under five rose from about 60 percent in 2000 to around 77 percent today.",
+      "note": "Good everyday-humanity entry; keep the remaining unregistered children visible."
+    },
+    {
+      "id": "skilled-birth-attendance-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO data reports the global share of births attended by skilled health personnel increased from 61 percent in 2000 to 87 percent in 2025.",
+      "note": "This complements maternal mortality but measures coverage, not outcome or quality."
+    },
+    {
+      "id": "landmine-stockpiles-destroyed",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "Landmine Monitor 2025 reports that 94 States Parties completed stockpile destruction, destroying more than 55 million antipersonnel mines.",
+      "note": "Strong safety repair, but current mine use and recent casualties mean the caveat must stay blunt."
     }
   ]
 }
