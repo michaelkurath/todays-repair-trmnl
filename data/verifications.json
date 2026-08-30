@@ -174,6 +174,76 @@
       "checked_on": "2026-08-29",
       "evidence": "WHO reports annual road traffic deaths fell slightly to 1.19 million, about 5 percent below 2010.",
       "note": "This is a modest repair; the title correctly says 'slightly'."
+    },
+    {
+      "id": "measles-deaths-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO reports an 88 percent decline in global measles deaths between 2000 and 2024 and nearly 59 million lives saved by vaccination since 2000.",
+      "note": "Keep the caveat because the same WHO release warns that cases and outbreaks have surged."
+    },
+    {
+      "id": "tobacco-use-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO reports that about 1 in 5 adults consumed tobacco in 2022, compared with about 1 in 3 in 2000.",
+      "note": "This is prevalence, not total harm removed; the entry should keep the continuing-deaths caveat."
+    },
+    {
+      "id": "electricity-access-growth",
+      "status": "verified",
+      "checked_on": "2026-08-30",
+      "evidence": "IEA reports that 800 million people have gained access to electricity since 2010.",
+      "note": "Strong infrastructure entry; avoid implying that access is always reliable or clean."
+    },
+    {
+      "id": "clean-cooking-access-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "IEA reports that 1.5 billion people have gained access to clean cooking since 2010.",
+      "note": "Clean cooking definitions can vary by fuel and sustained use, so keep the wording as access."
+    },
+    {
+      "id": "sanitation-access-growth",
+      "status": "verified",
+      "checked_on": "2026-08-30",
+      "evidence": "UNICEF Data reports that 1.2 billion people gained access to safely managed sanitation services between 2015 and 2024.",
+      "note": "Strong companion to the drinking-water entry; caveat should keep the remaining gap visible."
+    },
+    {
+      "id": "hepatitis-b-child-infections-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO estimates chronic hepatitis B infection among children under five fell from around 5 percent in the pre-vaccine era to just under 1 percent in 2019.",
+      "note": "The comparison spans eras rather than two exact calendar years; current wording handles that."
+    },
+    {
+      "id": "iodized-salt-spread",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNICEF Data reports that 89 percent of people worldwide consume iodized salt and describes iodine deficiency as a preventable cause of developmental harm.",
+      "note": "Consumption of iodized salt is a coverage measure; avoid saying iodine deficiency is eliminated."
+    },
+    {
+      "id": "ntd-burden-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO reports that the population requiring NTD interventions decreased from 2.19 billion in 2010 to 1.4 billion in 2024.",
+      "note": "This is a broad grouped metric across diseases; keep the entry framed as lost ground, not eradication."
+    },
+    {
+      "id": "rinderpest-eradicated",
+      "status": "verified",
+      "checked_on": "2026-08-30",
+      "evidence": "FAO reports rinderpest was declared eradicated in 2011 and became the first animal disease eradicated worldwide.",
+      "note": "Strong repair entry; the containment caveat is important because eradicated pathogens can still exist in labs."
+    },
+    {
+      "id": "girls-school-enrollment-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNESCO reports 22.5 million more girls in primary school, 14.6 million more in lower secondary, and 13 million more in upper secondary in 2023 than in 2015.",
+      "note": "The entry sums UNESCO's three level-specific increases and should keep the caveat about completion and learning gaps."
     }
   ]
 }
