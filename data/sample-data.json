@@ -263,6 +263,116 @@
       "source_name": "World Health Organization",
       "source_url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
       "source_checked": "2026-08-29"
+    },
+    {
+      "id": "measles-deaths-decline",
+      "category": "health",
+      "title": "Measles Deaths Dropped",
+      "summary": "Global measles deaths fell by 88 percent between 2000 and 2024, largely because vaccination reached more children.",
+      "why_it_matters": "A familiar vaccine prevented millions of deaths from a disease that still spreads fast when protection slips.",
+      "caveat": "Cases and outbreaks have risen again, so this repair depends on sustained immunization.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news/item/28-11-2025-measles-deaths-down-88--since-2000--but-cases-surge",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "tobacco-use-decline",
+      "category": "health",
+      "title": "Fewer Adults Use Tobacco",
+      "summary": "WHO estimates that about 1 in 5 adults used tobacco in 2022, down from about 1 in 3 in 2000.",
+      "why_it_matters": "Taxes, warnings, smoke-free rules, and cessation support can shift a huge public-health risk.",
+      "caveat": "Tobacco still kills millions each year, and industry pressure keeps the problem alive.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news/item/16-01-2024-tobacco-use-declines-despite-tobacco-industry-efforts-to-jeopardize-progress",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "electricity-access-growth",
+      "category": "infrastructure",
+      "title": "Electricity Reached More People",
+      "summary": "Since 2010, about 800 million people have gained access to electricity.",
+      "why_it_matters": "Light, refrigeration, communication, and safer work become possible when reliable power reaches a home.",
+      "caveat": "Hundreds of millions still live without electricity, and progress has been uneven.",
+      "source_name": "International Energy Agency",
+      "source_url": "https://www.iea.org/news/655-million-people-still-living-without-electricity-underscore-urgent-need-to-deliver-on-universal-energy-access-target",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "clean-cooking-access-growth",
+      "category": "living_conditions",
+      "title": "Cleaner Cooking Spread",
+      "summary": "Since 2010, about 1.5 billion people have gained access to clean cooking.",
+      "why_it_matters": "Cleaner cooking reduces household smoke, one of the everyday hazards that quietly damages health.",
+      "caveat": "Many households still rely on polluting fuels, especially where energy access is fragile.",
+      "source_name": "International Energy Agency",
+      "source_url": "https://www.iea.org/news/655-million-people-still-living-without-electricity-underscore-urgent-need-to-deliver-on-universal-energy-access-target",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "sanitation-access-growth",
+      "category": "infrastructure",
+      "title": "Safer Sanitation Expanded",
+      "summary": "Between 2015 and 2024, 1.2 billion people gained access to safely managed sanitation services.",
+      "why_it_matters": "Sanitation prevents disease while giving people more privacy, safety, and dignity.",
+      "caveat": "Billions still lack safely managed sanitation, so the repair is large but unfinished.",
+      "source_name": "UNICEF Data",
+      "source_url": "https://data.unicef.org/topic/water-and-sanitation/sanitation/",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "hepatitis-b-child-infections-decline",
+      "category": "health",
+      "title": "Hepatitis B Fell In Children",
+      "summary": "WHO estimates chronic hepatitis B infection in children under five fell from about 5 percent before vaccines to under 1 percent in 2019.",
+      "why_it_matters": "Infant vaccination prevents lifelong infection and future liver disease.",
+      "caveat": "Birth-dose coverage is still uneven, and many adults already living with hepatitis B need care.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "iodized-salt-spread",
+      "category": "science_works",
+      "title": "Iodized Salt Protected Brains",
+      "summary": "UNICEF reports that 89 percent of people worldwide consume iodized salt.",
+      "why_it_matters": "A small nutrition fix helps prevent iodine deficiency, which can harm pregnancy and early brain development.",
+      "caveat": "Coverage is not universal, and iodine status still needs monitoring.",
+      "source_name": "UNICEF Data",
+      "source_url": "https://data.unicef.org/topic/nutrition/iodine/",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "ntd-burden-decline",
+      "category": "health",
+      "title": "Neglected Diseases Lost Ground",
+      "summary": "The population requiring neglected tropical disease interventions fell from 2.19 billion in 2010 to 1.4 billion in 2024.",
+      "why_it_matters": "Mass treatment, surveillance, and basic public-health delivery can shrink diseases that mostly affect poor communities.",
+      "caveat": "More than a billion people still require treatment or care.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "rinderpest-eradicated",
+      "category": "science_works",
+      "title": "A Livestock Plague Ended",
+      "summary": "Rinderpest was declared eradicated in 2011, the first animal disease eradicated worldwide.",
+      "why_it_matters": "Veterinary science and coordinated surveillance removed a disease that devastated cattle, wildlife, and food security.",
+      "caveat": "Eradication requires strict lab containment so the virus cannot escape back into the world.",
+      "source_name": "Food and Agriculture Organization",
+      "source_url": "https://www.fao.org/animal-health/news-events/events/detail/from-the-last-case-to-lasting-legacy--25-years-without-rinderpest-and-15-years-of-global-eradication/en",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "girls-school-enrollment-growth",
+      "category": "education",
+      "title": "More Girls Went To School",
+      "summary": "UNESCO reports 49.1 million more girls in primary and secondary school in 2023 than in 2015.",
+      "why_it_matters": "Education expands choices, safety, income, and political voice across a lifetime.",
+      "caveat": "Completion and learning gaps remain, especially for girls facing poverty or conflict.",
+      "source_name": "UNESCO",
+      "source_url": "https://www.unesco.org/en/articles/progress-girls-access-education-what-new-unesco-data-reveals",
+      "source_checked": "2026-08-30"
     }
   ]
 }
