@@ -314,6 +314,76 @@
       "checked_on": "2026-08-30",
       "evidence": "Landmine Monitor 2025 reports that 94 States Parties completed stockpile destruction, destroying more than 55 million antipersonnel mines.",
       "note": "Strong safety repair, but current mine use and recent casualties mean the caveat must stay blunt."
+    },
+    {
+      "id": "drowning-deaths-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO reports that the global drowning death rate dropped by 38 percent between 2000 and 2021.",
+      "note": "Use death-rate wording, not total deaths; the remaining annual death toll is still large."
+    },
+    {
+      "id": "renewable-energy-jobs-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "IRENA reports 16.2 million global renewable energy jobs in 2023, up from 13.7 million in 2022.",
+      "note": "Jobs data is useful but uneven; avoid implying every job is secure, local, or high quality."
+    },
+    {
+      "id": "montreal-protocol-climate-benefit",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNEP's Ozone Secretariat says lower ozone-depleting-substance emissions are estimated to avoid about 0.5 to 1 degrees Celsius of warming by mid-century versus an uncontrolled scenario.",
+      "note": "This overlaps with ozone recovery but highlights a separate climate co-benefit; keep the scenario caveat."
+    },
+    {
+      "id": "internet-use-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "ITU estimated that 5.5 billion people were online in 2024, representing 68 percent of the global population.",
+      "note": "Connectivity is access, not automatic empowerment; affordability, censorship, skills, and quality still matter."
+    },
+    {
+      "id": "child-marriage-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNICEF reports that the share of young women married in childhood fell from about one in four a decade ago to about one in five.",
+      "note": "Strong repair with a serious caveat: the remaining scale is high and the SDG pace is insufficient."
+    },
+    {
+      "id": "handwashing-access-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNICEF reported that people with basic hand hygiene at home increased from 5.0 billion in 2015 to 5.5 billion in 2020.",
+      "note": "The source is a 2021 release using then-latest estimates; update later if a newer JMP series is added."
+    },
+    {
+      "id": "malaria-deaths-averted",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO's World Malaria Report 2025 says 2.3 billion cases and 14 million deaths have been averted since 2000.",
+      "note": "Averted estimates are modeled; keep the caveat about recent risk and funding pressure."
+    },
+    {
+      "id": "tuberculosis-lives-saved",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO states that global efforts to combat tuberculosis have saved an estimated 83 million lives since 2000.",
+      "note": "This is a modeled cumulative lives-saved claim; avoid wording it as TB being under control."
+    },
+    {
+      "id": "neonatal-tetanus-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "WHO estimates neonatal tetanus deaths fell 88 percent, from about 200,000 in 2000 to 24,000 in 2021.",
+      "note": "Good vaccination and clean-birth entry; the caveat should keep remaining non-eliminated countries visible."
+    },
+    {
+      "id": "obstetric-fistula-repairs",
+      "status": "verified_with_note",
+      "checked_on": "2026-08-30",
+      "evidence": "UNFPA reports that its Campaign to End Fistula has supported more than 153,000 repair surgeries.",
+      "note": "This is program-supported repair volume, not global prevalence decline; frame it as lives repaired, not problem solved."
     }
   ]
 }
