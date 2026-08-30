@@ -40,6 +40,7 @@ Today's Repair shows one calm, sourced example of human progress, repair, or res
 | `docs/content-guide.md` | Editorial rules for adding entries |
 | `docs/roadmap.md` | Product roadmap |
 | `assets/icon.svg` | Source icon for GitHub, website, and future TRMNL listing assets |
+| `assets/icon-candidates.svg` | Side-by-side icon directions for choosing the final mark |
 
 ## Data Shape
 
