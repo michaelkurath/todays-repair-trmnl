@@ -483,6 +483,116 @@
       "source_name": "Landmine Monitor",
       "source_url": "https://the-monitor.org/online-reader/landmine-monitor-2025",
       "source_checked": "2026-08-30"
+    },
+    {
+      "id": "drowning-deaths-decline",
+      "category": "safety",
+      "title": "Drowning Death Rates Fell",
+      "summary": "WHO reports that the global drowning death rate dropped by 38 percent between 2000 and 2021.",
+      "why_it_matters": "Prevention, safer environments, and better public-health attention can reduce a quiet cause of sudden loss.",
+      "caveat": "More than 300,000 people still died from drowning in 2021, and progress is uneven.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-report-on-drowning-prevention",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "renewable-energy-jobs-growth",
+      "category": "energy",
+      "title": "Clean Energy Work Grew",
+      "summary": "IRENA reports that global renewable energy jobs rose to 16.2 million in 2023, up from 13.7 million in 2022.",
+      "why_it_matters": "The energy transition is not only machinery; it is also a growing base of people trained to build and maintain it.",
+      "caveat": "Jobs are unevenly distributed by region, technology, and working conditions.",
+      "source_name": "International Renewable Energy Agency",
+      "source_url": "https://www.irena.org/Energy-Transition/Socio-economic-impact/Energy-and-Jobs",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "montreal-protocol-climate-benefit",
+      "category": "climate_repair",
+      "title": "One Treaty Also Cooled The Future",
+      "summary": "UNEP's Ozone Secretariat says cuts in ozone-depleting substances are estimated to avoid about 0.5 to 1 degrees Celsius of warming by mid-century.",
+      "why_it_matters": "A treaty built for one environmental crisis also reduced a major climate risk.",
+      "caveat": "The avoided-warming estimate depends on comparison scenarios and continued compliance.",
+      "source_name": "UN Environment Programme Ozone Secretariat",
+      "source_url": "https://ozone.unep.org/facts-and-figures-ozone-protection",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "internet-use-growth",
+      "category": "everyday_humanity",
+      "title": "More People Came Online",
+      "summary": "ITU estimated that 5.5 billion people were online in 2024, about 68 percent of the world's population.",
+      "why_it_matters": "Connectivity can widen access to information, services, work, and community when it is affordable and usable.",
+      "caveat": "A third of humanity remained offline in 2024, and access quality is deeply unequal.",
+      "source_name": "International Telecommunication Union",
+      "source_url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "child-marriage-decline",
+      "category": "living_conditions",
+      "title": "Fewer Girls Became Child Brides",
+      "summary": "UNICEF reports that the share of young women married as children fell from about one in four a decade ago to about one in five.",
+      "why_it_matters": "Delayed marriage can protect girls' schooling, health, autonomy, and childhood.",
+      "caveat": "Progress is too slow for the 2030 goal, and conflict can quickly reverse gains.",
+      "source_name": "UNICEF",
+      "source_url": "https://data.unicef.org/resources/is-an-end-to-child-marriage-within-reach/",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "handwashing-access-growth",
+      "category": "infrastructure",
+      "title": "Handwashing Reached More Homes",
+      "summary": "UNICEF reported that access to basic hand hygiene at home rose from 5.0 billion people in 2015 to 5.5 billion in 2020.",
+      "why_it_matters": "Soap and water at home are simple infrastructure that can prevent infection and protect daily life.",
+      "caveat": "If trends continue, many people will still lack basic hand hygiene at the end of the decade.",
+      "source_name": "UNICEF",
+      "source_url": "https://www.unicef.org/press-releases/fact-sheet-global-handwashing-day-unicef-warns-3-10-people-do-not-have-basic",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "malaria-deaths-averted",
+      "category": "health",
+      "title": "Malaria Work Saved Millions",
+      "summary": "WHO estimates that global malaria efforts averted 2.3 billion cases and 14 million deaths since 2000.",
+      "why_it_matters": "Bed nets, testing, treatment, surveillance, and vaccines show that old diseases can still be pushed back.",
+      "caveat": "Malaria deaths rose in some recent periods, and funding gaps threaten further progress.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2025",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "tuberculosis-lives-saved",
+      "category": "health",
+      "title": "TB Treatment Saved Lives",
+      "summary": "WHO says global efforts to combat tuberculosis have saved an estimated 83 million lives since 2000.",
+      "why_it_matters": "Diagnosis, treatment, and prevention can turn a deadly infection into something curable for many more people.",
+      "caveat": "TB remains widespread, and drug-resistant TB is still a serious threat.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "neonatal-tetanus-decline",
+      "category": "health",
+      "title": "Newborn Tetanus Fell",
+      "summary": "WHO estimates neonatal tetanus deaths fell by 88 percent from about 200,000 in 2000 to 24,000 in 2021.",
+      "why_it_matters": "Vaccination, clean delivery, and umbilical-cord care can prevent a disease that kills newborns in their first days.",
+      "caveat": "Several countries have not yet reached elimination status, and setbacks remain possible.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/initiatives/maternal-and-neonatal-tetanus-elimination-%28mnte%29",
+      "source_checked": "2026-08-30"
+    },
+    {
+      "id": "obstetric-fistula-repairs",
+      "category": "health",
+      "title": "Fistula Surgeries Restored Lives",
+      "summary": "UNFPA says its global campaign has supported more than 153,000 obstetric fistula repair surgeries.",
+      "why_it_matters": "Repair surgery can restore health and dignity after a childbirth injury that often isolates women.",
+      "caveat": "Many women still lack access to prevention, safe childbirth care, or surgery.",
+      "source_name": "United Nations Population Fund",
+      "source_url": "https://www.unfpa.org/obstetric-fistula",
+      "source_checked": "2026-08-30"
     }
   ]
 }
