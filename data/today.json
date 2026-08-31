@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "repair": {
-    "id": "smallpox-eradicated",
-    "category": "health",
-    "title": "Smallpox Was Eradicated",
-    "summary": "In 1980, the WHO declared smallpox eradicated after a global vaccination and surveillance campaign.",
-    "why_it_matters": "A disease that killed millions was removed from everyday human life by organized public health work.",
-    "caveat": "Smallpox is exceptional; most diseases cannot be eradicated this cleanly.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/health-topics/smallpox",
+    "id": "acid-rain-emissions-fell",
+    "category": "pollution_repair",
+    "title": "Acid Rain Was Reduced",
+    "summary": "From 1995 to 2023, annual sulfur dioxide emissions from U.S. power plants fell by 95 percent.",
+    "why_it_matters": "A major pollution problem was reduced through enforceable rules, monitoring, and cleaner technology.",
+    "caveat": "This is a U.S. example, and power-sector progress does not fix all air pollution.",
+    "source_name": "U.S. Environmental Protection Agency",
+    "source_url": "https://www.epa.gov/power-sector/progress-report-emissions-reductions",
     "source_checked": "2026-08-29"
   }
 }
