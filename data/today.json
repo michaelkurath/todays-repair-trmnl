@@ -1,14 +1,14 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "repair": {
-    "id": "acid-rain-emissions-fell",
-    "category": "pollution_repair",
-    "title": "Acid Rain Was Reduced",
-    "summary": "From 1995 to 2023, annual sulfur dioxide emissions from U.S. power plants fell by 95 percent.",
-    "why_it_matters": "A major pollution problem was reduced through enforceable rules, monitoring, and cleaner technology.",
-    "caveat": "This is a U.S. example, and power-sector progress does not fix all air pollution.",
-    "source_name": "U.S. Environmental Protection Agency",
-    "source_url": "https://www.epa.gov/power-sector/progress-report-emissions-reductions",
+    "id": "polio-retreated",
+    "category": "health",
+    "title": "Polio Was Pushed Back",
+    "summary": "Wild poliovirus cases have decreased by more than 99 percent since 1988.",
+    "why_it_matters": "Vaccination campaigns turned a once-common cause of paralysis into a disease now cornered in only a few places.",
+    "caveat": "Polio is not eradicated yet, and outbreaks can return where immunization is weak.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/health-topics/poliomyelitis",
     "source_checked": "2026-08-29"
   }
 }
