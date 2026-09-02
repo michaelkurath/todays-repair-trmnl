@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "repair": {
-    "id": "polio-retreated",
-    "category": "health",
-    "title": "Polio Was Pushed Back",
-    "summary": "Wild poliovirus cases have decreased by more than 99 percent since 1988.",
-    "why_it_matters": "Vaccination campaigns turned a once-common cause of paralysis into a disease now cornered in only a few places.",
-    "caveat": "Polio is not eradicated yet, and outbreaks can return where immunization is weak.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/health-topics/poliomyelitis",
+    "id": "iberian-lynx-recovery",
+    "category": "nature_returns",
+    "title": "Iberian Lynx Rebounded",
+    "summary": "The Iberian lynx rose from 62 mature individuals in 2001 to 648 in 2022, with the total population now over 2,000.",
+    "why_it_matters": "Focused breeding, reintroduction, and habitat work pulled the world's rarest cat away from the edge.",
+    "caveat": "Road deaths, prey decline, and habitat fragmentation still threaten the recovery.",
+    "source_name": "IUCN",
+    "source_url": "https://iucn.org/news/202407/recovery-iberian-lynx-conservation-success-spain",
     "source_checked": "2026-08-29"
   }
 }
