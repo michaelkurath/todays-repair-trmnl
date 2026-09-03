@@ -83,3 +83,43 @@
     {% assign quadrant_summary_size = "description--large lg:description--xlarge" %}
   {% endif %}
 {% endif %}
+
+{% capture repair_status_icon %}
+  <svg class="repair-status-icon" viewBox="0 0 64 64" role="img" aria-label="Repair">
+    <g transform="rotate(45 32 32)">
+      <rect class="repair-status-icon__bandage" x="9" y="24" width="46" height="16" rx="8"/>
+      <circle class="repair-status-icon__dot" cx="18" cy="30" r="2"/>
+      <circle class="repair-status-icon__dot" cx="24" cy="34" r="2"/>
+    </g>
+    <g transform="rotate(-45 32 32)">
+      <rect class="repair-status-icon__bandage" x="9" y="24" width="46" height="16" rx="8"/>
+      <path class="repair-status-icon__bandage" d="M17 27l8 8M39 27l8 8"/>
+    </g>
+  </svg>
+{% endcapture %}
+
+<style>
+  .repair-status-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .repair-status-icon {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 auto;
+  }
+
+  .repair-status-icon__bandage {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .repair-status-icon__dot {
+    fill: currentColor;
+  }
+</style>
