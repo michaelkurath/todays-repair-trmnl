@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "repair": {
-    "id": "iberian-lynx-recovery",
-    "category": "nature_returns",
-    "title": "Iberian Lynx Rebounded",
-    "summary": "The Iberian lynx rose from 62 mature individuals in 2001 to 648 in 2022, with the total population now over 2,000.",
-    "why_it_matters": "Focused breeding, reintroduction, and habitat work pulled the world's rarest cat away from the edge.",
-    "caveat": "Road deaths, prey decline, and habitat fragmentation still threaten the recovery.",
-    "source_name": "IUCN",
-    "source_url": "https://iucn.org/news/202407/recovery-iberian-lynx-conservation-success-spain",
+    "id": "renewable-electricity-growth",
+    "category": "energy",
+    "title": "Clean Power Keeps Growing",
+    "summary": "Renewables supplied about 32 percent of global electricity in 2024, with the share projected to rise through 2030.",
+    "why_it_matters": "The energy system is not fixed in place; infrastructure can shift when technology, policy, and cost line up.",
+    "caveat": "Electricity is only part of total energy use, and grid buildout remains a serious bottleneck.",
+    "source_name": "International Energy Agency",
+    "source_url": "https://www.iea.org/reports/renewables-2025/renewable-electricity",
     "source_checked": "2026-08-29"
   }
 }
