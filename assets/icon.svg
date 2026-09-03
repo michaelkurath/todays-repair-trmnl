@@ -1,15 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Today's Repair icon</title>
-  <desc id="desc">A bold bandaid symbol for small daily repairs.</desc>
+  <desc id="desc">Two crossed bandaids as a simple repair mark.</desc>
   <rect width="512" height="512" rx="96" fill="#f4f6f3"/>
-  <g transform="rotate(-32 256 256)">
-    <rect x="74" y="198" width="364" height="116" rx="58" fill="#fff" stroke="#111" stroke-width="30"/>
-    <rect x="205" y="184" width="102" height="144" rx="28" fill="#dfeadd" stroke="#111" stroke-width="24"/>
-    <path d="M256 220v72M220 256h72" fill="none" stroke="#2f6b43" stroke-width="24" stroke-linecap="round"/>
-    <circle cx="128" cy="236" r="11" fill="#111"/>
-    <circle cx="164" cy="276" r="11" fill="#111"/>
-    <circle cx="348" cy="236" r="11" fill="#111"/>
-    <circle cx="384" cy="276" r="11" fill="#111"/>
+  <defs>
+    <style>
+      .bandage { fill: #f4f6f3; stroke: #111; stroke-width: 28; }
+      .line { fill: none; stroke: #111; stroke-width: 20; stroke-linecap: round; }
+      .dot { fill: #111; }
+    </style>
+  </defs>
+  <g transform="rotate(45 256 256)">
+    <rect class="bandage" x="76" y="198" width="360" height="116" rx="58"/>
+    <circle class="dot" cx="130" cy="235" r="10"/>
+    <circle class="dot" cx="166" cy="235" r="10"/>
+    <circle class="dot" cx="148" cy="276" r="10"/>
+    <path class="line" d="M332 224l56 56"/>
   </g>
-  <path d="M132 360l44-42 36 36 54-74" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="rotate(-45 256 256)">
+    <rect class="bandage" x="76" y="198" width="360" height="116" rx="58"/>
+    <path class="line" d="M124 224l56 56M332 224l56 56"/>
+    <circle class="dot" cx="238" cy="232" r="10"/>
+    <circle class="dot" cx="274" cy="232" r="10"/>
+    <circle class="dot" cx="238" cy="280" r="10"/>
+    <circle class="dot" cx="274" cy="280" r="10"/>
+  </g>
 </svg>
