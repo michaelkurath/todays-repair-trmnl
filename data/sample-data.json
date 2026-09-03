@@ -593,6 +593,127 @@
       "source_name": "United Nations Population Fund",
       "source_url": "https://www.unfpa.org/obstetric-fistula",
       "source_checked": "2026-08-30"
+    },
+    {
+      "id": "routine-immunization-lives-saved",
+      "category": "health",
+      "title": "Vaccines Saved Generations",
+      "summary": "WHO estimates that global immunization efforts have saved at least 154 million lives since 1974.",
+      "why_it_matters": "Routine vaccination is ordinary infrastructure that quietly prevents death at enormous scale.",
+      "caveat": "Coverage gaps, misinformation, and disrupted health systems can still reverse gains.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news/item/24-04-2024-global-immunization-efforts-have-saved-at-least-154-million-lives-over-the-past-50-years",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "child-hiv-infections-decline",
+      "category": "health",
+      "title": "Fewer Children Got HIV",
+      "summary": "UNICEF reports that new HIV infections among children aged 0 to 14 fell by about 69 percent since 2010.",
+      "why_it_matters": "Preventing transmission during pregnancy, birth, and breastfeeding protects children before illness begins.",
+      "caveat": "Children still miss testing and treatment, especially where health systems are strained.",
+      "source_name": "UNICEF Data",
+      "source_url": "https://data.unicef.org/topic/hivaids/global-regional-trends/",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "chemical-weapons-stockpiles-destroyed",
+      "category": "safety",
+      "title": "Declared Chemical Weapons Were Destroyed",
+      "summary": "In 2023, OPCW verified that all declared chemical weapons stockpiles had been irreversibly destroyed.",
+      "why_it_matters": "Treaties, inspections, and patient destruction work removed a class of weapons built for mass suffering.",
+      "caveat": "Undeclared weapons, alleged use, and toxic industrial chemicals remain serious risks.",
+      "source_name": "Organisation for the Prohibition of Chemical Weapons",
+      "source_url": "https://www.opcw.org/media-centre/news/2023/07/opcw-confirms-all-declared-chemical-weapons-stockpiles-verified",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "death-penalty-abolition-growth",
+      "category": "everyday_humanity",
+      "title": "More Countries Ended Executions",
+      "summary": "Amnesty reports that countries fully abolishing the death penalty rose from 16 in 1977 to 113 today.",
+      "why_it_matters": "Legal systems can move away from irreversible state killing and toward stronger human-rights norms.",
+      "caveat": "Executions still continue, and recent totals have risen sharply in some countries.",
+      "source_name": "Amnesty International",
+      "source_url": "https://www.amnesty.org/en/what-we-do/death-penalty/",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "nuclear-arsenals-shrank",
+      "category": "safety",
+      "title": "Nuclear Arsenals Shrunk",
+      "summary": "FAS estimates global nuclear weapons fell from about 70,300 in 1986 to about 12,321 at the start of 2026.",
+      "why_it_matters": "Arms control and post-Cold-War reductions show that even existential risks can be reduced.",
+      "caveat": "Modernization, treaty breakdown, and new arms races keep nuclear danger very real.",
+      "source_name": "Federation of American Scientists",
+      "source_url": "https://fas.org/initiative/status-world-nuclear-forces/",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "weather-disaster-deaths-decline",
+      "category": "safety",
+      "title": "Disaster Warnings Saved Lives",
+      "summary": "WMO reports that deaths from weather, climate, and water hazards fell almost threefold from 1970 to 2019.",
+      "why_it_matters": "Forecasts, warnings, evacuation systems, and disaster management turn knowledge into survival.",
+      "caveat": "Economic losses rose, exposure is growing, and climate change can overwhelm weak systems.",
+      "source_name": "World Meteorological Organization",
+      "source_url": "https://wmo.int/media/news/weather-related-disasters-increase-over-past-50-years-causing-more-damage-fewer-deaths",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "us-cancer-death-rate-decline",
+      "category": "health",
+      "title": "Cancer Death Rates Fell",
+      "summary": "The American Cancer Society reports that the U.S. cancer death rate fell by 34 percent from 1991 to 2022.",
+      "why_it_matters": "Less smoking, earlier detection, and better treatment turned many diagnoses into longer lives.",
+      "caveat": "This is U.S.-specific, and cancer incidence is rising for some groups and cancer types.",
+      "source_name": "American Cancer Society",
+      "source_url": "https://pressroom.cancer.org/2025CancerFactsandFigures",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "home-fire-rates-decline",
+      "category": "safety",
+      "title": "Home Fires Became Rarer",
+      "summary": "NFPA reports that U.S. reported home fires fell from 3.2 per thousand people in 1980 to 1.1 in 2023.",
+      "why_it_matters": "Building codes, alarms, safer products, and prevention work make everyday homes less deadly.",
+      "caveat": "Fire deaths still happen, and risk remains much higher where prevention is weak.",
+      "source_name": "National Fire Protection Association",
+      "source_url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/home-structure-fires",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "women-parliament-growth",
+      "category": "everyday_humanity",
+      "title": "More Women Entered Parliament",
+      "summary": "UN Women reports that women hold 27.5 percent of parliamentary seats, up from 11 percent in 1995.",
+      "why_it_matters": "Representation changes who is present when laws, budgets, and public priorities are decided.",
+      "caveat": "Parity is still distant, and political power remains uneven within and beyond parliaments.",
+      "source_name": "UN Women",
+      "source_url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "cluster-munition-stockpiles-destroyed",
+      "category": "safety",
+      "title": "Cluster Munition Stockpiles Shrunk",
+      "summary": "Cluster Munition Monitor says 42 States Parties destroyed all declared stocks, including 179 million submunitions.",
+      "why_it_matters": "Destroying stockpiles prevents weapons that can harm civilians long after fighting ends from being used later.",
+      "caveat": "Not all countries have joined the treaty, and cluster munitions are still used in conflicts.",
+      "source_name": "Cluster Munition Monitor",
+      "source_url": "https://the-monitor.org/online-reader/cluster-munition-monitor-2025",
+      "source_checked": "2026-09-03"
+    },
+    {
+      "id": "humpback-whale-populations-recovered",
+      "category": "nature_returns",
+      "title": "Humpback Whales Recovered In Many Seas",
+      "summary": "NOAA says nine of 14 humpback whale populations recovered enough that they no longer warrant listing.",
+      "why_it_matters": "Limits on commercial whaling and long monitoring helped a depleted species rebound in many regions.",
+      "caveat": "Several populations remain endangered or threatened, and warming oceans add new pressure.",
+      "source_name": "NOAA Fisheries",
+      "source_url": "https://www.fisheries.noaa.gov/species/humpback-whale",
+      "source_checked": "2026-09-03"
     }
   ]
 }

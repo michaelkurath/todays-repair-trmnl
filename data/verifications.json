@@ -384,6 +384,83 @@
       "checked_on": "2026-08-30",
       "evidence": "UNFPA reports that its Campaign to End Fistula has supported more than 153,000 repair surgeries.",
       "note": "This is program-supported repair volume, not global prevalence decline; frame it as lives repaired, not problem solved."
+    },
+    {
+      "id": "routine-immunization-lives-saved",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "WHO reports that global immunization efforts have saved at least 154 million lives over the past 50 years since 1974.",
+      "note": "This is a modeled estimate across vaccines; keep the coverage-gap caveat visible."
+    },
+    {
+      "id": "child-hiv-infections-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "UNICEF Data reports an approximately 69 percent decline in new HIV infections among children aged 0-14 since 2010.",
+      "note": "The metric is an estimate with uncertainty ranges; avoid implying pediatric HIV is solved."
+    },
+    {
+      "id": "chemical-weapons-stockpiles-destroyed",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "OPCW confirmed in 2023 that the last chemical weapon from stockpiles declared by all States Parties to the Chemical Weapons Convention was verified as destroyed.",
+      "note": "This applies to declared stockpiles under the treaty, not undeclared weapons or all possible toxic-weapon use."
+    },
+    {
+      "id": "death-penalty-abolition-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "Amnesty reports that only 16 countries had abolished the death penalty in 1977, compared with 113 today.",
+      "note": "The positive legal trend coexists with recent rises in recorded executions; keep the caveat blunt."
+    },
+    {
+      "id": "nuclear-arsenals-shrank",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "FAS estimates global nuclear weapons declined from about 70,300 in 1986 to about 12,321 at the beginning of 2026.",
+      "note": "Stockpile counts are estimates and do not mean nuclear risk is low."
+    },
+    {
+      "id": "weather-disaster-deaths-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "WMO reports that deaths from weather, climate, and water hazards decreased almost threefold from 1970 to 2019.",
+      "note": "This is a deaths trend despite more reported disasters and higher economic losses."
+    },
+    {
+      "id": "us-cancer-death-rate-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "The American Cancer Society reports a 34 percent decline in the U.S. cancer mortality rate from 1991 to 2022.",
+      "note": "This is U.S.-specific and should retain the caveat about rising incidence for some groups and cancers."
+    },
+    {
+      "id": "home-fire-rates-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "NFPA reports that reported U.S. home fires per thousand population fell from 3.2 in 1980 to 1.1 in 2023.",
+      "note": "This is a U.S. reported-fire rate, not a global fire-safety claim."
+    },
+    {
+      "id": "women-parliament-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "UN Women reports that women hold 27.5 percent of parliamentary seats, up from 11 percent in 1995.",
+      "note": "Representation is not full political equality; parity and leadership gaps remain."
+    },
+    {
+      "id": "cluster-munition-stockpiles-destroyed",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "Cluster Munition Monitor 2025 reports that 42 States Parties destroyed 100 percent of declared cluster munition stocks, including 179 million submunitions.",
+      "note": "This applies to States Parties and declared stocks; non-parties and current use remain serious caveats."
+    },
+    {
+      "id": "humpback-whale-populations-recovered",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-03",
+      "evidence": "NOAA Fisheries says nine humpback whale populations have recovered enough that they do not warrant ESA listing.",
+      "note": "Recovery varies by population; several populations remain endangered or threatened."
     }
   ]
 }
