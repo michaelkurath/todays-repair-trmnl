@@ -29,7 +29,10 @@
 </div>
 
 <div class="title_bar">
-  <span class="title">Today's Repair</span>
+  <span class="title repair-status-title">
+    {{ repair_status_icon }}
+    Today's Repair
+  </span>
   {% if selected_repair %}
     <span class="instance">{{ selected_repair.source_name }}</span>
   {% endif %}
