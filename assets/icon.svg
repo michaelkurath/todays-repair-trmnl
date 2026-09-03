@@ -1,11 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Today's Repair icon</title>
-  <desc id="desc">A daily repair note with a mended crack and a green signal mark.</desc>
+  <desc id="desc">A bold bandaid symbol for small daily repairs.</desc>
   <rect width="512" height="512" rx="96" fill="#f4f6f3"/>
-  <path d="M140 92h180l64 64v264H140Z" fill="#fff" stroke="#111" stroke-width="28" stroke-linejoin="round"/>
-  <path d="M320 92v68h64" fill="none" stroke="#111" stroke-width="28" stroke-linejoin="round"/>
-  <path d="M182 178h92M182 232h148M182 286h78" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round"/>
-  <path d="M276 236l-38 44 44 36-32 60" fill="none" stroke="#111" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M246 334l42 42 84-112" fill="none" stroke="#2f6b43" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M316 304h64v82h-64Z" fill="#dfeadd" stroke="#2f6b43" stroke-width="24" stroke-linejoin="round"/>
+  <g transform="rotate(-32 256 256)">
+    <rect x="74" y="198" width="364" height="116" rx="58" fill="#fff" stroke="#111" stroke-width="30"/>
+    <rect x="205" y="184" width="102" height="144" rx="28" fill="#dfeadd" stroke="#111" stroke-width="24"/>
+    <path d="M256 220v72M220 256h72" fill="none" stroke="#2f6b43" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="128" cy="236" r="11" fill="#111"/>
+    <circle cx="164" cy="276" r="11" fill="#111"/>
+    <circle cx="348" cy="236" r="11" fill="#111"/>
+    <circle cx="384" cy="276" r="11" fill="#111"/>
+  </g>
+  <path d="M132 360l44-42 36 36 54-74" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
