@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "repair": {
-    "id": "child-labour-decline",
-    "category": "living_conditions",
-    "title": "Child Labour Declined",
-    "summary": "Since 2000, child labour has almost halved, falling from 246 million children to 138 million.",
-    "why_it_matters": "Fewer children are losing childhood, school, and health to work they should not have to do.",
-    "caveat": "The world missed its elimination target, and progress is still far too slow.",
-    "source_name": "UNICEF",
-    "source_url": "https://www.unicef.org/press-releases/despite-progress-child-labour-still-affects-138-million-children-globally-ilo-unicef",
-    "source_checked": "2026-08-29"
+    "id": "neonatal-tetanus-decline",
+    "category": "health",
+    "title": "Newborn Tetanus Fell",
+    "summary": "WHO estimates neonatal tetanus deaths fell by 88 percent from about 200,000 in 2000 to 24,000 in 2021.",
+    "why_it_matters": "Vaccination, clean delivery, and umbilical-cord care can prevent a disease that kills newborns in their first days.",
+    "caveat": "Several countries have not yet reached elimination status, and setbacks remain possible.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/initiatives/maternal-and-neonatal-tetanus-elimination-%28mnte%29",
+    "source_checked": "2026-08-30"
   }
 }
