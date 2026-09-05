@@ -25,8 +25,8 @@ Today's Repair shows one calm, sourced example of human progress, repair, or res
 | `src/half_horizontal.liquid` | Half-horizontal layout |
 | `src/half_vertical.liquid` | Half-vertical layout |
 | `src/quadrant.liquid` | Quadrant layout |
-| `data/sample-data.json` | Starter content payload |
-| `data/today.json` | Tiny live payload for TRMNL polling |
+| `data/sample-data.json` | Full content payload used by TRMNL |
+| `data/today.json` | Daily payload retained for the website |
 | `data/schedules/YEAR.json` | Immutable annual date-to-repair-ID schedule |
 | `data/verifications.json` | Verification status and evidence notes for every repair |
 | `scripts/generate_schedule.py` | Creates a stable annual schedule without replacing an existing one |
@@ -42,29 +42,30 @@ Today's Repair shows one calm, sourced example of human progress, repair, or res
 | `assets/icon.svg` | Source icon for GitHub, website, and future TRMNL listing assets |
 | `assets/icon-candidates.svg` | Side-by-side icon directions for choosing the final mark |
 
-## Data Shape
+## TRMNL Selection
 
-For live TRMNL polling, the small endpoint should return:
+The TRMNL recipe polls the full `repairs` array and uses TRMNL Liquid's `sample`
+filter to choose a fresh random entry whenever the plugin refreshes. The polling
+interval is 15 minutes. There is deliberately no ordering, history, repeat protection,
+or per-day schedule in the recipe.
+
+The polling endpoint returns:
 
 ```json
 {
-  "date": "2026-08-29",
-  "repair": {
-    "id": "ozone-layer-recovery",
-    "category": "climate_repair",
-    "title": "The Ozone Layer Is Recovering",
-    "summary": "Global action phased down ozone-depleting chemicals, and the ozone layer is on a path toward recovery.",
-    "why_it_matters": "It proves international environmental agreements can work when the problem is clear and enforcement is real.",
-    "caveat": "Recovery is still ongoing and depends on continued compliance.",
-    "source_name": "UN Environment Programme",
-    "source_url": "https://www.unep.org/news-and-stories/press-release/ozone-layer-recovery-track-helping-avoid-global-warming-05degc"
-  }
+  "repairs": [
+    {
+      "id": "ozone-layer-recovery",
+      "category": "climate_repair",
+      "title": "The Ozone Layer Is Recovering"
+    }
+  ]
 }
 ```
 
-## Daily Schedule
+## Website Schedule
 
-The daily repair is not calculated from the array position. Each calendar year has a
+The website still uses the existing daily schedule. Each calendar year has a
 committed file such as `data/schedules/2026.json` that maps every UTC date to a stable
 repair ID. The schedule is generated in balanced deterministic cycles, so each repair
 appears roughly equally often and the same repair never appears on consecutive days.
@@ -90,30 +91,11 @@ The scheduled workflow creates the current year's schedule if it is missing, val
 all scheduled IDs, builds the small `data/today.json` payload, and commits only if either
 file changed. All dates use UTC.
 
-The full dataset can return:
-
-```json
-{
-  "repairs": [
-    {
-      "id": "ozone-layer-recovery",
-      "category": "climate_repair",
-      "title": "The Ozone Layer Is Recovering",
-      "summary": "Global action phased down ozone-depleting chemicals, and the ozone layer is on a path toward recovery.",
-      "why_it_matters": "It proves international environmental agreements can work when the problem is clear and enforcement is real.",
-      "caveat": "Recovery is still ongoing and depends on continued compliance.",
-      "source_name": "UN Environment Programme",
-      "source_url": "https://www.unep.org/news-and-stories/press-release/ozone-layer-recovery-track-helping-avoid-global-warming-05degc"
-    }
-  ]
-}
-```
-
 ## First Test
 
 1. Create a private TRMNL plugin or recipe.
 2. Use the Polling strategy.
-3. For quick testing, use `data/today.json` as the polling endpoint.
+3. Use `data/sample-data.json` as the polling endpoint.
 4. Paste `src/shared.liquid` into the TRMNL Shared tab.
 5. Paste each view Liquid file into the matching TRMNL markup view.
 6. Force refresh and check all four views.
@@ -121,7 +103,7 @@ The full dataset can return:
 Current polling URL:
 
 ```text
-https://raw.githubusercontent.com/michaelkurath/todays-repair-trmnl/main/data/today.json
+https://raw.githubusercontent.com/michaelkurath/todays-repair-trmnl/main/data/sample-data.json
 ```
 
 The GitHub repository must be public for TRMNL to fetch this URL.
