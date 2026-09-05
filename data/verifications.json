@@ -461,6 +461,62 @@
       "checked_on": "2026-09-03",
       "evidence": "NOAA Fisheries says nine humpback whale populations have recovered enough that they do not warrant ESA listing.",
       "note": "Recovery varies by population; several populations remain endangered or threatened."
+    },
+    {
+      "id": "school-completion-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "UNESCO's 2026 GEM access and equity report gives global completion rates of 37 percent in 2000 and 61 percent in 2024 for upper secondary education.",
+      "note": "This measures modeled completion, including late completion; retain the caveat about pace and inequality."
+    },
+    {
+      "id": "saiga-antelope-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "The IUCN Red List reassessment cited recovery in Kazakhstan from about 39,000 saiga in 2005 to nearly two million in 2023 and changed the species from Critically Endangered to Near Threatened.",
+      "note": "The population figure is centered on Kazakhstan, the species stronghold; do not present it as risk-free global recovery."
+    },
+    {
+      "id": "european-bison-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "IUCN reports the wild European bison population rose from around 1,800 in 2003 to over 6,200 in 2019, supporting a move from Vulnerable to Near Threatened.",
+      "note": "The status improved, but fragmented herds and restricted range remain important constraints."
+    },
+    {
+      "id": "river-thames-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "ZSL's State of the Thames project documents recovery of the tidal river after parts were declared biologically dead in 1957, including the return of diverse fish and marine mammals.",
+      "note": "Avoid calling the Thames fully restored; current sewage, climate, and ecological pressures remain."
+    },
+    {
+      "id": "rhine-water-quality-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "The ICPR reports that point-source inputs of most listed priority pollutants fell 70 to 100 percent between 1985 and 2000 while wastewater-treatment connections increased.",
+      "note": "This is a historic point-source pollution result; diffuse pollution and ecological continuity remain incomplete."
+    },
+    {
+      "id": "global-deforestation-slowed",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "FAO's Global Forest Resources Assessment 2025 reports deforestation slowing from 17.6 million hectares annually in 1990-2000 to 10.9 million in 2015-2025.",
+      "note": "This is a slower rate of continuing loss, not net global forest recovery."
+    },
+    {
+      "id": "forest-management-plans-expanded",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "FAO reports 2.13 billion hectares, or 55 percent of forests, under management plans in 2025, up 365 million hectares since 1990.",
+      "note": "Plan coverage is an institutional input and does not by itself prove implementation quality or ecological outcomes."
+    },
+    {
+      "id": "north-aral-sea-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "World Bank reporting says the Kok-Aral dike raised North Aral Sea water levels and revived fisheries and local livelihoods.",
+      "note": "The repair is real but geographically limited; never imply that the entire Aral Sea has recovered."
     }
   ]
 }
