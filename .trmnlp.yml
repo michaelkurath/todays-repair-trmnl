@@ -3,7 +3,7 @@
 watch:
   - .trmnlp.yml
   - src
-  - data/today.json
+  - data/sample-data.json
 
 custom_fields: {}
 

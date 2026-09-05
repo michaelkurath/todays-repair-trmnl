@@ -6,7 +6,7 @@ static_data: ''
 polling_verb: get
 framework_version: 3.3.0
 serverless_language: ''
-polling_url: https://raw.githubusercontent.com/michaelkurath/todays-repair-trmnl/main/data/today.json
+polling_url: https://raw.githubusercontent.com/michaelkurath/todays-repair-trmnl/main/data/sample-data.json
 polling_headers: ''
 polling_body: ''
 id: 460880
@@ -32,4 +32,4 @@ oauth_expiry_strategy: ''
 oauth_fixed_expiry_ms: ''
 name: Todays Repair
 description: Daily anti-doom repair signal
-refresh_interval: 1440
+refresh_interval: 15
