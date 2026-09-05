@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "repair": {
-    "id": "neonatal-tetanus-decline",
-    "category": "health",
-    "title": "Newborn Tetanus Fell",
-    "summary": "WHO estimates neonatal tetanus deaths fell by 88 percent from about 200,000 in 2000 to 24,000 in 2021.",
-    "why_it_matters": "Vaccination, clean delivery, and umbilical-cord care can prevent a disease that kills newborns in their first days.",
-    "caveat": "Several countries have not yet reached elimination status, and setbacks remain possible.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/initiatives/maternal-and-neonatal-tetanus-elimination-%28mnte%29",
+    "id": "child-blood-lead-decline",
+    "category": "pollution_repair",
+    "title": "Children Carry Less Lead",
+    "summary": "EPA reports U.S. children's median blood lead level fell 96 percent from 1976-1980 to 2017-2020.",
+    "why_it_matters": "Removing lead from fuel, paint, and products measurably reduced a toxin that harms developing brains.",
+    "caveat": "No level of lead exposure is safe, and older housing and pipes still create unequal risks.",
+    "source_name": "U.S. Environmental Protection Agency",
+    "source_url": "https://www.epa.gov/americaschildrenenvironment/biomonitoring-lead",
     "source_checked": "2026-08-30"
   }
 }
