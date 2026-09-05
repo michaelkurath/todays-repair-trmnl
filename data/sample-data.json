@@ -714,6 +714,94 @@
       "source_name": "NOAA Fisheries",
       "source_url": "https://www.fisheries.noaa.gov/species/humpback-whale",
       "source_checked": "2026-09-03"
+    },
+    {
+      "id": "school-completion-growth",
+      "category": "education",
+      "title": "More Students Finished School",
+      "summary": "UNESCO reports global upper-secondary completion rose from 37 percent in 2000 to 61 percent in 2024.",
+      "why_it_matters": "Finishing school gives young people more choices than enrolment alone and reflects years of sustained education investment.",
+      "caveat": "Progress is slow and unequal, and 95 percent global completion remains many decades away at the current pace.",
+      "source_name": "UNESCO Global Education Monitoring Report",
+      "source_url": "https://www.unesco.org/reports/gem-report/en/2026-access-equity",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "saiga-antelope-recovery",
+      "category": "nature_returns",
+      "title": "Saiga Antelopes Came Back",
+      "summary": "Kazakhstan's saiga population recovered from about 39,000 in 2005 to nearly two million by 2023.",
+      "why_it_matters": "Anti-poaching work, protected habitat, monitoring, and international cooperation rescued a species near collapse.",
+      "caveat": "Disease, poaching, infrastructure, and conflict with agriculture can still reverse this unusually rapid recovery.",
+      "source_name": "IUCN Red List",
+      "source_url": "https://www.decadeonrestoration.org/unprecedented-conservation-triumph",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "european-bison-recovery",
+      "category": "nature_returns",
+      "title": "European Bison Returned",
+      "summary": "IUCN moved European bison from Vulnerable to Near Threatened after the wild population grew from 1,800 in 2003 to over 6,200 in 2019.",
+      "why_it_matters": "Breeding, reintroduction, and habitat management brought Europe's largest land mammal back after extinction in the wild.",
+      "caveat": "Most herds remain isolated and small enough to face genetic, disease, and habitat risks.",
+      "source_name": "International Union for Conservation of Nature",
+      "source_url": "https://iucn.org/news/species/202012/european-bison-recovering-31-species-declared-extinct-iucn-red-list",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "river-thames-recovery",
+      "category": "pollution_repair",
+      "title": "The Thames Came Back To Life",
+      "summary": "The tidal Thames recovered after parts were declared biologically dead in 1957 and now supports fish, seals, and seahorses.",
+      "why_it_matters": "Sewage treatment, pollution controls, and long monitoring show that even a heavily damaged urban river can recover.",
+      "caveat": "Sewage spills, rising temperatures, and declining fish counts show that the recovery is incomplete.",
+      "source_name": "Zoological Society of London",
+      "source_url": "https://www.zsl.org/what-we-do/projects/state-of-the-thames",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "rhine-water-quality-recovery",
+      "category": "pollution_repair",
+      "title": "Countries Cleaned Up The Rhine",
+      "summary": "Rhine countries cut inputs of most priority pollutants from point sources by 70 to 100 percent between 1985 and 2000.",
+      "why_it_matters": "Shared rules, wastewater treatment, and cross-border monitoring repaired a river running through many jurisdictions.",
+      "caveat": "Agricultural nutrients, some pesticides, heavy metals, and barriers to migrating fish remain unresolved.",
+      "source_name": "International Commission for the Protection of the Rhine",
+      "source_url": "https://www.iksr.org/fileadmin/user_upload/DKDM/Dokumente/Broschueren/EN/bro_En_2003_Upstream_Outcome_of_the_Rhine.pdf",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "global-deforestation-slowed",
+      "category": "climate_repair",
+      "title": "Forest Loss Slowed",
+      "summary": "FAO reports annual deforestation slowed from 17.6 million hectares in 1990-2000 to 10.9 million in 2015-2025.",
+      "why_it_matters": "Policy, protected areas, restoration, and changing land use have reduced the speed of a major global loss.",
+      "caveat": "The world is still losing vast forest areas each year, especially in Africa and South America.",
+      "source_name": "Food and Agriculture Organization",
+      "source_url": "https://www.fao.org/newsroom/detail/global-deforestation-slows--but-forests-remain-under-pressure--fao-report-shows/en",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "forest-management-plans-expanded",
+      "category": "infrastructure",
+      "title": "More Forests Got Long-Term Plans",
+      "summary": "FAO reports 2.13 billion hectares of forest had management plans by 2025, 365 million more than in 1990.",
+      "why_it_matters": "Documented, revisable plans turn forest protection from a promise into infrastructure for sustained management.",
+      "caveat": "A plan does not guarantee good enforcement, and large forest areas still lack one.",
+      "source_name": "Food and Agriculture Organization",
+      "source_url": "https://www.fao.org/newsroom/detail/global-deforestation-slows--but-forests-remain-under-pressure--fao-report-shows/en",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "north-aral-sea-recovery",
+      "category": "infrastructure",
+      "title": "Part Of The Aral Sea Returned",
+      "summary": "A World Bank-backed dike raised water levels in the North Aral Sea and helped revive its fishing economy.",
+      "why_it_matters": "Targeted engineering and water management restored a damaged ecosystem that many had written off entirely.",
+      "caveat": "This recovery is limited to the northern basin; most of the wider Aral Sea disaster remains unresolved.",
+      "source_name": "World Bank",
+      "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/668681468050713490",
+      "source_checked": "2026-09-05"
     }
   ]
 }
