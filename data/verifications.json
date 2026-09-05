@@ -517,6 +517,62 @@
       "checked_on": "2026-09-05",
       "evidence": "World Bank reporting says the Kok-Aral dike raised North Aral Sea water levels and revived fisheries and local livelihoods.",
       "note": "The repair is real but geographically limited; never imply that the entire Aral Sea has recovered."
+    },
+    {
+      "id": "battery-cost-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "The IEA reports lithium-ion battery prices declined from USD 1,400 per kWh in 2010 to less than USD 140 per kWh in 2023, a 90 percent reduction.",
+      "note": "This is a technology price trend, not proof that every battery application is affordable or environmentally benign."
+    },
+    {
+      "id": "social-protection-coverage-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "ILO trend data show effective coverage by at least one social protection benefit increasing from 42.8 percent in 2015 to 52.4 percent in 2023 or the latest available year.",
+      "note": "Coverage means at least one benefit and says nothing by itself about adequacy, duration, or universal access."
+    },
+    {
+      "id": "genome-sequencing-cost-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "NHGRI's cost series drops from roughly USD 95 million per human-sized genome in 2001 to roughly USD 500 in 2022, well over a 100,000-fold reduction.",
+      "note": "NHGRI describes this as an estimated production-sequencing cost and excludes downstream analysis and other non-production work."
+    },
+    {
+      "id": "aviation-fatality-risk-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "An IATA safety paper hosted by ICAO reports fatality risk per million sectors declining from 0.69 in 2005 to 0.06 in 2024.",
+      "note": "The long-term trend is favorable, but 2024 was worse than 2023 and regional accident rates differ sharply."
+    },
+    {
+      "id": "dart-asteroid-deflection",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "NASA confirmed that DART's 2022 impact shortened Dimorphos's 11-hour 55-minute orbit by 32 minutes.",
+      "note": "The mission demonstrated kinetic impact against a harmless test target; effectiveness depends on target properties and early detection."
+    },
+    {
+      "id": "womens-economic-rights-reforms",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "The World Bank's Women, Business and the Law 2026 report records 113 legal reforms across 68 economies between 2023 and 2025.",
+      "note": "The same report finds major gaps between law, supportive institutions, and enforcement; retain that limitation."
+    },
+    {
+      "id": "school-meals-expansion",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "WFP's State of School Feeding Worldwide 2024 reports at least 466 million children reached, an increase of almost 80 million since 2020.",
+      "note": "This measures programme reach, not meal quality, frequency, nutritional adequacy, or equal access."
+    },
+    {
+      "id": "trans-fat-policy-expansion",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-05",
+      "evidence": "WHO reports 53 countries had best-practice industrial trans-fat policies in place by 2023, improving the food environment for 3.7 billion people.",
+      "note": "Policy coverage is not identical to verified compliance, and 54 percent of the global population remained uncovered in 2023."
     }
   ]
 }
