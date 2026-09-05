@@ -3,8 +3,7 @@
     <div class="flex flex--col flex--stretch gap--medium w--full h--full">
       <div class="flex flex--col flex--center gap--small w--full outline rounded p--4 grow">
         <span class="label label--small text--gray-30">{{ selected_repair.category | replace: "_", " " | upcase }}</span>
-        <span class="label label--small text--gray-30">Today's Repair</span>
-        <span class="title title--xxlarge">{{ selected_repair.title }}</span>
+        <span class="title {{ full_title_size }}">{{ selected_repair.title }}</span>
         <span class="description {{ full_summary_size }}">{{ selected_repair.summary }}</span>
       </div>
 

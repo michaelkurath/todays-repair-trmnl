@@ -19,6 +19,11 @@
   {% assign repair_why_length = selected_repair.why_it_matters | size %}
   {% assign repair_caveat_length = selected_repair.caveat | size %}
 
+  {% assign full_title_size = "title--xxlarge lg:text--xxlarge" %}
+  {% if repair_title_length <= 40 %}
+    {% assign full_title_size = "title--xxlarge lg:text--xxxlarge" %}
+  {% endif %}
+
   {% assign full_summary_size = "description--xlarge lg:description--xxlarge" %}
   {% if repair_summary_length <= 100 %}
     {% assign full_summary_size = "description--xxlarge" %}
