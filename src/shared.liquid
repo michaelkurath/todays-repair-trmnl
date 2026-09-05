@@ -1,16 +1,9 @@
-{% assign selected_repair = data.repair | default: repair %}
 {% assign repairs = data.repairs | default: repairs %}
 {% assign repair_count = repairs | size %}
+{% assign selected_repair = data.repair | default: repair %}
 
-{% if selected_repair == blank and repair_count > 0 %}
-  {% assign today_seed = "now" | date: "%j" | plus: 0 %}
-  {% assign repair_index = today_seed | modulo: repair_count %}
-
-  {% for repair in repairs %}
-    {% if forloop.index0 == repair_index %}
-      {% assign selected_repair = repair %}
-    {% endif %}
-  {% endfor %}
+{% if repair_count > 0 %}
+  {% assign selected_repair = repairs | sample %}
 {% endif %}
 
 {% if selected_repair %}
