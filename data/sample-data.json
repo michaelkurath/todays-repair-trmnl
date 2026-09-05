@@ -802,6 +802,94 @@
       "source_name": "World Bank",
       "source_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/668681468050713490",
       "source_checked": "2026-09-05"
+    },
+    {
+      "id": "battery-cost-decline",
+      "category": "energy",
+      "title": "Battery Costs Collapsed",
+      "summary": "IEA reports lithium-ion battery prices fell from about $1,400 per kilowatt-hour in 2010 to below $140 in 2023.",
+      "why_it_matters": "Cheaper storage makes electric transport, renewable power, and off-grid electricity more practical.",
+      "caveat": "Mining impacts, supply concentration, recycling, and grid integration remain serious constraints.",
+      "source_name": "International Energy Agency",
+      "source_url": "https://www.iea.org/reports/batteries-and-secure-energy-transitions/executive-summary",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "social-protection-coverage-growth",
+      "category": "living_conditions",
+      "title": "Social Protection Reached A Majority",
+      "summary": "ILO estimates coverage by at least one social protection benefit rose from 42.8 percent in 2015 to 52.4 percent in 2023.",
+      "why_it_matters": "More people have some protection against income loss caused by age, disability, unemployment, or family needs.",
+      "caveat": "Nearly half the world remains uncovered, and the adequacy of benefits varies enormously.",
+      "source_name": "International Labour Organization",
+      "source_url": "https://www.ilo.org/resource/article/world-social-protection-report-2024-26-figures",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "genome-sequencing-cost-decline",
+      "category": "science_works",
+      "title": "Reading A Genome Became Affordable",
+      "summary": "NHGRI data show the estimated cost of sequencing a human-sized genome fell by more than 100,000-fold between 2001 and 2022.",
+      "why_it_matters": "A formerly enormous research task became usable at scale for biology, diagnosis, and disease surveillance.",
+      "caveat": "The estimate covers sequence production, not interpretation, storage, privacy protection, or clinical care.",
+      "source_name": "National Human Genome Research Institute",
+      "source_url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "aviation-fatality-risk-decline",
+      "category": "safety",
+      "title": "Flying Became Much Safer",
+      "summary": "IATA's fatality-risk rate fell from 0.69 per million flight sectors in 2005 to 0.06 in 2024.",
+      "why_it_matters": "Engineering standards, investigation, training, and shared reporting turned lessons from crashes into safer systems.",
+      "caveat": "The rate rose from 2023 to 2024, and safety performance remains uneven between regions.",
+      "source_name": "ICAO / IATA Safety Report",
+      "source_url": "https://www.icao.int/sites/default/files/WACAF/MeetingDocs/2025/%20AASPG/English/%E2%80%8BWorking%20Papers/IATA-Agenda-Item-AASPG-SMO.SG-WP05B.pdf",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "dart-asteroid-deflection",
+      "category": "science_works",
+      "title": "Humanity Moved An Asteroid",
+      "summary": "NASA's DART impact shortened the asteroid moonlet Dimorphos's orbit by 32 minutes, proving a deflection technique works.",
+      "why_it_matters": "Planetary defence moved from theory to a measured demonstration against a real object in space.",
+      "caveat": "Dimorphos never threatened Earth, and one test cannot cover every asteroid type or warning scenario.",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/news-release/nasa-confirms-dart-mission-impact-changed-asteroids-motion-in-space/",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "womens-economic-rights-reforms",
+      "category": "everyday_humanity",
+      "title": "More Laws Opened Doors For Women",
+      "summary": "The World Bank recorded 113 reforms in 68 economies strengthening women's economic opportunities from 2023 to 2025.",
+      "why_it_matters": "Removing legal barriers can widen women's choices in work, pay, mobility, parenthood, assets, and business.",
+      "caveat": "Laws are often incomplete or poorly enforced, and no assessed economy provides fully equal opportunity.",
+      "source_name": "World Bank Women, Business and the Law",
+      "source_url": "https://wbl.worldbank.org/en/publications/flagship-report",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "school-meals-expansion",
+      "category": "education",
+      "title": "School Meals Reached More Children",
+      "summary": "WFP reports 466 million children receive school meals worldwide, almost 80 million more than in 2020.",
+      "why_it_matters": "A meal can improve attendance, learning, nutrition, and household security at the same time.",
+      "caveat": "Coverage and meal quality remain uneven, especially in the poorest and conflict-affected countries.",
+      "source_name": "World Food Programme",
+      "source_url": "https://publications.wfp.org/2024/state-of-school-feeding/chapters",
+      "source_checked": "2026-09-05"
+    },
+    {
+      "id": "trans-fat-policy-expansion",
+      "category": "health",
+      "title": "Food Rules Cut A Hidden Heart Risk",
+      "summary": "By 2023, 53 countries had best-practice industrial trans-fat policies covering 3.7 billion people.",
+      "why_it_matters": "Changing food standards protects whole populations without requiring each person to identify a hidden ingredient.",
+      "caveat": "More than half the world was still outside these protections, and enforcement determines their real effect.",
+      "source_name": "World Health Organization",
+      "source_url": "https://www.who.int/news/item/24-06-2024-WHO-5-year-milestone-report-on-global-transfat-elimination-illustrates-latest-progress-up-to-2023",
+      "source_checked": "2026-09-05"
     }
   ]
 }
