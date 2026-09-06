@@ -580,6 +580,62 @@
       "checked_on": "2026-09-06",
       "evidence": "The European Environment Agency reports that EU net greenhouse-gas emissions fell 37 percent between 1990 and 2023 while GDP increased 70 percent.",
       "note": "The reported inventory includes land use, land-use change and forestry but excludes international aviation and maritime transport; it measures territorial emissions rather than the EU's full consumption footprint."
+    },
+    {
+      "id": "fgm-prevalence-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "UNFPA reported in 2018 that global FGM prevalence had declined by nearly a quarter since around 2000 and by one third among girls in countries covered by its joint programme with UNICEF since 1997.",
+      "note": "The global prevalence figure is a 2018 assessment, not a current case count; population growth means the number of survivors has nevertheless increased."
+    },
+    {
+      "id": "nepal-tiger-recovery",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "WWF reports Nepal's wild tiger estimate increased from approximately 121 in 2009 to 355 in the 2022 national survey, a rise of more than 190 percent.",
+      "note": "Population estimates come from periodic surveys and have uncertainty; tiger recovery creates additional habitat and conflict-management demands."
+    },
+    {
+      "id": "eu-pm25-deaths-decline",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "The EEA estimates premature deaths attributable to PM2.5 exposure above the WHO guideline fell 57 percent in the EU-27 between 2005 and 2023, to about 182,000.",
+      "note": "This is a modeled health-burden estimate rather than a count of named deaths, and it depends on the selected counterfactual guideline."
+    },
+    {
+      "id": "hurricane-track-forecast-improvement",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "NOAA's National Hurricane Center states that average forecast track errors were cut in half over the preceding 15 years when explaining its smaller watch and warning areas.",
+      "note": "The claim concerns average track error, not every storm or other hazards such as rainfall, surge, and rapid intensification."
+    },
+    {
+      "id": "uk-coal-power-phaseout",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "UK Energy in Brief 2025 states that coal use in electricity generation fell after 2012 and the last coal-fired station, Ratcliffe-on-Soar, closed on 30 September 2024.",
+      "note": "Coal was phased out of power generation, not from every industrial use, and the wider energy system still uses fossil fuels."
+    },
+    {
+      "id": "eu-urban-wastewater-treatment",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "The European Commission reported that more than 90 percent of Europe's urban wastewater was collected and treated in line with EU standards in 2018, with compliance slightly higher than in 2016.",
+      "note": "The figure is based on compliance with standards applying at the time and hides substantial variation between countries and treatment levels."
+    },
+    {
+      "id": "mobile-broadband-coverage",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "ITU's SDG indicator page reports that 96 percent of the world population had 3G-or-better coverage in 2024 and 92 percent had access to 4G coverage.",
+      "note": "This measures the presence of a network signal, not subscriptions, affordability, device ownership, service quality, or meaningful use."
+    },
+    {
+      "id": "girls-school-completion-growth",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "UNESCO Institute for Statistics data show girls' completion rates rose from 86 to 89 percent in primary, 74 to 79 percent in lower secondary, and 54 to 61 percent in upper secondary education between 2015 and 2022.",
+      "note": "These are global modeled rates; progress and data quality vary widely, and completion does not measure learning quality or equality after school."
     }
   ]
 }
