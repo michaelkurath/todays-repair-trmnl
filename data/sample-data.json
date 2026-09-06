@@ -890,6 +890,17 @@
       "source_name": "World Health Organization",
       "source_url": "https://www.who.int/news/item/24-06-2024-WHO-5-year-milestone-report-on-global-transfat-elimination-illustrates-latest-progress-up-to-2023",
       "source_checked": "2026-09-05"
+    },
+    {
+      "id": "eu-emissions-economic-decoupling",
+      "category": "climate_repair",
+      "title": "Europe Grew While Emissions Fell",
+      "summary": "From 1990 to 2023, EU net greenhouse-gas emissions fell 37% while its economy grew 70%.",
+      "why_it_matters": "The long trend shows that economic growth and climate pollution do not have to rise together.",
+      "caveat": "This is a domestic EU inventory that excludes international aviation and shipping; faster cuts are still needed.",
+      "source_name": "European Environment Agency",
+      "source_url": "https://www.eea.europa.eu/en/newsroom/news/greenhouse-gas-emissions-in-2023",
+      "source_checked": "2026-09-06"
     }
   ]
 }
