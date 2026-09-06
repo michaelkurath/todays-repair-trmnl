@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "repair": {
-    "id": "child-blood-lead-decline",
-    "category": "pollution_repair",
-    "title": "Children Carry Less Lead",
-    "summary": "EPA reports U.S. children's median blood lead level fell 96 percent from 1976-1980 to 2017-2020.",
-    "why_it_matters": "Removing lead from fuel, paint, and products measurably reduced a toxin that harms developing brains.",
-    "caveat": "No level of lead exposure is safe, and older housing and pipes still create unequal risks.",
-    "source_name": "U.S. Environmental Protection Agency",
-    "source_url": "https://www.epa.gov/americaschildrenenvironment/biomonitoring-lead",
-    "source_checked": "2026-08-30"
+    "id": "cluster-munition-stockpiles-destroyed",
+    "category": "safety",
+    "title": "Cluster Munition Stockpiles Shrunk",
+    "summary": "Cluster Munition Monitor says 42 States Parties destroyed all declared stocks, including 179 million submunitions.",
+    "why_it_matters": "Destroying stockpiles prevents weapons that can harm civilians long after fighting ends from being used later.",
+    "caveat": "Not all countries have joined the treaty, and cluster munitions are still used in conflicts.",
+    "source_name": "Cluster Munition Monitor",
+    "source_url": "https://the-monitor.org/online-reader/cluster-munition-monitor-2025",
+    "source_checked": "2026-09-03"
   }
 }
