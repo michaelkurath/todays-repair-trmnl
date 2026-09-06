@@ -573,6 +573,13 @@
       "checked_on": "2026-09-05",
       "evidence": "WHO reports 53 countries had best-practice industrial trans-fat policies in place by 2023, improving the food environment for 3.7 billion people.",
       "note": "Policy coverage is not identical to verified compliance, and 54 percent of the global population remained uncovered in 2023."
+    },
+    {
+      "id": "eu-emissions-economic-decoupling",
+      "status": "verified_with_note",
+      "checked_on": "2026-09-06",
+      "evidence": "The European Environment Agency reports that EU net greenhouse-gas emissions fell 37 percent between 1990 and 2023 while GDP increased 70 percent.",
+      "note": "The reported inventory includes land use, land-use change and forestry but excludes international aviation and maritime transport; it measures territorial emissions rather than the EU's full consumption footprint."
     }
   ]
 }
