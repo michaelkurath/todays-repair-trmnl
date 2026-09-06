@@ -901,6 +901,94 @@
       "source_name": "European Environment Agency",
       "source_url": "https://www.eea.europa.eu/en/newsroom/news/greenhouse-gas-emissions-in-2023",
       "source_checked": "2026-09-06"
+    },
+    {
+      "id": "fgm-prevalence-decline",
+      "category": "everyday_humanity",
+      "title": "Fewer Girls Faced Genital Cutting",
+      "summary": "UNFPA reported that global prevalence of female genital mutilation fell by nearly a quarter from around 2000 to 2018.",
+      "why_it_matters": "Community action, education, laws, and health work can weaken a deeply rooted practice that harms girls for life.",
+      "caveat": "More than 230 million survivors are alive today, and progress remains far too slow to end the practice by 2030.",
+      "source_name": "United Nations Population Fund",
+      "source_url": "https://www.unfpa.org/press/race-against-trends",
+      "source_checked": "2026-09-06"
+    },
+    {
+      "id": "nepal-tiger-recovery",
+      "category": "nature_returns",
+      "title": "Nepal Nearly Tripled Its Tigers",
+      "summary": "Nepal's wild tiger population rose from about 121 in 2009 to 355 in 2022, an increase of more than 190%.",
+      "why_it_matters": "Protected habitat, anti-poaching work, and community involvement reversed a decline in one of the world's great predators.",
+      "caveat": "More tigers also increase human-wildlife conflict, and the recovery depends on connected habitat and continued protection.",
+      "source_name": "WWF Tigers Alive Initiative",
+      "source_url": "https://tigers.panda.org/news_and_stories/stories/nepal_successfully_doubles_their_wild_tiger_population",
+      "source_checked": "2026-09-06"
+    },
+    {
+      "id": "eu-pm25-deaths-decline",
+      "category": "pollution_repair",
+      "title": "Cleaner Air Saved European Lives",
+      "summary": "From 2005 to 2023, estimated premature deaths attributable to fine-particle pollution fell by 57% in the EU.",
+      "why_it_matters": "Cleaner energy, transport, industry, and enforceable air rules translate into fewer early deaths.",
+      "caveat": "The estimate still attributes about 182,000 premature deaths in 2023 to exposure above the WHO guideline.",
+      "source_name": "European Environment Agency",
+      "source_url": "https://www.eea.europa.eu/en/analysis/indicators/health-impacts-of-exposure-to",
+      "source_checked": "2026-09-06"
+    },
+    {
+      "id": "hurricane-track-forecast-improvement",
+      "category": "science_works",
+      "title": "Hurricane Paths Became Clearer",
+      "summary": "The U.S. National Hurricane Center says its average storm-track forecast errors were cut in half over 15 years.",
+      "why_it_matters": "Better forecasts give communities more precise warnings and more time to protect people and property.",
+      "caveat": "Track forecasts do not remove uncertainty about intensity, rainfall, storm surge, or rapid strengthening.",
+      "source_name": "NOAA National Hurricane Center",
+      "source_url": "https://www.nhc.noaa.gov/watchwarn_changes.shtml",
+      "source_checked": "2026-09-06"
+    },
+    {
+      "id": "uk-coal-power-phaseout",
+      "category": "climate_repair",
+      "title": "Britain Ended Coal Power",
+      "summary": "The United Kingdom's last coal-fired power station closed in September 2024 after coal use for electricity fell sharply from its 2012 peak.",
+      "why_it_matters": "A country once built around coal removed it from electricity generation through policy, pricing, and replacement technologies.",
+      "caveat": "This covers electricity, not all fossil-fuel use; gas remains important and the transition affected workers and communities.",
+      "source_name": "UK Department for Energy Security and Net Zero",
+      "source_url": "https://www.gov.uk/government/statistics/uk-energy-in-brief-2025",
+      "source_checked": "2026-09-06"
+    },
+    {
+      "id": "eu-urban-wastewater-treatment",
+      "category": "infrastructure",
+      "title": "Europe Treats Most Urban Wastewater",
+      "summary": "By 2018, more than 90% of Europe's urban wastewater was collected and treated in line with EU standards.",
+      "why_it_matters": "Sewers, treatment plants, funding, and common rules protect rivers, coasts, drinking water, and public health.",
+      "caveat": "Compliance varies by country, millions still lack basic sanitation, and newer pollutants need more advanced treatment.",
+      "source_name": "European Commission",
+      "source_url": "https://environment.ec.europa.eu/news/treating-urban-waste-water-new-data-shows-improvement-across-europe-2021-11-19_en",
+      "source_checked": "2026-09-06"
+    },
+    {
+      "id": "mobile-broadband-coverage",
+      "category": "infrastructure",
+      "title": "Mobile Broadband Reached Almost Everywhere",
+      "summary": "In 2024, 96% of the world's population was covered by a 3G-or-better mobile network and 92% by 4G.",
+      "why_it_matters": "Network coverage creates a path to communication, education, services, markets, and emergency information.",
+      "caveat": "Coverage is not the same as affordable service or actual use; rural and low-income regions remain far behind.",
+      "source_name": "International Telecommunication Union",
+      "source_url": "https://www.itu.int/en/ITU-D/Statistics/Pages/SDGs-ITU-ICT-indicators.aspx",
+      "source_checked": "2026-09-06"
+    },
+    {
+      "id": "girls-school-completion-growth",
+      "category": "education",
+      "title": "More Girls Finished School",
+      "summary": "From 2015 to 2022, girls' completion rose from 86% to 89% in primary school and from 54% to 61% in upper secondary school.",
+      "why_it_matters": "Finishing school expands girls' choices, health, income, and ability to participate in decisions.",
+      "caveat": "Millions of girls remain out of school, and completion does not guarantee equal learning, safety, or opportunity.",
+      "source_name": "UNESCO",
+      "source_url": "https://www.unesco.org/en/articles/progress-girls-access-education-what-new-unesco-data-reveals",
+      "source_checked": "2026-09-06"
     }
   ]
 }
