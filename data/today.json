@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "repair": {
-    "id": "cluster-munition-stockpiles-destroyed",
-    "category": "safety",
-    "title": "Cluster Munition Stockpiles Shrunk",
-    "summary": "Cluster Munition Monitor says 42 States Parties destroyed all declared stocks, including 179 million submunitions.",
-    "why_it_matters": "Destroying stockpiles prevents weapons that can harm civilians long after fighting ends from being used later.",
-    "caveat": "Not all countries have joined the treaty, and cluster munitions are still used in conflicts.",
-    "source_name": "Cluster Munition Monitor",
-    "source_url": "https://the-monitor.org/online-reader/cluster-munition-monitor-2025",
-    "source_checked": "2026-09-03"
+    "id": "extreme-poverty-decline",
+    "category": "living_conditions",
+    "title": "Extreme Poverty Fell",
+    "summary": "The number of people living in extreme poverty fell from about 2.31 billion in 1990 to about 808 million in 2025.",
+    "why_it_matters": "Large-scale material progress is possible, even if it is fragile and uneven.",
+    "caveat": "Recent shocks and inequality mean this progress is not guaranteed to continue.",
+    "source_name": "Our World in Data",
+    "source_url": "https://ourworldindata.org/poverty",
+    "source_checked": "2026-08-29"
   }
 }
