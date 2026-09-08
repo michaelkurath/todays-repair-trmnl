@@ -33,3 +33,16 @@ oauth_fixed_expiry_ms: ''
 name: Todays Repair
 description: Daily anti-doom repair signal
 refresh_interval: 15
+custom_fields:
+  - keyname: about
+    name: About This Plugin
+    field_type: author_bio
+    category: news,life
+    description: >-
+      Today's Repair is a quiet counterweight to the doom feed. Each refresh
+      shows one randomly selected, source-backed example of something people
+      repaired, reduced, protected, or made less harmful. Every entry includes
+      context and an honest caveat—because this is evidence of progress, not a
+      claim that everything is fine.
+    github_url: https://github.com/michaelkurath/todays-repair-trmnl
+    learn_more_url: https://michaelkurath.github.io/todays-repair-trmnl/
