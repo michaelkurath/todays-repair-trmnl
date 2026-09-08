@@ -2,13 +2,13 @@
   {% if selected_repair %}
     <div class="flex flex--col gap--small w--full h--full">
       <div class="flex flex--col flex--center gap--small w--full outline rounded p--3 grow">
-        <span class="label label--small text--gray-30">{{ selected_repair.category | replace: "_", " " | upcase }}</span>
-        <span class="title {{ half_vertical_title_size }}">{{ selected_repair.title }}</span>
-        <span class="description {{ half_vertical_summary_size }}">{{ selected_repair.summary }}</span>
+        <span class="label label--small text--gray-30">{{ repair_category | replace: "_", " " | upcase }}</span>
+        <span class="title {{ half_vertical_title_size }}" data-clamp="3">{{ repair_title }}</span>
+        <span class="description {{ half_vertical_summary_size }}" data-clamp="5">{{ repair_summary }}</span>
       </div>
       <div class="flex flex--col flex--center gap--xsmall w--full outline rounded p--3">
         <span class="label label--small text--gray-30">Caveat</span>
-        <span class="description {{ half_vertical_caveat_size }}">{{ selected_repair.caveat }}</span>
+        <span class="description {{ half_vertical_caveat_size }}" data-clamp="3">{{ repair_caveat }}</span>
       </div>
     </div>
   {% else %}
