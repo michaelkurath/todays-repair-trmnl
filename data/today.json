@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "repair": {
-    "id": "extreme-poverty-decline",
-    "category": "living_conditions",
-    "title": "Extreme Poverty Fell",
-    "summary": "The number of people living in extreme poverty fell from about 2.31 billion in 1990 to about 808 million in 2025.",
-    "why_it_matters": "Large-scale material progress is possible, even if it is fragile and uneven.",
-    "caveat": "Recent shocks and inequality mean this progress is not guaranteed to continue.",
-    "source_name": "Our World in Data",
-    "source_url": "https://ourworldindata.org/poverty",
-    "source_checked": "2026-08-29"
+    "id": "humpback-whale-populations-recovered",
+    "category": "nature_returns",
+    "title": "Humpback Whales Recovered In Many Seas",
+    "summary": "NOAA says nine of 14 humpback whale populations recovered enough that they no longer warrant listing.",
+    "why_it_matters": "Limits on commercial whaling and long monitoring helped a depleted species rebound in many regions.",
+    "caveat": "Several populations remain endangered or threatened, and warming oceans add new pressure.",
+    "source_name": "NOAA Fisheries",
+    "source_url": "https://www.fisheries.noaa.gov/species/humpback-whale",
+    "source_checked": "2026-09-03"
   }
 }
