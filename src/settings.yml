@@ -35,7 +35,7 @@ custom_fields:
   name: About This Plugin
   field_type: author_bio
   category: news,life
-  description: "Today's Repair counters the doom feed with a random, source-backed example of something people repaired, reduced, or protected. Each entry adds context and an honest caveat: progress, not perfection."
+  description: 'Today''s Repair counters the doom feed with a random, source-backed example of something people repaired, reduced, or protected. Each entry adds context and an honest caveat: progress, not perfection.'
   github_url: https://github.com/michaelkurath/todays-repair-trmnl
   learn_more_url: https://michaelkurath.github.io/todays-repair-trmnl/
 name: Todays Repair
