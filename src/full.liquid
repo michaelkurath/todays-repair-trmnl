@@ -1,20 +1,20 @@
 <div class="layout layout--col layout--stretch">
   {% if selected_repair %}
     <div class="flex flex--col flex--stretch gap--medium w--full h--full">
-      <div class="flex flex--col flex--center gap--small w--full outline rounded p--4 h--[58cqh]">
-        <span class="label label--small text--gray-30">{{ selected_repair.category | replace: "_", " " | upcase }}</span>
-        <span class="title {{ full_title_size }}">{{ selected_repair.title }}</span>
-        <span class="description {{ full_summary_size }}">{{ selected_repair.summary }}</span>
+      <div class="flex flex--col flex--center gap--small w--full outline rounded p--4 h--[55cqh]">
+        <span class="label label--small text--gray-30">{{ repair_category | replace: "_", " " | upcase }}</span>
+        <span class="title {{ full_title_size }}" data-clamp="2">{{ repair_title }}</span>
+        <span class="description {{ full_summary_size }}" data-clamp="4">{{ repair_summary }}</span>
       </div>
 
-      <div class="grid grid--cols-2 gap--medium w--full h--[34cqh]">
+      <div class="grid grid--cols-2 gap--medium w--full grow">
         <div class="flex flex--col flex--center gap--xsmall outline rounded p--4">
           <span class="label label--small text--gray-30">Why it matters</span>
-          <span class="description {{ full_why_size }}">{{ selected_repair.why_it_matters }}</span>
+          <span class="description {{ full_why_size }}" data-clamp="4">{{ repair_why }}</span>
         </div>
         <div class="flex flex--col flex--center gap--xsmall outline rounded p--4">
           <span class="label label--small text--gray-30">Caveat</span>
-          <span class="description {{ full_caveat_size }}">{{ selected_repair.caveat }}</span>
+          <span class="description {{ full_caveat_size }}" data-clamp="4">{{ repair_caveat }}</span>
         </div>
       </div>
     </div>
@@ -27,4 +27,4 @@
   {% endif %}
 </div>
 
-{% render 'title_bar', title: "Today's Repair", instance: selected_repair.source_name %}
+{% render 'title_bar', title: "Today's Repair", instance: repair_source_name %}
