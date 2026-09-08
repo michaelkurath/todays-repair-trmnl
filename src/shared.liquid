@@ -1,3 +1,4 @@
+{% comment %}Framework outlines are intentional: they remain crisp on 1-bit e-ink and degrade cleanly on 4-bit displays.{% endcomment %}
 {% assign repairs = data.repairs | default: repairs %}
 {% assign repair_count = repairs | size %}
 {% assign selected_repair = data.repair | default: repair %}
@@ -11,10 +12,17 @@
 {% endif %}
 
 {% if selected_repair %}
-  {% assign repair_title_length = selected_repair.title | size %}
-  {% assign repair_summary_length = selected_repair.summary | size %}
-  {% assign repair_why_length = selected_repair.why_it_matters | size %}
-  {% assign repair_caveat_length = selected_repair.caveat | size %}
+  {% assign repair_title = selected_repair.title | default: "Repair update" %}
+  {% assign repair_summary = selected_repair.summary | default: "Details are temporarily unavailable." %}
+  {% assign repair_why = selected_repair.why_it_matters | default: "Why this matters is temporarily unavailable." %}
+  {% assign repair_caveat = selected_repair.caveat | default: "No caveat was provided." %}
+  {% assign repair_source_name = selected_repair.source_name | default: "Source unavailable" %}
+  {% assign repair_category = selected_repair.category | default: "repair" %}
+
+  {% assign repair_title_length = repair_title | size %}
+  {% assign repair_summary_length = repair_summary | size %}
+  {% assign repair_why_length = repair_why | size %}
+  {% assign repair_caveat_length = repair_caveat | size %}
 
   {% assign full_title_size = "title--xxlarge lg:text--xxlarge" %}
   {% if repair_title_length <= 40 %}
