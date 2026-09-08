@@ -2,9 +2,9 @@
   {% if selected_repair %}
     <div class="flex flex--col flex--center gap--xsmall w--full h--full outline rounded p--3">
       <span class="label label--small text--gray-30">Repair</span>
-      <span class="title {{ quadrant_title_size }}" data-clamp="2">{{ selected_repair.title }}</span>
-      <span class="description {{ quadrant_summary_size }}" data-clamp="3">{{ selected_repair.summary }}</span>
-      <span class="label label--small lg:label--base text--gray-30">{{ selected_repair.source_name }}</span>
+      <span class="title {{ quadrant_title_size }}" data-clamp="2">{{ repair_title }}</span>
+      <span class="description {{ quadrant_summary_size }}" data-clamp="3">{{ repair_summary }}</span>
+      <span class="label label--small lg:label--base text--gray-30">{{ repair_source_name }}</span>
     </div>
   {% else %}
     <div class="flex flex--col gap--small w--full outline rounded p--3">
