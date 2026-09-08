@@ -3,13 +3,13 @@
     <div class="grid grid--cols-2 gap--medium w--full h--full">
       <div class="flex flex--col gap--small outline rounded p--3">
         <span class="label label--small text--gray-30">Today's Repair</span>
-        <span class="title {{ half_horizontal_title_size }}">{{ selected_repair.title }}</span>
-        <span class="description {{ half_horizontal_summary_size }}">{{ selected_repair.summary }}</span>
+        <span class="title {{ half_horizontal_title_size }}" data-clamp="2">{{ repair_title }}</span>
+        <span class="description {{ half_horizontal_summary_size }}" data-clamp="4">{{ repair_summary }}</span>
       </div>
       <div class="flex flex--col gap--small outline rounded p--3">
         <span class="label label--small text--gray-30">Why it matters</span>
-        <span class="description {{ half_horizontal_why_size }}">{{ selected_repair.why_it_matters }}</span>
-        <span class="label label--small text--gray-30">Source: {{ selected_repair.source_name }}</span>
+        <span class="description {{ half_horizontal_why_size }}" data-clamp="4">{{ repair_why }}</span>
+        <span class="label label--small text--gray-30">Source: {{ repair_source_name }}</span>
       </div>
     </div>
   {% else %}
