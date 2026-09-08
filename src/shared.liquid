@@ -4,6 +4,10 @@
 
 {% if repair_count > 0 %}
   {% assign selected_repair = repairs | sample %}
+{% elsif selected_repair %}
+  {% assign selected_repair = selected_repair %}
+{% else %}
+  {% assign selected_repair = nil %}
 {% endif %}
 
 {% if selected_repair %}
@@ -84,15 +88,15 @@
 
 {% template title_bar %}
   <div class="title_bar">
-    <svg class="image image--adaptive" width="28" height="28" viewBox="0 0 64 64" role="img" aria-label="Repair" xmlns="http://www.w3.org/2000/svg">
+    <svg class="image image-stroke" width="28" height="28" viewBox="0 0 64 64" role="img" aria-label="Repair" xmlns="http://www.w3.org/2000/svg">
       <g transform="rotate(45 32 32)">
-        <rect x="9" y="24" width="46" height="16" rx="8" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="9" y="24" width="46" height="16" rx="8" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
         <circle cx="18" cy="30" r="2" fill="currentColor"/>
         <circle cx="24" cy="34" r="2" fill="currentColor"/>
       </g>
       <g transform="rotate(-45 32 32)">
-        <rect x="9" y="24" width="46" height="16" rx="8" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M17 27l8 8M39 27l8 8" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="9" y="24" width="46" height="16" rx="8" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17 27l8 8M39 27l8 8" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
     </svg>
     <span class="title">{{ title | default: "Today's Repair" }}</span>
