@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "repair": {
-    "id": "humpback-whale-populations-recovered",
-    "category": "nature_returns",
-    "title": "Humpback Whales Recovered In Many Seas",
-    "summary": "NOAA says nine of 14 humpback whale populations recovered enough that they no longer warrant listing.",
-    "why_it_matters": "Limits on commercial whaling and long monitoring helped a depleted species rebound in many regions.",
-    "caveat": "Several populations remain endangered or threatened, and warming oceans add new pressure.",
-    "source_name": "NOAA Fisheries",
-    "source_url": "https://www.fisheries.noaa.gov/species/humpback-whale",
-    "source_checked": "2026-09-03"
+    "id": "child-marriage-decline",
+    "category": "living_conditions",
+    "title": "Fewer Girls Became Child Brides",
+    "summary": "UNICEF reports that the share of young women married as children fell from about one in four a decade ago to about one in five.",
+    "why_it_matters": "Delayed marriage can protect girls' schooling, health, autonomy, and childhood.",
+    "caveat": "Progress is too slow for the 2030 goal, and conflict can quickly reverse gains.",
+    "source_name": "UNICEF",
+    "source_url": "https://data.unicef.org/resources/is-an-end-to-child-marriage-within-reach/",
+    "source_checked": "2026-08-30"
   }
 }
