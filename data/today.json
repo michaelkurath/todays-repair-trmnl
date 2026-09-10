@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "repair": {
-    "id": "child-marriage-decline",
-    "category": "living_conditions",
-    "title": "Fewer Girls Became Child Brides",
-    "summary": "UNICEF reports that the share of young women married as children fell from about one in four a decade ago to about one in five.",
-    "why_it_matters": "Delayed marriage can protect girls' schooling, health, autonomy, and childhood.",
-    "caveat": "Progress is too slow for the 2030 goal, and conflict can quickly reverse gains.",
-    "source_name": "UNICEF",
-    "source_url": "https://data.unicef.org/resources/is-an-end-to-child-marriage-within-reach/",
+    "id": "sea-turtle-recovery",
+    "category": "nature_returns",
+    "title": "Sea Turtles Rebounded",
+    "summary": "NOAA reports that most tracked sea turtle nesting sites now show increases, including large gains for some loggerhead populations.",
+    "why_it_matters": "Protecting nests, habitat, and fisheries interactions can let long-lived species recover.",
+    "caveat": "All sea turtle species in U.S. waters remain protected, and climate change adds new pressure.",
+    "source_name": "NOAA Fisheries",
+    "source_url": "https://www.fisheries.noaa.gov/feature-story/most-sea-turtles-rebounding-worldwide-conservation-efforts-protect-nests-and-habitat",
     "source_checked": "2026-08-30"
   }
 }
