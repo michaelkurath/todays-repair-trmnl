@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "repair": {
-    "id": "sea-turtle-recovery",
-    "category": "nature_returns",
-    "title": "Sea Turtles Rebounded",
-    "summary": "NOAA reports that most tracked sea turtle nesting sites now show increases, including large gains for some loggerhead populations.",
-    "why_it_matters": "Protecting nests, habitat, and fisheries interactions can let long-lived species recover.",
-    "caveat": "All sea turtle species in U.S. waters remain protected, and climate change adds new pressure.",
-    "source_name": "NOAA Fisheries",
-    "source_url": "https://www.fisheries.noaa.gov/feature-story/most-sea-turtles-rebounding-worldwide-conservation-efforts-protect-nests-and-habitat",
+    "id": "iodized-salt-spread",
+    "category": "science_works",
+    "title": "Iodized Salt Protected Brains",
+    "summary": "UNICEF reports that 89 percent of people worldwide consume iodized salt.",
+    "why_it_matters": "A small nutrition fix helps prevent iodine deficiency, which can harm pregnancy and early brain development.",
+    "caveat": "Coverage is not universal, and iodine status still needs monitoring.",
+    "source_name": "UNICEF Data",
+    "source_url": "https://data.unicef.org/topic/nutrition/iodine/",
     "source_checked": "2026-08-30"
   }
 }
