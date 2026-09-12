@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-12",
   "repair": {
-    "id": "iodized-salt-spread",
-    "category": "science_works",
-    "title": "Iodized Salt Protected Brains",
-    "summary": "UNICEF reports that 89 percent of people worldwide consume iodized salt.",
-    "why_it_matters": "A small nutrition fix helps prevent iodine deficiency, which can harm pregnancy and early brain development.",
-    "caveat": "Coverage is not universal, and iodine status still needs monitoring.",
-    "source_name": "UNICEF Data",
-    "source_url": "https://data.unicef.org/topic/nutrition/iodine/",
+    "id": "renewable-energy-jobs-growth",
+    "category": "energy",
+    "title": "Clean Energy Work Grew",
+    "summary": "IRENA reports that global renewable energy jobs rose to 16.2 million in 2023, up from 13.7 million in 2022.",
+    "why_it_matters": "The energy transition is not only machinery; it is also a growing base of people trained to build and maintain it.",
+    "caveat": "Jobs are unevenly distributed by region, technology, and working conditions.",
+    "source_name": "International Renewable Energy Agency",
+    "source_url": "https://www.irena.org/Energy-Transition/Socio-economic-impact/Energy-and-Jobs",
     "source_checked": "2026-08-30"
   }
 }
