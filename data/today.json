@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "repair": {
-    "id": "renewable-energy-jobs-growth",
-    "category": "energy",
-    "title": "Clean Energy Work Grew",
-    "summary": "IRENA reports that global renewable energy jobs rose to 16.2 million in 2023, up from 13.7 million in 2022.",
-    "why_it_matters": "The energy transition is not only machinery; it is also a growing base of people trained to build and maintain it.",
-    "caveat": "Jobs are unevenly distributed by region, technology, and working conditions.",
-    "source_name": "International Renewable Energy Agency",
-    "source_url": "https://www.irena.org/Energy-Transition/Socio-economic-impact/Energy-and-Jobs",
+    "id": "skilled-birth-attendance-growth",
+    "category": "health",
+    "title": "More Births Had Skilled Care",
+    "summary": "WHO data shows births attended by skilled health personnel rose from 61 percent in 2000 to 87 percent in 2025.",
+    "why_it_matters": "Trained care during childbirth is one of the practical ways health systems keep mothers and newborns alive.",
+    "caveat": "Attendance does not prove care quality, and access remains uneven.",
+    "source_name": "World Health Organization",
+    "source_url": "https://data.who.int/indicators/i/F835E3B/1772666",
     "source_checked": "2026-08-30"
   }
 }
