@@ -2,25 +2,25 @@
   {% if selected_repair %}
     <div class="flex flex--col flex--stretch gap--medium w--full h--full">
       <div class="flex flex--col flex--center gap--small w--full outline rounded p--4 h--[55cqh]">
-        <span class="label label--small text--gray-30">{{ repair_category | replace: "_", " " | upcase }}</span>
+        <span class="label label--small lg:label--base text--gray-30 1bit:text--black">{{ repair_category | replace: "_", " " | upcase }}</span>
         <span class="title {{ full_title_size }}" data-clamp="2">{{ repair_title }}</span>
         <span class="description {{ full_summary_size }}" data-clamp="4">{{ repair_summary }}</span>
       </div>
 
       <div class="grid grid--cols-2 gap--medium w--full grow">
         <div class="flex flex--col flex--center gap--xsmall outline rounded p--4">
-          <span class="label label--small text--gray-30">Why it matters</span>
+          <span class="label label--small lg:label--base text--gray-30 1bit:text--black">Why it matters</span>
           <span class="description {{ full_why_size }}" data-clamp="4">{{ repair_why }}</span>
         </div>
         <div class="flex flex--col flex--center gap--xsmall outline rounded p--4">
-          <span class="label label--small text--gray-30">Caveat</span>
+          <span class="label label--small lg:label--base text--gray-30 1bit:text--black">Caveat</span>
           <span class="description {{ full_caveat_size }}" data-clamp="4">{{ repair_caveat }}</span>
         </div>
       </div>
     </div>
   {% else %}
     <div class="flex flex--col flex--center gap--small w--full h--full outline rounded p--4">
-      <span class="label label--small text--gray-30">Today's Repair</span>
+      <span class="label label--small lg:label--base text--gray-30 1bit:text--black">Today's Repair</span>
       <span class="title title--xxlarge">No repair data yet</span>
       <span class="description description--xlarge">Add a JSON payload with a repairs array to start the daily anti-doom screen.</span>
     </div>
