@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "repair": {
-    "id": "maternal-mortality-decline",
-    "category": "health",
-    "title": "Birth Became Safer",
-    "summary": "From 2000 to 2023, the global maternal mortality ratio declined by about 40 percent.",
-    "why_it_matters": "Skilled care, emergency treatment, and stronger health systems save mothers' lives.",
-    "caveat": "Too many preventable deaths still occur, especially where care is underfunded or disrupted.",
-    "source_name": "UNICEF Data",
-    "source_url": "https://data.unicef.org/topic/maternal-health/maternal-mortality/",
-    "source_checked": "2026-08-29"
+    "id": "montreal-protocol-climate-benefit",
+    "category": "climate_repair",
+    "title": "One Treaty Also Cooled The Future",
+    "summary": "UNEP's Ozone Secretariat says cuts in ozone-depleting substances are estimated to avoid about 0.5 to 1 degrees Celsius of warming by mid-century.",
+    "why_it_matters": "A treaty built for one environmental crisis also reduced a major climate risk.",
+    "caveat": "The avoided-warming estimate depends on comparison scenarios and continued compliance.",
+    "source_name": "UN Environment Programme Ozone Secretariat",
+    "source_url": "https://ozone.unep.org/facts-and-figures-ozone-protection",
+    "source_checked": "2026-08-30"
   }
 }
