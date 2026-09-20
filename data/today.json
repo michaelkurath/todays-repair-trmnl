@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "repair": {
-    "id": "ntd-burden-decline",
+    "id": "skilled-birth-attendance-growth",
     "category": "health",
-    "title": "Neglected Diseases Lost Ground",
-    "summary": "The population requiring neglected tropical disease interventions fell from 2.19 billion in 2010 to 1.4 billion in 2024.",
-    "why_it_matters": "Mass treatment, surveillance, and basic public-health delivery can shrink diseases that mostly affect poor communities.",
-    "caveat": "More than a billion people still require treatment or care.",
+    "title": "More Births Had Skilled Care",
+    "summary": "WHO data shows births attended by skilled health personnel rose from 61 percent in 2000 to 87 percent in 2025.",
+    "why_it_matters": "Trained care during childbirth is one of the practical ways health systems keep mothers and newborns alive.",
+    "caveat": "Attendance does not prove care quality, and access remains uneven.",
     "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases",
+    "source_url": "https://data.who.int/indicators/i/F835E3B/1772666",
     "source_checked": "2026-08-30"
   }
 }
