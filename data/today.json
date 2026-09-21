@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "repair": {
-    "id": "skilled-birth-attendance-growth",
-    "category": "health",
-    "title": "More Births Had Skilled Care",
-    "summary": "WHO data shows births attended by skilled health personnel rose from 61 percent in 2000 to 87 percent in 2025.",
-    "why_it_matters": "Trained care during childbirth is one of the practical ways health systems keep mothers and newborns alive.",
-    "caveat": "Attendance does not prove care quality, and access remains uneven.",
-    "source_name": "World Health Organization",
-    "source_url": "https://data.who.int/indicators/i/F835E3B/1772666",
+    "id": "iodized-salt-spread",
+    "category": "science_works",
+    "title": "Iodized Salt Protected Brains",
+    "summary": "UNICEF reports that 89 percent of people worldwide consume iodized salt.",
+    "why_it_matters": "A small nutrition fix helps prevent iodine deficiency, which can harm pregnancy and early brain development.",
+    "caveat": "Coverage is not universal, and iodine status still needs monitoring.",
+    "source_name": "UNICEF Data",
+    "source_url": "https://data.unicef.org/topic/nutrition/iodine/",
     "source_checked": "2026-08-30"
   }
 }
