@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "repair": {
-    "id": "iodized-salt-spread",
-    "category": "science_works",
-    "title": "Iodized Salt Protected Brains",
-    "summary": "UNICEF reports that 89 percent of people worldwide consume iodized salt.",
-    "why_it_matters": "A small nutrition fix helps prevent iodine deficiency, which can harm pregnancy and early brain development.",
-    "caveat": "Coverage is not universal, and iodine status still needs monitoring.",
-    "source_name": "UNICEF Data",
-    "source_url": "https://data.unicef.org/topic/nutrition/iodine/",
+    "id": "electricity-access-growth",
+    "category": "infrastructure",
+    "title": "Electricity Reached More People",
+    "summary": "Since 2010, about 800 million people have gained access to electricity.",
+    "why_it_matters": "Light, refrigeration, communication, and safer work become possible when reliable power reaches a home.",
+    "caveat": "Hundreds of millions still live without electricity, and progress has been uneven.",
+    "source_name": "International Energy Agency",
+    "source_url": "https://www.iea.org/news/655-million-people-still-living-without-electricity-underscore-urgent-need-to-deliver-on-universal-energy-access-target",
     "source_checked": "2026-08-30"
   }
 }
