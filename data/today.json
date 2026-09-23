@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "repair": {
-    "id": "electricity-access-growth",
-    "category": "infrastructure",
-    "title": "Electricity Reached More People",
-    "summary": "Since 2010, about 800 million people have gained access to electricity.",
-    "why_it_matters": "Light, refrigeration, communication, and safer work become possible when reliable power reaches a home.",
-    "caveat": "Hundreds of millions still live without electricity, and progress has been uneven.",
-    "source_name": "International Energy Agency",
-    "source_url": "https://www.iea.org/news/655-million-people-still-living-without-electricity-underscore-urgent-need-to-deliver-on-universal-energy-access-target",
+    "id": "obstetric-fistula-repairs",
+    "category": "health",
+    "title": "Fistula Surgeries Restored Lives",
+    "summary": "UNFPA says its global campaign has supported more than 153,000 obstetric fistula repair surgeries.",
+    "why_it_matters": "Repair surgery can restore health and dignity after a childbirth injury that often isolates women.",
+    "caveat": "Many women still lack access to prevention, safe childbirth care, or surgery.",
+    "source_name": "United Nations Population Fund",
+    "source_url": "https://www.unfpa.org/obstetric-fistula",
     "source_checked": "2026-08-30"
   }
 }
