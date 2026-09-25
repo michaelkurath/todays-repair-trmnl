@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-25",
   "repair": {
-    "id": "obstetric-fistula-repairs",
-    "category": "health",
-    "title": "Fistula Surgeries Restored Lives",
-    "summary": "UNFPA says its global campaign has supported more than 153,000 obstetric fistula repair surgeries.",
-    "why_it_matters": "Repair surgery can restore health and dignity after a childbirth injury that often isolates women.",
-    "caveat": "Many women still lack access to prevention, safe childbirth care, or surgery.",
-    "source_name": "United Nations Population Fund",
-    "source_url": "https://www.unfpa.org/obstetric-fistula",
+    "id": "solar-pv-cost-decline",
+    "category": "energy",
+    "title": "Solar Power Got Cheap",
+    "summary": "IRENA reports that utility-scale solar PV electricity costs fell sharply between 2010 and 2023.",
+    "why_it_matters": "Cheaper clean power makes energy transition less dependent on sacrifice and more dependent on deployment.",
+    "caveat": "Cheap generation still needs grids, storage, permitting, and fair supply chains.",
+    "source_name": "International Renewable Energy Agency",
+    "source_url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
     "source_checked": "2026-08-30"
   }
 }
