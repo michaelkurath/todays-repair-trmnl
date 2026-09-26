@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "repair": {
-    "id": "solar-pv-cost-decline",
-    "category": "energy",
-    "title": "Solar Power Got Cheap",
-    "summary": "IRENA reports that utility-scale solar PV electricity costs fell sharply between 2010 and 2023.",
-    "why_it_matters": "Cheaper clean power makes energy transition less dependent on sacrifice and more dependent on deployment.",
-    "caveat": "Cheap generation still needs grids, storage, permitting, and fair supply chains.",
-    "source_name": "International Renewable Energy Agency",
-    "source_url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
-    "source_checked": "2026-08-30"
+    "id": "weather-disaster-deaths-decline",
+    "category": "safety",
+    "title": "Disaster Warnings Saved Lives",
+    "summary": "WMO reports that deaths from weather, climate, and water hazards fell almost threefold from 1970 to 2019.",
+    "why_it_matters": "Forecasts, warnings, evacuation systems, and disaster management turn knowledge into survival.",
+    "caveat": "Economic losses rose, exposure is growing, and climate change can overwhelm weak systems.",
+    "source_name": "World Meteorological Organization",
+    "source_url": "https://wmo.int/media/news/weather-related-disasters-increase-over-past-50-years-causing-more-damage-fewer-deaths",
+    "source_checked": "2026-09-03"
   }
 }
