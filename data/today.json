@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "repair": {
-    "id": "weather-disaster-deaths-decline",
-    "category": "safety",
-    "title": "Disaster Warnings Saved Lives",
-    "summary": "WMO reports that deaths from weather, climate, and water hazards fell almost threefold from 1970 to 2019.",
-    "why_it_matters": "Forecasts, warnings, evacuation systems, and disaster management turn knowledge into survival.",
-    "caveat": "Economic losses rose, exposure is growing, and climate change can overwhelm weak systems.",
-    "source_name": "World Meteorological Organization",
-    "source_url": "https://wmo.int/media/news/weather-related-disasters-increase-over-past-50-years-causing-more-damage-fewer-deaths",
-    "source_checked": "2026-09-03"
+    "id": "polio-retreated",
+    "category": "health",
+    "title": "Polio Was Pushed Back",
+    "summary": "Wild poliovirus cases have decreased by more than 99 percent since 1988.",
+    "why_it_matters": "Vaccination campaigns turned a once-common cause of paralysis into a disease now cornered in only a few places.",
+    "caveat": "Polio is not eradicated yet, and outbreaks can return where immunization is weak.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/health-topics/poliomyelitis",
+    "source_checked": "2026-08-29"
   }
 }
