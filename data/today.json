@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "repair": {
-    "id": "polio-retreated",
+    "id": "malaria-deaths-averted",
     "category": "health",
-    "title": "Polio Was Pushed Back",
-    "summary": "Wild poliovirus cases have decreased by more than 99 percent since 1988.",
-    "why_it_matters": "Vaccination campaigns turned a once-common cause of paralysis into a disease now cornered in only a few places.",
-    "caveat": "Polio is not eradicated yet, and outbreaks can return where immunization is weak.",
+    "title": "Malaria Work Saved Millions",
+    "summary": "WHO estimates that global malaria efforts averted 2.3 billion cases and 14 million deaths since 2000.",
+    "why_it_matters": "Bed nets, testing, treatment, surveillance, and vaccines show that old diseases can still be pushed back.",
+    "caveat": "Malaria deaths rose in some recent periods, and funding gaps threaten further progress.",
     "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/health-topics/poliomyelitis",
-    "source_checked": "2026-08-29"
+    "source_url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2025",
+    "source_checked": "2026-08-30"
   }
 }
