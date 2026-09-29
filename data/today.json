@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "repair": {
-    "id": "malaria-deaths-averted",
-    "category": "health",
-    "title": "Malaria Work Saved Millions",
-    "summary": "WHO estimates that global malaria efforts averted 2.3 billion cases and 14 million deaths since 2000.",
-    "why_it_matters": "Bed nets, testing, treatment, surveillance, and vaccines show that old diseases can still be pushed back.",
-    "caveat": "Malaria deaths rose in some recent periods, and funding gaps threaten further progress.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2025",
+    "id": "girls-school-enrollment-growth",
+    "category": "education",
+    "title": "More Girls Went To School",
+    "summary": "UNESCO reports 49.1 million more girls in primary and secondary school in 2023 than in 2015.",
+    "why_it_matters": "Education expands choices, safety, income, and political voice across a lifetime.",
+    "caveat": "Completion and learning gaps remain, especially for girls facing poverty or conflict.",
+    "source_name": "UNESCO",
+    "source_url": "https://www.unesco.org/en/articles/progress-girls-access-education-what-new-unesco-data-reveals",
     "source_checked": "2026-08-30"
   }
 }
