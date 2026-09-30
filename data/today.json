@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "repair": {
-    "id": "girls-school-enrollment-growth",
-    "category": "education",
-    "title": "More Girls Went To School",
-    "summary": "UNESCO reports 49.1 million more girls in primary and secondary school in 2023 than in 2015.",
-    "why_it_matters": "Education expands choices, safety, income, and political voice across a lifetime.",
-    "caveat": "Completion and learning gaps remain, especially for girls facing poverty or conflict.",
-    "source_name": "UNESCO",
-    "source_url": "https://www.unesco.org/en/articles/progress-girls-access-education-what-new-unesco-data-reveals",
-    "source_checked": "2026-08-30"
+    "id": "maternal-mortality-decline",
+    "category": "health",
+    "title": "Birth Became Safer",
+    "summary": "From 2000 to 2023, the global maternal mortality ratio declined by about 40 percent.",
+    "why_it_matters": "Skilled care, emergency treatment, and stronger health systems save mothers' lives.",
+    "caveat": "Too many preventable deaths still occur, especially where care is underfunded or disrupted.",
+    "source_name": "UNICEF Data",
+    "source_url": "https://data.unicef.org/topic/maternal-health/maternal-mortality/",
+    "source_checked": "2026-08-29"
   }
 }
