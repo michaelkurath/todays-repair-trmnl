@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "repair": {
-    "id": "drowning-deaths-decline",
-    "category": "safety",
-    "title": "Drowning Death Rates Fell",
-    "summary": "WHO reports that the global drowning death rate dropped by 38 percent between 2000 and 2021.",
-    "why_it_matters": "Prevention, safer environments, and better public-health attention can reduce a quiet cause of sudden loss.",
-    "caveat": "More than 300,000 people still died from drowning in 2021, and progress is uneven.",
+    "id": "tobacco-use-decline",
+    "category": "health",
+    "title": "Fewer Adults Use Tobacco",
+    "summary": "WHO estimates that about 1 in 5 adults used tobacco in 2022, down from about 1 in 3 in 2000.",
+    "why_it_matters": "Taxes, warnings, smoke-free rules, and cessation support can shift a huge public-health risk.",
+    "caveat": "Tobacco still kills millions each year, and industry pressure keeps the problem alive.",
     "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-report-on-drowning-prevention",
+    "source_url": "https://www.who.int/news/item/16-01-2024-tobacco-use-declines-despite-tobacco-industry-efforts-to-jeopardize-progress",
     "source_checked": "2026-08-30"
   }
 }
