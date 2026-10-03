@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "repair": {
-    "id": "tobacco-use-decline",
-    "category": "health",
-    "title": "Fewer Adults Use Tobacco",
-    "summary": "WHO estimates that about 1 in 5 adults used tobacco in 2022, down from about 1 in 3 in 2000.",
-    "why_it_matters": "Taxes, warnings, smoke-free rules, and cessation support can shift a huge public-health risk.",
-    "caveat": "Tobacco still kills millions each year, and industry pressure keeps the problem alive.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/news/item/16-01-2024-tobacco-use-declines-despite-tobacco-industry-efforts-to-jeopardize-progress",
-    "source_checked": "2026-08-30"
+    "id": "chemical-weapons-stockpiles-destroyed",
+    "category": "safety",
+    "title": "Declared Chemical Weapons Were Destroyed",
+    "summary": "In 2023, OPCW verified that all declared chemical weapons stockpiles had been irreversibly destroyed.",
+    "why_it_matters": "Treaties, inspections, and patient destruction work removed a class of weapons built for mass suffering.",
+    "caveat": "Undeclared weapons, alleged use, and toxic industrial chemicals remain serious risks.",
+    "source_name": "Organisation for the Prohibition of Chemical Weapons",
+    "source_url": "https://www.opcw.org/media-centre/news/2023/07/opcw-confirms-all-declared-chemical-weapons-stockpiles-verified",
+    "source_checked": "2026-09-03"
   }
 }
