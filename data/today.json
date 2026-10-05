@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "repair": {
-    "id": "measles-deaths-decline",
-    "category": "health",
-    "title": "Measles Deaths Dropped",
-    "summary": "Global measles deaths fell by 88 percent between 2000 and 2024, largely because vaccination reached more children.",
-    "why_it_matters": "A familiar vaccine prevented millions of deaths from a disease that still spreads fast when protection slips.",
-    "caveat": "Cases and outbreaks have risen again, so this repair depends on sustained immunization.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/news/item/28-11-2025-measles-deaths-down-88--since-2000--but-cases-surge",
+    "id": "rinderpest-eradicated",
+    "category": "science_works",
+    "title": "A Livestock Plague Ended",
+    "summary": "Rinderpest was declared eradicated in 2011, the first animal disease eradicated worldwide.",
+    "why_it_matters": "Veterinary science and coordinated surveillance removed a disease that devastated cattle, wildlife, and food security.",
+    "caveat": "Eradication requires strict lab containment so the virus cannot escape back into the world.",
+    "source_name": "Food and Agriculture Organization",
+    "source_url": "https://www.fao.org/animal-health/news-events/events/detail/from-the-last-case-to-lasting-legacy--25-years-without-rinderpest-and-15-years-of-global-eradication/en",
     "source_checked": "2026-08-30"
   }
 }
