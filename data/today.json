@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "repair": {
-    "id": "rinderpest-eradicated",
-    "category": "science_works",
-    "title": "A Livestock Plague Ended",
-    "summary": "Rinderpest was declared eradicated in 2011, the first animal disease eradicated worldwide.",
-    "why_it_matters": "Veterinary science and coordinated surveillance removed a disease that devastated cattle, wildlife, and food security.",
-    "caveat": "Eradication requires strict lab containment so the virus cannot escape back into the world.",
-    "source_name": "Food and Agriculture Organization",
-    "source_url": "https://www.fao.org/animal-health/news-events/events/detail/from-the-last-case-to-lasting-legacy--25-years-without-rinderpest-and-15-years-of-global-eradication/en",
+    "id": "sea-turtle-recovery",
+    "category": "nature_returns",
+    "title": "Sea Turtles Rebounded",
+    "summary": "NOAA reports that most tracked sea turtle nesting sites now show increases, including large gains for some loggerhead populations.",
+    "why_it_matters": "Protecting nests, habitat, and fisheries interactions can let long-lived species recover.",
+    "caveat": "All sea turtle species in U.S. waters remain protected, and climate change adds new pressure.",
+    "source_name": "NOAA Fisheries",
+    "source_url": "https://www.fisheries.noaa.gov/feature-story/most-sea-turtles-rebounding-worldwide-conservation-efforts-protect-nests-and-habitat",
     "source_checked": "2026-08-30"
   }
 }
