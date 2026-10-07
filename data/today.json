@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "repair": {
-    "id": "sea-turtle-recovery",
+    "id": "iberian-lynx-recovery",
     "category": "nature_returns",
-    "title": "Sea Turtles Rebounded",
-    "summary": "NOAA reports that most tracked sea turtle nesting sites now show increases, including large gains for some loggerhead populations.",
-    "why_it_matters": "Protecting nests, habitat, and fisheries interactions can let long-lived species recover.",
-    "caveat": "All sea turtle species in U.S. waters remain protected, and climate change adds new pressure.",
-    "source_name": "NOAA Fisheries",
-    "source_url": "https://www.fisheries.noaa.gov/feature-story/most-sea-turtles-rebounding-worldwide-conservation-efforts-protect-nests-and-habitat",
-    "source_checked": "2026-08-30"
+    "title": "Iberian Lynx Rebounded",
+    "summary": "The Iberian lynx rose from 62 mature individuals in 2001 to 648 in 2022, with the total population now over 2,000.",
+    "why_it_matters": "Focused breeding, reintroduction, and habitat work pulled the world's rarest cat away from the edge.",
+    "caveat": "Road deaths, prey decline, and habitat fragmentation still threaten the recovery.",
+    "source_name": "IUCN",
+    "source_url": "https://iucn.org/news/202407/recovery-iberian-lynx-conservation-success-spain",
+    "source_checked": "2026-08-29"
   }
 }
