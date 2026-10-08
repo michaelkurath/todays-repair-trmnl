@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "repair": {
-    "id": "iberian-lynx-recovery",
-    "category": "nature_returns",
-    "title": "Iberian Lynx Rebounded",
-    "summary": "The Iberian lynx rose from 62 mature individuals in 2001 to 648 in 2022, with the total population now over 2,000.",
-    "why_it_matters": "Focused breeding, reintroduction, and habitat work pulled the world's rarest cat away from the edge.",
-    "caveat": "Road deaths, prey decline, and habitat fragmentation still threaten the recovery.",
-    "source_name": "IUCN",
-    "source_url": "https://iucn.org/news/202407/recovery-iberian-lynx-conservation-success-spain",
-    "source_checked": "2026-08-29"
+    "id": "clean-cooking-access-growth",
+    "category": "living_conditions",
+    "title": "Cleaner Cooking Spread",
+    "summary": "Since 2010, about 1.5 billion people have gained access to clean cooking.",
+    "why_it_matters": "Cleaner cooking reduces household smoke, one of the everyday hazards that quietly damages health.",
+    "caveat": "Many households still rely on polluting fuels, especially where energy access is fragile.",
+    "source_name": "International Energy Agency",
+    "source_url": "https://www.iea.org/news/655-million-people-still-living-without-electricity-underscore-urgent-need-to-deliver-on-universal-energy-access-target",
+    "source_checked": "2026-08-30"
   }
 }
