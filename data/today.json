@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "repair": {
-    "id": "clean-cooking-access-growth",
-    "category": "living_conditions",
-    "title": "Cleaner Cooking Spread",
-    "summary": "Since 2010, about 1.5 billion people have gained access to clean cooking.",
-    "why_it_matters": "Cleaner cooking reduces household smoke, one of the everyday hazards that quietly damages health.",
-    "caveat": "Many households still rely on polluting fuels, especially where energy access is fragile.",
-    "source_name": "International Energy Agency",
-    "source_url": "https://www.iea.org/news/655-million-people-still-living-without-electricity-underscore-urgent-need-to-deliver-on-universal-energy-access-target",
+    "id": "internet-use-growth",
+    "category": "everyday_humanity",
+    "title": "More People Came Online",
+    "summary": "ITU estimated that 5.5 billion people were online in 2024, about 68 percent of the world's population.",
+    "why_it_matters": "Connectivity can widen access to information, services, work, and community when it is affordable and usable.",
+    "caveat": "A third of humanity remained offline in 2024, and access quality is deeply unequal.",
+    "source_name": "International Telecommunication Union",
+    "source_url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
     "source_checked": "2026-08-30"
   }
 }
