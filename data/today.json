@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "repair": {
-    "id": "mountain-gorilla-recovery",
-    "category": "nature_returns",
-    "title": "Mountain Gorillas Increased",
-    "summary": "Conservation work helped mountain gorilla populations recover to more than 1,000 individuals in the wild.",
-    "why_it_matters": "Species decline is not always one-way when protection is persistent and local conservation works.",
-    "caveat": "Mountain gorillas remain endangered and depend on continued protection.",
-    "source_name": "World Wildlife Fund",
-    "source_url": "https://www.worldwildlife.org/species/gorilla/mountain-gorilla/",
-    "source_checked": "2026-08-29"
+    "id": "home-fire-rates-decline",
+    "category": "safety",
+    "title": "Home Fires Became Rarer",
+    "summary": "NFPA reports that U.S. reported home fires fell from 3.2 per thousand people in 1980 to 1.1 in 2023.",
+    "why_it_matters": "Building codes, alarms, safer products, and prevention work make everyday homes less deadly.",
+    "caveat": "Fire deaths still happen, and risk remains much higher where prevention is weak.",
+    "source_name": "National Fire Protection Association",
+    "source_url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/home-structure-fires",
+    "source_checked": "2026-09-03"
   }
 }
