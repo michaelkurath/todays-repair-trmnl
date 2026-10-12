@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "repair": {
-    "id": "home-fire-rates-decline",
-    "category": "safety",
-    "title": "Home Fires Became Rarer",
-    "summary": "NFPA reports that U.S. reported home fires fell from 3.2 per thousand people in 1980 to 1.1 in 2023.",
-    "why_it_matters": "Building codes, alarms, safer products, and prevention work make everyday homes less deadly.",
-    "caveat": "Fire deaths still happen, and risk remains much higher where prevention is weak.",
-    "source_name": "National Fire Protection Association",
-    "source_url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/home-structure-fires",
+    "id": "child-hiv-infections-decline",
+    "category": "health",
+    "title": "Fewer Children Got HIV",
+    "summary": "UNICEF reports that new HIV infections among children aged 0 to 14 fell by about 69 percent since 2010.",
+    "why_it_matters": "Preventing transmission during pregnancy, birth, and breastfeeding protects children before illness begins.",
+    "caveat": "Children still miss testing and treatment, especially where health systems are strained.",
+    "source_name": "UNICEF Data",
+    "source_url": "https://data.unicef.org/topic/hivaids/global-regional-trends/",
     "source_checked": "2026-09-03"
   }
 }
