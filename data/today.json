@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "repair": {
-    "id": "child-hiv-infections-decline",
+    "id": "smallpox-eradicated",
     "category": "health",
-    "title": "Fewer Children Got HIV",
-    "summary": "UNICEF reports that new HIV infections among children aged 0 to 14 fell by about 69 percent since 2010.",
-    "why_it_matters": "Preventing transmission during pregnancy, birth, and breastfeeding protects children before illness begins.",
-    "caveat": "Children still miss testing and treatment, especially where health systems are strained.",
-    "source_name": "UNICEF Data",
-    "source_url": "https://data.unicef.org/topic/hivaids/global-regional-trends/",
-    "source_checked": "2026-09-03"
+    "title": "Smallpox Was Eradicated",
+    "summary": "In 1980, the WHO declared smallpox eradicated after a global vaccination and surveillance campaign.",
+    "why_it_matters": "A disease that killed millions was removed from everyday human life by organized public health work.",
+    "caveat": "Smallpox is exceptional; most diseases cannot be eradicated this cleanly.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/health-topics/smallpox",
+    "source_checked": "2026-08-29"
   }
 }
