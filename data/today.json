@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "repair": {
-    "id": "smallpox-eradicated",
-    "category": "health",
-    "title": "Smallpox Was Eradicated",
-    "summary": "In 1980, the WHO declared smallpox eradicated after a global vaccination and surveillance campaign.",
-    "why_it_matters": "A disease that killed millions was removed from everyday human life by organized public health work.",
-    "caveat": "Smallpox is exceptional; most diseases cannot be eradicated this cleanly.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/health-topics/smallpox",
+    "id": "leaded-petrol-ended",
+    "category": "pollution_repair",
+    "title": "Leaded Petrol Ended",
+    "summary": "In 2021, the last country using leaded petrol phased it out, ending legal road use worldwide.",
+    "why_it_matters": "A toxic product that harmed children's brains was removed through a long, coordinated campaign.",
+    "caveat": "Legacy lead pollution remains in soil, dust, and older infrastructure.",
+    "source_name": "UN Environment Programme",
+    "source_url": "https://www.unep.org/news-and-stories/press-release/era-leaded-petrol-over-eliminating-major-threat-human-and-planetary",
     "source_checked": "2026-08-29"
   }
 }
