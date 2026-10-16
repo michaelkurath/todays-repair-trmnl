@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "repair": {
-    "id": "sanitation-access-growth",
-    "category": "infrastructure",
-    "title": "Safer Sanitation Expanded",
-    "summary": "Between 2015 and 2024, 1.2 billion people gained access to safely managed sanitation services.",
-    "why_it_matters": "Sanitation prevents disease while giving people more privacy, safety, and dignity.",
-    "caveat": "Billions still lack safely managed sanitation, so the repair is large but unfinished.",
-    "source_name": "UNICEF Data",
-    "source_url": "https://data.unicef.org/topic/water-and-sanitation/sanitation/",
-    "source_checked": "2026-08-30"
+    "id": "literacy-growth",
+    "category": "education",
+    "title": "Literacy Became Normal",
+    "summary": "Two centuries ago, only a small minority of people could read and write; today more than four out of five people can.",
+    "why_it_matters": "Education changes what ordinary people can understand, build, question, and pass on.",
+    "caveat": "School access and learning quality still vary sharply by region and income.",
+    "source_name": "Our World in Data",
+    "source_url": "https://ourworldindata.org/literacy",
+    "source_checked": "2026-08-29"
   }
 }
