@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "repair": {
-    "id": "literacy-growth",
-    "category": "education",
-    "title": "Literacy Became Normal",
-    "summary": "Two centuries ago, only a small minority of people could read and write; today more than four out of five people can.",
-    "why_it_matters": "Education changes what ordinary people can understand, build, question, and pass on.",
-    "caveat": "School access and learning quality still vary sharply by region and income.",
-    "source_name": "Our World in Data",
-    "source_url": "https://ourworldindata.org/literacy",
+    "id": "open-defecation-decline",
+    "category": "infrastructure",
+    "title": "Open Defecation Fell",
+    "summary": "Between 2000 and 2022, the number of people practising open defecation fell from 1.3 billion to 419 million.",
+    "why_it_matters": "Sanitation progress cuts disease risk and gives people more safety, privacy, and dignity.",
+    "caveat": "Hundreds of millions of people still lack basic sanitation.",
+    "source_name": "WHO/UNICEF Joint Monitoring Programme",
+    "source_url": "https://washdata.org/topics/sanitation/open-defecation",
     "source_checked": "2026-08-29"
   }
 }
