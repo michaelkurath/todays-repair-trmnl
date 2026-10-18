@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "repair": {
-    "id": "open-defecation-decline",
-    "category": "infrastructure",
-    "title": "Open Defecation Fell",
-    "summary": "Between 2000 and 2022, the number of people practising open defecation fell from 1.3 billion to 419 million.",
-    "why_it_matters": "Sanitation progress cuts disease risk and gives people more safety, privacy, and dignity.",
-    "caveat": "Hundreds of millions of people still lack basic sanitation.",
-    "source_name": "WHO/UNICEF Joint Monitoring Programme",
-    "source_url": "https://washdata.org/topics/sanitation/open-defecation",
+    "id": "bald-eagle-recovery",
+    "category": "nature_returns",
+    "title": "Bald Eagles Came Back",
+    "summary": "The lower-48 bald eagle population rose from about 487 breeding pairs in 1963 to 9,789 pairs by 2007.",
+    "why_it_matters": "Banning DDT, protecting habitat, and enforcing wildlife law helped reverse a visible collapse.",
+    "caveat": "Recovery still depends on habitat protection and long-term monitoring.",
+    "source_name": "U.S. Fish and Wildlife Service",
+    "source_url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
     "source_checked": "2026-08-29"
   }
 }
