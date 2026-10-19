@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "repair": {
-    "id": "bald-eagle-recovery",
-    "category": "nature_returns",
-    "title": "Bald Eagles Came Back",
-    "summary": "The lower-48 bald eagle population rose from about 487 breeding pairs in 1963 to 9,789 pairs by 2007.",
-    "why_it_matters": "Banning DDT, protecting habitat, and enforcing wildlife law helped reverse a visible collapse.",
-    "caveat": "Recovery still depends on habitat protection and long-term monitoring.",
-    "source_name": "U.S. Fish and Wildlife Service",
-    "source_url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+    "id": "extreme-poverty-decline",
+    "category": "living_conditions",
+    "title": "Extreme Poverty Fell",
+    "summary": "The number of people living in extreme poverty fell from about 2.31 billion in 1990 to about 808 million in 2025.",
+    "why_it_matters": "Large-scale material progress is possible, even if it is fragile and uneven.",
+    "caveat": "Recent shocks and inequality mean this progress is not guaranteed to continue.",
+    "source_name": "Our World in Data",
+    "source_url": "https://ourworldindata.org/poverty",
     "source_checked": "2026-08-29"
   }
 }
