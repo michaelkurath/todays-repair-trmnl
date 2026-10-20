@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "repair": {
-    "id": "extreme-poverty-decline",
-    "category": "living_conditions",
-    "title": "Extreme Poverty Fell",
-    "summary": "The number of people living in extreme poverty fell from about 2.31 billion in 1990 to about 808 million in 2025.",
-    "why_it_matters": "Large-scale material progress is possible, even if it is fragile and uneven.",
-    "caveat": "Recent shocks and inequality mean this progress is not guaranteed to continue.",
-    "source_name": "Our World in Data",
-    "source_url": "https://ourworldindata.org/poverty",
+    "id": "drinking-water-access",
+    "category": "infrastructure",
+    "title": "Clean Water Reached More Homes",
+    "summary": "Between 2015 and 2024, 961 million people gained access to safely managed drinking water services.",
+    "why_it_matters": "Better water access prevents disease and gives people time back from collecting water.",
+    "caveat": "Billions still lack safely managed drinking water.",
+    "source_name": "UNICEF Data",
+    "source_url": "https://data.unicef.org/topic/water-and-sanitation/drinking-water/",
     "source_checked": "2026-08-29"
   }
 }
