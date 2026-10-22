@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "repair": {
-    "id": "montreal-protocol-climate-benefit",
-    "category": "climate_repair",
-    "title": "One Treaty Also Cooled The Future",
-    "summary": "UNEP's Ozone Secretariat says cuts in ozone-depleting substances are estimated to avoid about 0.5 to 1 degrees Celsius of warming by mid-century.",
-    "why_it_matters": "A treaty built for one environmental crisis also reduced a major climate risk.",
-    "caveat": "The avoided-warming estimate depends on comparison scenarios and continued compliance.",
-    "source_name": "UN Environment Programme Ozone Secretariat",
-    "source_url": "https://ozone.unep.org/facts-and-figures-ozone-protection",
-    "source_checked": "2026-08-30"
+    "id": "renewable-electricity-growth",
+    "category": "energy",
+    "title": "Clean Power Keeps Growing",
+    "summary": "Renewables supplied about 32 percent of global electricity in 2024, with the share projected to rise through 2030.",
+    "why_it_matters": "The energy system is not fixed in place; infrastructure can shift when technology, policy, and cost line up.",
+    "caveat": "Electricity is only part of total energy use, and grid buildout remains a serious bottleneck.",
+    "source_name": "International Energy Agency",
+    "source_url": "https://www.iea.org/reports/renewables-2025/renewable-electricity",
+    "source_checked": "2026-08-29"
   }
 }
