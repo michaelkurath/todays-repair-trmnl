@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "repair": {
-    "id": "renewable-electricity-growth",
-    "category": "energy",
-    "title": "Clean Power Keeps Growing",
-    "summary": "Renewables supplied about 32 percent of global electricity in 2024, with the share projected to rise through 2030.",
-    "why_it_matters": "The energy system is not fixed in place; infrastructure can shift when technology, policy, and cost line up.",
-    "caveat": "Electricity is only part of total energy use, and grid buildout remains a serious bottleneck.",
-    "source_name": "International Energy Agency",
-    "source_url": "https://www.iea.org/reports/renewables-2025/renewable-electricity",
-    "source_checked": "2026-08-29"
+    "id": "mercury-products-phaseout",
+    "category": "pollution_repair",
+    "title": "Mercury Products Were Curbed",
+    "summary": "The Minamata Convention set controls to phase out or reduce mercury in many products and processes.",
+    "why_it_matters": "A known neurotoxin is being pushed out of everyday commerce through a global treaty.",
+    "caveat": "Mercury pollution persists, and treaty implementation varies by country and sector.",
+    "source_name": "U.S. Environmental Protection Agency",
+    "source_url": "https://www.epa.gov/international-cooperation/minamata-convention-mercury",
+    "source_checked": "2026-08-30"
   }
 }
