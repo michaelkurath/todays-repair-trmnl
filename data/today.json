@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "repair": {
-    "id": "mercury-products-phaseout",
-    "category": "pollution_repair",
-    "title": "Mercury Products Were Curbed",
-    "summary": "The Minamata Convention set controls to phase out or reduce mercury in many products and processes.",
-    "why_it_matters": "A known neurotoxin is being pushed out of everyday commerce through a global treaty.",
-    "caveat": "Mercury pollution persists, and treaty implementation varies by country and sector.",
-    "source_name": "U.S. Environmental Protection Agency",
-    "source_url": "https://www.epa.gov/international-cooperation/minamata-convention-mercury",
-    "source_checked": "2026-08-30"
+    "id": "us-cancer-death-rate-decline",
+    "category": "health",
+    "title": "Cancer Death Rates Fell",
+    "summary": "The American Cancer Society reports that the U.S. cancer death rate fell by 34 percent from 1991 to 2022.",
+    "why_it_matters": "Less smoking, earlier detection, and better treatment turned many diagnoses into longer lives.",
+    "caveat": "This is U.S.-specific, and cancer incidence is rising for some groups and cancer types.",
+    "source_name": "American Cancer Society",
+    "source_url": "https://pressroom.cancer.org/2025CancerFactsandFigures",
+    "source_checked": "2026-09-03"
   }
 }
