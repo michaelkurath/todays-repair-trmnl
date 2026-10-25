@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "repair": {
-    "id": "us-cancer-death-rate-decline",
-    "category": "health",
-    "title": "Cancer Death Rates Fell",
-    "summary": "The American Cancer Society reports that the U.S. cancer death rate fell by 34 percent from 1991 to 2022.",
-    "why_it_matters": "Less smoking, earlier detection, and better treatment turned many diagnoses into longer lives.",
-    "caveat": "This is U.S.-specific, and cancer incidence is rising for some groups and cancer types.",
-    "source_name": "American Cancer Society",
-    "source_url": "https://pressroom.cancer.org/2025CancerFactsandFigures",
-    "source_checked": "2026-09-03"
+    "id": "birth-registration-growth",
+    "category": "everyday_humanity",
+    "title": "More Children Were Counted",
+    "summary": "UNICEF says birth registration for children under five rose from about 60 percent in 2000 to 77 percent today.",
+    "why_it_matters": "A birth record helps children claim identity, services, school access, and legal protection.",
+    "caveat": "About 150 million children under five still remain unregistered.",
+    "source_name": "UNICEF",
+    "source_url": "https://www.unicef.org/stories/birth-registration",
+    "source_checked": "2026-08-30"
   }
 }
