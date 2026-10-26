@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "repair": {
-    "id": "birth-registration-growth",
-    "category": "everyday_humanity",
-    "title": "More Children Were Counted",
-    "summary": "UNICEF says birth registration for children under five rose from about 60 percent in 2000 to 77 percent today.",
-    "why_it_matters": "A birth record helps children claim identity, services, school access, and legal protection.",
-    "caveat": "About 150 million children under five still remain unregistered.",
-    "source_name": "UNICEF",
-    "source_url": "https://www.unicef.org/stories/birth-registration",
-    "source_checked": "2026-08-30"
+    "id": "ozone-layer-recovery",
+    "category": "climate_repair",
+    "title": "The Ozone Layer Is Recovering",
+    "summary": "Global action phased down ozone-depleting chemicals, and the ozone layer is on a path toward recovery.",
+    "why_it_matters": "It proves international environmental agreements can work when the problem is clear and enforcement is real.",
+    "caveat": "Recovery is still ongoing and depends on continued compliance.",
+    "source_name": "UN Environment Programme",
+    "source_url": "https://www.unep.org/news-and-stories/press-release/ozone-layer-recovery-track-helping-avoid-global-warming-05degc",
+    "source_checked": "2026-08-29"
   }
 }
