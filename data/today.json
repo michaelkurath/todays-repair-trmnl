@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "repair": {
-    "id": "ozone-layer-recovery",
-    "category": "climate_repair",
-    "title": "The Ozone Layer Is Recovering",
-    "summary": "Global action phased down ozone-depleting chemicals, and the ozone layer is on a path toward recovery.",
-    "why_it_matters": "It proves international environmental agreements can work when the problem is clear and enforcement is real.",
-    "caveat": "Recovery is still ongoing and depends on continued compliance.",
-    "source_name": "UN Environment Programme",
-    "source_url": "https://www.unep.org/news-and-stories/press-release/ozone-layer-recovery-track-helping-avoid-global-warming-05degc",
-    "source_checked": "2026-08-29"
+    "id": "financial-account-growth",
+    "category": "living_conditions",
+    "title": "More Adults Got Accounts",
+    "summary": "World Bank data shows global account ownership rose from 51 percent of adults in 2011 to 79 percent in 2024.",
+    "why_it_matters": "Basic accounts can make saving, receiving pay, sending money, and handling shocks easier.",
+    "caveat": "An account does not guarantee financial security, and many people remain excluded.",
+    "source_name": "World Bank",
+    "source_url": "https://blogs.worldbank.org/en/developmenttalk/digital-technology-is-unlocking-financial-inclusion",
+    "source_checked": "2026-08-30"
   }
 }
