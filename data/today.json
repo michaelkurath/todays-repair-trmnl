@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "repair": {
-    "id": "financial-account-growth",
-    "category": "living_conditions",
-    "title": "More Adults Got Accounts",
-    "summary": "World Bank data shows global account ownership rose from 51 percent of adults in 2011 to 79 percent in 2024.",
-    "why_it_matters": "Basic accounts can make saving, receiving pay, sending money, and handling shocks easier.",
-    "caveat": "An account does not guarantee financial security, and many people remain excluded.",
-    "source_name": "World Bank",
-    "source_url": "https://blogs.worldbank.org/en/developmenttalk/digital-technology-is-unlocking-financial-inclusion",
-    "source_checked": "2026-08-30"
+    "id": "aids-deaths-decline",
+    "category": "health",
+    "title": "AIDS Deaths Fell",
+    "summary": "AIDS-related deaths have fallen sharply since their peak in 2004 and are much lower than in 2010.",
+    "why_it_matters": "Treatment access and sustained public health programs can turn a terrifying epidemic into a more survivable condition for many.",
+    "caveat": "Funding gaps and unequal access still put lives at risk.",
+    "source_name": "UNAIDS",
+    "source_url": "https://www.unaids.org/en/resources/fact-sheet",
+    "source_checked": "2026-08-29"
   }
 }
