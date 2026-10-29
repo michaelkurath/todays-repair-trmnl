@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "repair": {
-    "id": "aids-deaths-decline",
-    "category": "health",
-    "title": "AIDS Deaths Fell",
-    "summary": "AIDS-related deaths have fallen sharply since their peak in 2004 and are much lower than in 2010.",
-    "why_it_matters": "Treatment access and sustained public health programs can turn a terrifying epidemic into a more survivable condition for many.",
-    "caveat": "Funding gaps and unequal access still put lives at risk.",
-    "source_name": "UNAIDS",
-    "source_url": "https://www.unaids.org/en/resources/fact-sheet",
-    "source_checked": "2026-08-29"
+    "id": "women-parliament-growth",
+    "category": "everyday_humanity",
+    "title": "More Women Entered Parliament",
+    "summary": "UN Women reports that women hold 27.5 percent of parliamentary seats, up from 11 percent in 1995.",
+    "why_it_matters": "Representation changes who is present when laws, budgets, and public priorities are decided.",
+    "caveat": "Parity is still distant, and political power remains uneven within and beyond parliaments.",
+    "source_name": "UN Women",
+    "source_url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation",
+    "source_checked": "2026-09-03"
   }
 }
