@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "repair": {
-    "id": "women-parliament-growth",
-    "category": "everyday_humanity",
-    "title": "More Women Entered Parliament",
-    "summary": "UN Women reports that women hold 27.5 percent of parliamentary seats, up from 11 percent in 1995.",
-    "why_it_matters": "Representation changes who is present when laws, budgets, and public priorities are decided.",
-    "caveat": "Parity is still distant, and political power remains uneven within and beyond parliaments.",
-    "source_name": "UN Women",
-    "source_url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-womens-leadership-and-political-participation",
+    "id": "humpback-whale-populations-recovered",
+    "category": "nature_returns",
+    "title": "Humpback Whales Recovered In Many Seas",
+    "summary": "NOAA says nine of 14 humpback whale populations recovered enough that they no longer warrant listing.",
+    "why_it_matters": "Limits on commercial whaling and long monitoring helped a depleted species rebound in many regions.",
+    "caveat": "Several populations remain endangered or threatened, and warming oceans add new pressure.",
+    "source_name": "NOAA Fisheries",
+    "source_url": "https://www.fisheries.noaa.gov/species/humpback-whale",
     "source_checked": "2026-09-03"
   }
 }
