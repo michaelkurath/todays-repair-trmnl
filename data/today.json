@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "repair": {
-    "id": "humpback-whale-populations-recovered",
+    "id": "giant-panda-downlisted",
     "category": "nature_returns",
-    "title": "Humpback Whales Recovered In Many Seas",
-    "summary": "NOAA says nine of 14 humpback whale populations recovered enough that they no longer warrant listing.",
-    "why_it_matters": "Limits on commercial whaling and long monitoring helped a depleted species rebound in many regions.",
-    "caveat": "Several populations remain endangered or threatened, and warming oceans add new pressure.",
-    "source_name": "NOAA Fisheries",
-    "source_url": "https://www.fisheries.noaa.gov/species/humpback-whale",
-    "source_checked": "2026-09-03"
+    "title": "Pandas Became Less Endangered",
+    "summary": "Giant pandas were downlisted from Endangered to Vulnerable after their population increased by 17 percent in a decade.",
+    "why_it_matters": "Habitat protection and long conservation work changed the trajectory for a species people had nearly written off.",
+    "caveat": "Vulnerable still means at risk, especially where habitats are fragmented.",
+    "source_name": "WWF",
+    "source_url": "https://wwf.panda.org/discover/our_focus/wildlife_practice/profiles/mammals/giant_panda/giant_pandas_no_longer_endangered",
+    "source_checked": "2026-08-29"
   }
 }
