@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "repair": {
-    "id": "giant-panda-downlisted",
-    "category": "nature_returns",
-    "title": "Pandas Became Less Endangered",
-    "summary": "Giant pandas were downlisted from Endangered to Vulnerable after their population increased by 17 percent in a decade.",
-    "why_it_matters": "Habitat protection and long conservation work changed the trajectory for a species people had nearly written off.",
-    "caveat": "Vulnerable still means at risk, especially where habitats are fragmented.",
-    "source_name": "WWF",
-    "source_url": "https://wwf.panda.org/discover/our_focus/wildlife_practice/profiles/mammals/giant_panda/giant_pandas_no_longer_endangered",
+    "id": "air-pollution-death-rates",
+    "category": "pollution_repair",
+    "title": "Air Pollution Death Rates Fell",
+    "summary": "Global death rates from total air pollution have nearly halved since 1990, mainly because indoor air pollution declined.",
+    "why_it_matters": "Cleaner fuels, better technology, and public health work can make invisible risks less deadly.",
+    "caveat": "Outdoor air pollution remains a major global health problem.",
+    "source_name": "Our World in Data",
+    "source_url": "https://ourworldindata.org/air-pollution",
     "source_checked": "2026-08-29"
   }
 }
