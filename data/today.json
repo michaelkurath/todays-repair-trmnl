@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "repair": {
-    "id": "air-pollution-death-rates",
-    "category": "pollution_repair",
-    "title": "Air Pollution Death Rates Fell",
-    "summary": "Global death rates from total air pollution have nearly halved since 1990, mainly because indoor air pollution declined.",
-    "why_it_matters": "Cleaner fuels, better technology, and public health work can make invisible risks less deadly.",
-    "caveat": "Outdoor air pollution remains a major global health problem.",
-    "source_name": "Our World in Data",
-    "source_url": "https://ourworldindata.org/air-pollution",
+    "id": "guinea-worm-near-eradication",
+    "category": "health",
+    "title": "Guinea Worm Nearly Vanished",
+    "summary": "Guinea worm disease fell from about 3.5 million human cases a year in 1986 to 10 cases in 2025.",
+    "why_it_matters": "A painful parasitic disease was beaten back mostly through clean water, education, and local surveillance.",
+    "caveat": "The last cases are hard, especially because infections in animals can keep transmission alive.",
+    "source_name": "The Carter Center",
+    "source_url": "https://www.cartercenter.org/programs/guinea-worm/",
     "source_checked": "2026-08-29"
   }
 }
