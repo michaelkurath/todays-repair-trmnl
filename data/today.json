@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "repair": {
-    "id": "guinea-worm-near-eradication",
-    "category": "health",
-    "title": "Guinea Worm Nearly Vanished",
-    "summary": "Guinea worm disease fell from about 3.5 million human cases a year in 1986 to 10 cases in 2025.",
-    "why_it_matters": "A painful parasitic disease was beaten back mostly through clean water, education, and local surveillance.",
-    "caveat": "The last cases are hard, especially because infections in animals can keep transmission alive.",
-    "source_name": "The Carter Center",
-    "source_url": "https://www.cartercenter.org/programs/guinea-worm/",
-    "source_checked": "2026-08-29"
+    "id": "child-marriage-decline",
+    "category": "living_conditions",
+    "title": "Fewer Girls Became Child Brides",
+    "summary": "UNICEF reports that the share of young women married as children fell from about one in four a decade ago to about one in five.",
+    "why_it_matters": "Delayed marriage can protect girls' schooling, health, autonomy, and childhood.",
+    "caveat": "Progress is too slow for the 2030 goal, and conflict can quickly reverse gains.",
+    "source_name": "UNICEF",
+    "source_url": "https://data.unicef.org/resources/is-an-end-to-child-marriage-within-reach/",
+    "source_checked": "2026-08-30"
   }
 }
