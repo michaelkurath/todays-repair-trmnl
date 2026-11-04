@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "repair": {
-    "id": "child-marriage-decline",
-    "category": "living_conditions",
-    "title": "Fewer Girls Became Child Brides",
-    "summary": "UNICEF reports that the share of young women married as children fell from about one in four a decade ago to about one in five.",
-    "why_it_matters": "Delayed marriage can protect girls' schooling, health, autonomy, and childhood.",
-    "caveat": "Progress is too slow for the 2030 goal, and conflict can quickly reverse gains.",
-    "source_name": "UNICEF",
-    "source_url": "https://data.unicef.org/resources/is-an-end-to-child-marriage-within-reach/",
-    "source_checked": "2026-08-30"
+    "id": "trachoma-eliminated-countries",
+    "category": "health",
+    "title": "Trachoma Lost Ground",
+    "summary": "By July 2026, WHO had validated 32 countries as having eliminated trachoma as a public health problem.",
+    "why_it_matters": "Millions of people are less exposed to a preventable infectious cause of blindness.",
+    "caveat": "Elimination as a public health problem does not mean the infection has disappeared everywhere.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/trachoma",
+    "source_checked": "2026-08-29"
   }
 }
