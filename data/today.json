@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "repair": {
-    "id": "trachoma-eliminated-countries",
-    "category": "health",
-    "title": "Trachoma Lost Ground",
-    "summary": "By July 2026, WHO had validated 32 countries as having eliminated trachoma as a public health problem.",
-    "why_it_matters": "Millions of people are less exposed to a preventable infectious cause of blindness.",
-    "caveat": "Elimination as a public health problem does not mean the infection has disappeared everywhere.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/news-room/fact-sheets/detail/trachoma",
-    "source_checked": "2026-08-29"
+    "id": "handwashing-access-growth",
+    "category": "infrastructure",
+    "title": "Handwashing Reached More Homes",
+    "summary": "UNICEF reported that access to basic hand hygiene at home rose from 5.0 billion people in 2015 to 5.5 billion in 2020.",
+    "why_it_matters": "Soap and water at home are simple infrastructure that can prevent infection and protect daily life.",
+    "caveat": "If trends continue, many people will still lack basic hand hygiene at the end of the decade.",
+    "source_name": "UNICEF",
+    "source_url": "https://www.unicef.org/press-releases/fact-sheet-global-handwashing-day-unicef-warns-3-10-people-do-not-have-basic",
+    "source_checked": "2026-08-30"
   }
 }
