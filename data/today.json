@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "repair": {
-    "id": "handwashing-access-growth",
-    "category": "infrastructure",
-    "title": "Handwashing Reached More Homes",
-    "summary": "UNICEF reported that access to basic hand hygiene at home rose from 5.0 billion people in 2015 to 5.5 billion in 2020.",
-    "why_it_matters": "Soap and water at home are simple infrastructure that can prevent infection and protect daily life.",
-    "caveat": "If trends continue, many people will still lack basic hand hygiene at the end of the decade.",
-    "source_name": "UNICEF",
-    "source_url": "https://www.unicef.org/press-releases/fact-sheet-global-handwashing-day-unicef-warns-3-10-people-do-not-have-basic",
-    "source_checked": "2026-08-30"
+    "id": "protected-areas-expanded",
+    "category": "nature_returns",
+    "title": "More Nature Is Protected",
+    "summary": "In 2024, protected and conserved areas covered 17.6 percent of land and inland waters and 8.4 percent of marine areas.",
+    "why_it_matters": "More ecosystems now have at least some formal protection instead of being left entirely exposed.",
+    "caveat": "Coverage is not the same as good management, and the world is still short of the 2030 target.",
+    "source_name": "Protected Planet",
+    "source_url": "https://digitalreport.protectedplanet.net/",
+    "source_checked": "2026-08-29"
   }
 }
