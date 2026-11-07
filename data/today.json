@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "repair": {
-    "id": "protected-areas-expanded",
-    "category": "nature_returns",
-    "title": "More Nature Is Protected",
-    "summary": "In 2024, protected and conserved areas covered 17.6 percent of land and inland waters and 8.4 percent of marine areas.",
-    "why_it_matters": "More ecosystems now have at least some formal protection instead of being left entirely exposed.",
-    "caveat": "Coverage is not the same as good management, and the world is still short of the 2030 target.",
-    "source_name": "Protected Planet",
-    "source_url": "https://digitalreport.protectedplanet.net/",
-    "source_checked": "2026-08-29"
+    "id": "death-penalty-abolition-growth",
+    "category": "everyday_humanity",
+    "title": "More Countries Ended Executions",
+    "summary": "Amnesty reports that countries fully abolishing the death penalty rose from 16 in 1977 to 113 today.",
+    "why_it_matters": "Legal systems can move away from irreversible state killing and toward stronger human-rights norms.",
+    "caveat": "Executions still continue, and recent totals have risen sharply in some countries.",
+    "source_name": "Amnesty International",
+    "source_url": "https://www.amnesty.org/en/what-we-do/death-penalty/",
+    "source_checked": "2026-09-03"
   }
 }
