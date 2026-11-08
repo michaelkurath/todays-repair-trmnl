@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "repair": {
-    "id": "death-penalty-abolition-growth",
-    "category": "everyday_humanity",
-    "title": "More Countries Ended Executions",
-    "summary": "Amnesty reports that countries fully abolishing the death penalty rose from 16 in 1977 to 113 today.",
-    "why_it_matters": "Legal systems can move away from irreversible state killing and toward stronger human-rights norms.",
-    "caveat": "Executions still continue, and recent totals have risen sharply in some countries.",
-    "source_name": "Amnesty International",
-    "source_url": "https://www.amnesty.org/en/what-we-do/death-penalty/",
-    "source_checked": "2026-09-03"
+    "id": "child-blood-lead-decline",
+    "category": "pollution_repair",
+    "title": "Children Carry Less Lead",
+    "summary": "EPA reports U.S. children's median blood lead level fell 96 percent from 1976-1980 to 2017-2020.",
+    "why_it_matters": "Removing lead from fuel, paint, and products measurably reduced a toxin that harms developing brains.",
+    "caveat": "No level of lead exposure is safe, and older housing and pipes still create unequal risks.",
+    "source_name": "U.S. Environmental Protection Agency",
+    "source_url": "https://www.epa.gov/americaschildrenenvironment/biomonitoring-lead",
+    "source_checked": "2026-08-30"
   }
 }
