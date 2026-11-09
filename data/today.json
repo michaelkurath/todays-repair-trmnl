@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "repair": {
-    "id": "child-blood-lead-decline",
-    "category": "pollution_repair",
-    "title": "Children Carry Less Lead",
-    "summary": "EPA reports U.S. children's median blood lead level fell 96 percent from 1976-1980 to 2017-2020.",
-    "why_it_matters": "Removing lead from fuel, paint, and products measurably reduced a toxin that harms developing brains.",
-    "caveat": "No level of lead exposure is safe, and older housing and pipes still create unequal risks.",
-    "source_name": "U.S. Environmental Protection Agency",
-    "source_url": "https://www.epa.gov/americaschildrenenvironment/biomonitoring-lead",
-    "source_checked": "2026-08-30"
+    "id": "river-blindness-eliminated",
+    "category": "health",
+    "title": "River Blindness Was Cleared",
+    "summary": "WHO has verified five countries as free of onchocerciasis after decades of elimination work.",
+    "why_it_matters": "Mass treatment and surveillance can remove a disease that causes severe skin disease and vision loss.",
+    "caveat": "Many people, especially in parts of Africa, remain at risk.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/onchocerciasis",
+    "source_checked": "2026-08-29"
   }
 }
