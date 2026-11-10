@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "repair": {
-    "id": "river-blindness-eliminated",
-    "category": "health",
-    "title": "River Blindness Was Cleared",
-    "summary": "WHO has verified five countries as free of onchocerciasis after decades of elimination work.",
-    "why_it_matters": "Mass treatment and surveillance can remove a disease that causes severe skin disease and vision loss.",
-    "caveat": "Many people, especially in parts of Africa, remain at risk.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/news-room/fact-sheets/detail/onchocerciasis",
-    "source_checked": "2026-08-29"
+    "id": "nuclear-arsenals-shrank",
+    "category": "safety",
+    "title": "Nuclear Arsenals Shrunk",
+    "summary": "FAS estimates global nuclear weapons fell from about 70,300 in 1986 to about 12,321 at the start of 2026.",
+    "why_it_matters": "Arms control and post-Cold-War reductions show that even existential risks can be reduced.",
+    "caveat": "Modernization, treaty breakdown, and new arms races keep nuclear danger very real.",
+    "source_name": "Federation of American Scientists",
+    "source_url": "https://fas.org/initiative/status-world-nuclear-forces/",
+    "source_checked": "2026-09-03"
   }
 }
