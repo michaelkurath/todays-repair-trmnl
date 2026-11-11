@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "repair": {
-    "id": "nuclear-arsenals-shrank",
-    "category": "safety",
-    "title": "Nuclear Arsenals Shrunk",
-    "summary": "FAS estimates global nuclear weapons fell from about 70,300 in 1986 to about 12,321 at the start of 2026.",
-    "why_it_matters": "Arms control and post-Cold-War reductions show that even existential risks can be reduced.",
-    "caveat": "Modernization, treaty breakdown, and new arms races keep nuclear danger very real.",
-    "source_name": "Federation of American Scientists",
-    "source_url": "https://fas.org/initiative/status-world-nuclear-forces/",
-    "source_checked": "2026-09-03"
+    "id": "tuberculosis-lives-saved",
+    "category": "health",
+    "title": "TB Treatment Saved Lives",
+    "summary": "WHO says global efforts to combat tuberculosis have saved an estimated 83 million lives since 2000.",
+    "why_it_matters": "Diagnosis, treatment, and prevention can turn a deadly infection into something curable for many more people.",
+    "caveat": "TB remains widespread, and drug-resistant TB is still a serious threat.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+    "source_checked": "2026-08-30"
   }
 }
