@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "repair": {
-    "id": "out-of-school-children-decline",
-    "category": "education",
-    "title": "Fewer Children Miss School",
-    "summary": "UNESCO estimates that out-of-school numbers fell by 33 percent between 2000 and 2015.",
-    "why_it_matters": "School access improved for many children during a period of focused global education investment.",
-    "caveat": "Progress has stalled and partly reversed since 2015.",
-    "source_name": "UNESCO",
-    "source_url": "https://www.unesco.org/en/education/view/outofschool",
-    "source_checked": "2026-08-30"
+    "id": "cluster-munition-stockpiles-destroyed",
+    "category": "safety",
+    "title": "Cluster Munition Stockpiles Shrunk",
+    "summary": "Cluster Munition Monitor says 42 States Parties destroyed all declared stocks, including 179 million submunitions.",
+    "why_it_matters": "Destroying stockpiles prevents weapons that can harm civilians long after fighting ends from being used later.",
+    "caveat": "Not all countries have joined the treaty, and cluster munitions are still used in conflicts.",
+    "source_name": "Cluster Munition Monitor",
+    "source_url": "https://the-monitor.org/online-reader/cluster-munition-monitor-2025",
+    "source_checked": "2026-09-03"
   }
 }
