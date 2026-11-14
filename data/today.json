@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "repair": {
-    "id": "cluster-munition-stockpiles-destroyed",
-    "category": "safety",
-    "title": "Cluster Munition Stockpiles Shrunk",
-    "summary": "Cluster Munition Monitor says 42 States Parties destroyed all declared stocks, including 179 million submunitions.",
-    "why_it_matters": "Destroying stockpiles prevents weapons that can harm civilians long after fighting ends from being used later.",
-    "caveat": "Not all countries have joined the treaty, and cluster munitions are still used in conflicts.",
-    "source_name": "Cluster Munition Monitor",
-    "source_url": "https://the-monitor.org/online-reader/cluster-munition-monitor-2025",
+    "id": "routine-immunization-lives-saved",
+    "category": "health",
+    "title": "Vaccines Saved Generations",
+    "summary": "WHO estimates that global immunization efforts have saved at least 154 million lives since 1974.",
+    "why_it_matters": "Routine vaccination is ordinary infrastructure that quietly prevents death at enormous scale.",
+    "caveat": "Coverage gaps, misinformation, and disrupted health systems can still reverse gains.",
+    "source_name": "World Health Organization",
+    "source_url": "https://www.who.int/news/item/24-04-2024-global-immunization-efforts-have-saved-at-least-154-million-lives-over-the-past-50-years",
     "source_checked": "2026-09-03"
   }
 }
