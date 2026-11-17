@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "repair": {
-    "id": "hepatitis-b-child-infections-decline",
+    "id": "child-mortality-decline",
     "category": "health",
-    "title": "Hepatitis B Fell In Children",
-    "summary": "WHO estimates chronic hepatitis B infection in children under five fell from about 5 percent before vaccines to under 1 percent in 2019.",
-    "why_it_matters": "Infant vaccination prevents lifelong infection and future liver disease.",
-    "caveat": "Birth-dose coverage is still uneven, and many adults already living with hepatitis B need care.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
-    "source_checked": "2026-08-30"
+    "title": "More Children Survive",
+    "summary": "The global under-five mortality rate declined by about 60 percent between 1990 and 2024.",
+    "why_it_matters": "This is quiet progress measured in millions of families spared grief.",
+    "caveat": "The remaining burden is still unacceptable and progress is uneven.",
+    "source_name": "UNICEF Data",
+    "source_url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+    "source_checked": "2026-08-29"
   }
 }
