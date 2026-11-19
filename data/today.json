@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "repair": {
-    "id": "renewable-energy-jobs-growth",
-    "category": "energy",
-    "title": "Clean Energy Work Grew",
-    "summary": "IRENA reports that global renewable energy jobs rose to 16.2 million in 2023, up from 13.7 million in 2022.",
-    "why_it_matters": "The energy transition is not only machinery; it is also a growing base of people trained to build and maintain it.",
-    "caveat": "Jobs are unevenly distributed by region, technology, and working conditions.",
-    "source_name": "International Renewable Energy Agency",
-    "source_url": "https://www.irena.org/Energy-Transition/Socio-economic-impact/Energy-and-Jobs",
+    "id": "landmine-stockpiles-destroyed",
+    "category": "safety",
+    "title": "Landmine Stockpiles Shrank",
+    "summary": "Landmine Monitor reports that 94 Mine Ban Treaty states have destroyed more than 55 million stockpiled antipersonnel mines.",
+    "why_it_matters": "Destroying stockpiles removes weapons designed to keep harming civilians long after fighting ends.",
+    "caveat": "Landmines are still being used, and casualties have recently risen in some conflicts.",
+    "source_name": "Landmine Monitor",
+    "source_url": "https://the-monitor.org/online-reader/landmine-monitor-2025",
     "source_checked": "2026-08-30"
   }
 }
