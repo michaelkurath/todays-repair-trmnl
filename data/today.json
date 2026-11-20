@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "repair": {
-    "id": "landmine-stockpiles-destroyed",
-    "category": "safety",
-    "title": "Landmine Stockpiles Shrank",
-    "summary": "Landmine Monitor reports that 94 Mine Ban Treaty states have destroyed more than 55 million stockpiled antipersonnel mines.",
-    "why_it_matters": "Destroying stockpiles removes weapons designed to keep harming civilians long after fighting ends.",
-    "caveat": "Landmines are still being used, and casualties have recently risen in some conflicts.",
-    "source_name": "Landmine Monitor",
-    "source_url": "https://the-monitor.org/online-reader/landmine-monitor-2025",
-    "source_checked": "2026-08-30"
+    "id": "acid-rain-emissions-fell",
+    "category": "pollution_repair",
+    "title": "Acid Rain Was Reduced",
+    "summary": "From 1995 to 2023, annual sulfur dioxide emissions from U.S. power plants fell by 95 percent.",
+    "why_it_matters": "A major pollution problem was reduced through enforceable rules, monitoring, and cleaner technology.",
+    "caveat": "This is a U.S. example, and power-sector progress does not fix all air pollution.",
+    "source_name": "U.S. Environmental Protection Agency",
+    "source_url": "https://www.epa.gov/power-sector/progress-report-emissions-reductions",
+    "source_checked": "2026-08-29"
   }
 }
