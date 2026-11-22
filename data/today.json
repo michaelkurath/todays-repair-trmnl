@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "repair": {
-    "id": "road-deaths-decline",
-    "category": "safety",
-    "title": "Road Deaths Fell Slightly",
-    "summary": "WHO estimated annual road traffic deaths fell to 1.19 million, a 5 percent drop from 2010 to 2021.",
-    "why_it_matters": "Design, rules, vehicles, and emergency care can make everyday mobility less deadly.",
-    "caveat": "The toll is still enormous, and low- and middle-income countries carry most of it.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
+    "id": "child-mortality-decline",
+    "category": "health",
+    "title": "More Children Survive",
+    "summary": "The global under-five mortality rate declined by about 60 percent between 1990 and 2024.",
+    "why_it_matters": "This is quiet progress measured in millions of families spared grief.",
+    "caveat": "The remaining burden is still unacceptable and progress is uneven.",
+    "source_name": "UNICEF Data",
+    "source_url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
     "source_checked": "2026-08-29"
   }
 }
