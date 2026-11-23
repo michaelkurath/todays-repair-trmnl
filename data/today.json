@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "repair": {
-    "id": "child-mortality-decline",
-    "category": "health",
-    "title": "More Children Survive",
-    "summary": "The global under-five mortality rate declined by about 60 percent between 1990 and 2024.",
-    "why_it_matters": "This is quiet progress measured in millions of families spared grief.",
-    "caveat": "The remaining burden is still unacceptable and progress is uneven.",
-    "source_name": "UNICEF Data",
-    "source_url": "https://data.unicef.org/topic/child-survival/under-five-mortality/",
+    "id": "mountain-gorilla-recovery",
+    "category": "nature_returns",
+    "title": "Mountain Gorillas Increased",
+    "summary": "Conservation work helped mountain gorilla populations recover to more than 1,000 individuals in the wild.",
+    "why_it_matters": "Species decline is not always one-way when protection is persistent and local conservation works.",
+    "caveat": "Mountain gorillas remain endangered and depend on continued protection.",
+    "source_name": "World Wildlife Fund",
+    "source_url": "https://www.worldwildlife.org/species/gorilla/mountain-gorilla/",
     "source_checked": "2026-08-29"
   }
 }
