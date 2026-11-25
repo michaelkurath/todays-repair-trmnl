@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "repair": {
-    "id": "road-deaths-decline",
-    "category": "safety",
-    "title": "Road Deaths Fell Slightly",
-    "summary": "WHO estimated annual road traffic deaths fell to 1.19 million, a 5 percent drop from 2010 to 2021.",
-    "why_it_matters": "Design, rules, vehicles, and emergency care can make everyday mobility less deadly.",
-    "caveat": "The toll is still enormous, and low- and middle-income countries carry most of it.",
+    "id": "malaria-deaths-averted",
+    "category": "health",
+    "title": "Malaria Work Saved Millions",
+    "summary": "WHO estimates that global malaria efforts averted 2.3 billion cases and 14 million deaths since 2000.",
+    "why_it_matters": "Bed nets, testing, treatment, surveillance, and vaccines show that old diseases can still be pushed back.",
+    "caveat": "Malaria deaths rose in some recent periods, and funding gaps threaten further progress.",
     "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-status-report-on-road-safety-2023",
-    "source_checked": "2026-08-29"
+    "source_url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2025",
+    "source_checked": "2026-08-30"
   }
 }
