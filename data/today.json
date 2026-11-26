@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "repair": {
-    "id": "malaria-deaths-averted",
+    "id": "routine-immunization-lives-saved",
     "category": "health",
-    "title": "Malaria Work Saved Millions",
-    "summary": "WHO estimates that global malaria efforts averted 2.3 billion cases and 14 million deaths since 2000.",
-    "why_it_matters": "Bed nets, testing, treatment, surveillance, and vaccines show that old diseases can still be pushed back.",
-    "caveat": "Malaria deaths rose in some recent periods, and funding gaps threaten further progress.",
+    "title": "Vaccines Saved Generations",
+    "summary": "WHO estimates that global immunization efforts have saved at least 154 million lives since 1974.",
+    "why_it_matters": "Routine vaccination is ordinary infrastructure that quietly prevents death at enormous scale.",
+    "caveat": "Coverage gaps, misinformation, and disrupted health systems can still reverse gains.",
     "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2025",
-    "source_checked": "2026-08-30"
+    "source_url": "https://www.who.int/news/item/24-04-2024-global-immunization-efforts-have-saved-at-least-154-million-lives-over-the-past-50-years",
+    "source_checked": "2026-09-03"
   }
 }
