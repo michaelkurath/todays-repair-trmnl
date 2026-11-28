@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "repair": {
-    "id": "drowning-deaths-decline",
-    "category": "safety",
-    "title": "Drowning Death Rates Fell",
-    "summary": "WHO reports that the global drowning death rate dropped by 38 percent between 2000 and 2021.",
-    "why_it_matters": "Prevention, safer environments, and better public-health attention can reduce a quiet cause of sudden loss.",
-    "caveat": "More than 300,000 people still died from drowning in 2021, and progress is uneven.",
-    "source_name": "World Health Organization",
-    "source_url": "https://www.who.int/teams/social-determinants-of-health/safety-and-mobility/global-report-on-drowning-prevention",
+    "id": "montreal-protocol-climate-benefit",
+    "category": "climate_repair",
+    "title": "One Treaty Also Cooled The Future",
+    "summary": "UNEP's Ozone Secretariat says cuts in ozone-depleting substances are estimated to avoid about 0.5 to 1 degrees Celsius of warming by mid-century.",
+    "why_it_matters": "A treaty built for one environmental crisis also reduced a major climate risk.",
+    "caveat": "The avoided-warming estimate depends on comparison scenarios and continued compliance.",
+    "source_name": "UN Environment Programme Ozone Secretariat",
+    "source_url": "https://ozone.unep.org/facts-and-figures-ozone-protection",
     "source_checked": "2026-08-30"
   }
 }
